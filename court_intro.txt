@@ -1,0 +1,35 @@
+{% extends 'layout/court.txt' %}
+
+{% block body %}
+
+[title]The High Court[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[p]The High Court is the Judicial branch of the Coalition of the South Pacific and the highest and sole judicial authority of the region. It is tasked with conducting criminal trials, resolving disputes, interpreting laws, and striking them down if they violate our constitutional laws. The High Court consists of Associate Justices who are appointed by the Cabinet and then approved by the Assembly, and are led by a Chief Justice (Incumbent: {{ gov_officials.hc_chief_justice|nation }}).[/p]
+
+[tt]Current bench[/tt]
+[table=noheader]{{ gov_officials.hc_justices|gen_table_tags }}[/table]
+
+[h1]Utilizing the High Court[/h1]
+
+[p]Participating in the High Court is straightforward and not difficult – however, certain basic understandings about judicial procedures are needed. If you want to ask a legal question or want to accuse/defend someone of something please read [url=court_guide]this guide[/url] to make sure you conform with the standards and don't get intimidated by the legal jargon and proceedings you may encounter.[/p]
+
+[h1]Purposes[/h1]
+
+[p]The High Court's duties are:[/p]
+[list][*]Conducting criminal trials for all crimes perpetrated within the Coalition’s jurisdiction,
+[*]Clarifying and interpreting laws, and
+[*]Voiding laws or directives which violate the Charter or other constitutional laws.
+[/list]
+
+[p]You can read more about it [url=court_details]here[/url].[/p]
+
+[h1]The Justices[/h1]
+
+[p]Associate Justices of the High Court are appointed by the [url=cabinet_intro]Cabinet[/url] and approved by [url=assembly_intro]the Assembly[/url] with a simple majority vote. The Chief Justice is selected among the justices themselves.[/p]
+
+[h1]Where to find past cases and rulings[/h1]
+
+[p]Past cases and rulings are archived in detail on the [i]Online Rulings Consultation System[/i] (ORCS) which you can access by [url=court_orcs]clicking here[/url]. Read the instructions over there to find out how to query the information you want.[/p]
+
+{% endblock body %}

@@ -1,0 +1,10 @@
+[img_urls]
+tsp_header = 'https://img.tspforums.xyz/tsp-graphics/regional/tsp-dispatch.png'
+tsp_flag = 'https://img.tspforums.xyz/tsp-graphics/regional/flag.png'
+
+assembly_header = 'https://img.tspforums.xyz/tsp-graphics/assembly/assembly-dispatch.png'
+cabinet_header = 'https://img.tspforums.xyz/tsp-graphics/cabinet/cabinet-dispatch.png'
+court_header = 'https://img.tspforums.xyz/tsp-graphics/court/court-dispatch.png'
+delegate_header = 'https://img.tspforums.xyz/tsp-graphics/delegate/delegate-dispatch.png'
+crs_header = 'https://img.tspforums.xyz/tsp-graphics/crs/crs-dispatch.png'
+legcomm_header = 'https://img.tspforums.xyz/tsp-graphics/legcomm/legcomm-dispatch.png'

@@ -1,0 +1,168 @@
+{% extends 'layout/elections.txt' %}
+
+{% block body %}
+
+[title]Voting methods used in elections[/title]
+[subtitle]in the Coalition of the South Pacific[/subtitle]
+
+[p]The South Pacific uses a wide variety of ways to count votes in different types of elections due to the differences in technical platforms and representation requirements. These methods are specified in [law]the Elections Act[/law] (for elections in the forumside government) and [url=lc_elections]the Local Council Elections Act[/url] (for the Local Council elections). This dispatch will explain all of them in layman's terms and give examples to make things easier to understand.[/p]
+
+[h1]First-past-the-post (FPTP)[/h1]
+
+[p][url=lc_intro]Local Council[/url] elections and the gameside stage of [url=delegate_elections]Delegate elections[/url] use this method, as they are conducted via the gameside regional poll system. FPTP was chosen due to the technical limitations of this poll system.[/p]
+
+[h3]How it works[/h3]
+
+[p]The mechanics are simple ‒ you cast your vote for exactly one candidate, and whoever gets the most votes is declared the winner.[/p]
+
+[h1]Approval Voting (AV)[/h1]
+
+[p][url=coa]Chair of the Assembly[/url] elections and the forumside stage of Delegate elections use Approval Voting. With this method, electors list out all candidates they vote for on their ballot. AV was chosen due to its suitability for independent apolitical positions that require consensus.[/p]
+
+[h3]How it works[/h3]
+
+[p]Similarly to FPTP, the candidate receiving the most votes will be the winner. However, unlike in FPTP elections, you can vote for as many candidates as you like![/p]
+
+[spoiler=[p]Example[/p]][p]Let's assume we have 3 candidates: Coconut, Iced Tea, and Lampshade. If there now are three ballots cast as follows:[/p]
+[box][h4]Example ballot 1[/h4]
+[p]Coconut[/p]
+[/box]
+
+[box][h4]Example ballot 2[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[/box]
+
+[box][h4]Example ballot 3[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[p]Lampshade[/p]
+[/box]
+
+[p]Then the result will be:[/p]
+[list][*]Coconut: 3 votes
+[*]Iced Tea: 2 vote
+[*]Lampshade: 1 vote
+[/list]
+
+[p]This would make Coconut the winner![/p]
+[/spoiler]
+
+
+[h1]Instant-runoff Voting (IRV)[/h1]
+
+[p]IRV is a form of voting in which you compose your ballot by sorting a list of candidates based on how you like each of them. This method is used in the [url=cabinet_elections]Cabinet elections[/url]. IRV is arguably the most difficult to understand, and is designed for political positions (such as the Cabinet ministers).[/p]
+
+[h3]How it works[/h3]
+
+[p]In IRV, a ballot is a list of candidates sorted in the elector's order of preference. Votes are then allocated using the following procedure:[/p]
+
+[h4]First round[/h4]
+
+[p]At the beginning, the number of [i]first-preference votes[/i] (ballots that rank a candidate first) for each candidate are counted. If a candidate receives a majority (more than half) of first-preference votes (which means that more than half of the electors decided they like this candidate best), they will win the election. If no one achieves a majority of first-preference votes, then the [i]instant-runoff[/i]rounds will start.[/p]
+
+[h4]Instant-runoff rounds[/h4]
+
+[p]The candidate with the least first-preference votes is eliminated. The ballots listing the now-eliminated candidate as top choice are then reallocated to the remaining candidates – basically, the count is redone, but the eliminated candidate is treated as if they had never been in the race. If, for example, the eliminated candidate is ranked 1[sup]st[/sup] on a ballot, then after the elimination happens, the 2[sup]nd[/sup]-ranked candidate on the ballot is treated as the first, the 3[sup]rd[/sup] as the 2[sup]nd[/sup], and so on. Or, if the eliminated candidate is ranked 2[sup]nd[/sup] on a ballot, then the 3[sup]rd[/sup]-ranked candidate will become the 2[sup]nd[/sup]-ranked, and so on – the 1[sup]st[/sup] candidate however will still retain their position. This procedure will push some candidates to the first rank on some ballots and thereby increase their number of first-preference votes. If now a candidate reaches a majority of first-preference votes after these transfers are done, then they will win. If there still is no candidate with a majority, then this whole process will repeat, with again the candidate that [i]now[/i] has the least first-preference votes being eliminated and the votes reallocated. Each of these repetitions is called an [i]instant-runoff round[/i].[/p]
+
+[p]That was complicated, wasn't it? Here is an example to make things clearer.[/p]
+
+[spoiler=[p]Example[/p]]
+[p]Assume we have 3 candidates: Coconut, Iced Tea, and Lampshade. If 5 ballots are then cast by 5 electors as follows:[/p]
+
+[box][h4]Elector A[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[p]Lampshade[/p]
+[/box]
+
+[box][h4]Elector B[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[p]Lampshade[/p]
+[/box]
+
+[box][h4]Elector C[/h4]
+[p]Iced Tea[/p]
+[p]Coconut[/p]
+[p]Lampshade[/p]
+[/box]
+
+[box][h4]Elector D[/h4]
+[p]Coconut[/p]
+[p]Lampshade[/p]
+[p]Iced Tea[/p]
+[/box]
+
+[box][h4]Elector E[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[p]Lampshade[/p]
+[/box]
+
+[p]Then the result will be:[/p]
+
+[table][tr][th]Candidate[/th][th]First-preference votes[/th][/tr]
+[tr][td]Coconut[/td][td]4[/td][/tr]
+[tr][td]Iced Tea[/td][td]1[/td][/tr]
+[tr][td]Lampshade[/td][td]0[/td][/tr]
+[/table]
+
+[p]As Coconut has 4 first-preference votes (4 ballots ranked them the first), which is a majority, they will be declared the winner![/p]
+
+[p]That was an easy example, so here is now an example where no one reaches an initial majority of first-preference votes:[/p]
+
+[box][h4]Elector A[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[p]Lampshade[/p]
+[/box]
+
+[box][h4]Elector B[/h4]
+[p]Iced Tea[/p]
+[p]Coconut[/p]
+[p]Lampshade[/p]
+[/box]
+
+[box][h4]Elector C[/h4]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[p]Lampshade[/p]
+[/box]
+
+[box][h4]Elector D[/h4]
+[p]Lampshade[/p]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[/box]
+
+[box][h4]Elector E[/h4]
+[p]Lampshade[/p]
+[p]Coconut[/p]
+[p]Iced Tea[/p]
+[/box]
+
+[p]Now the result will be:[/p]
+
+[table=noheader][tt=7]Round 1[/tt]
+[tr][th]Candidate | Ballot rank[/th][th]A[/th][th]B[/th][th]C[/th][th]D[/th][th]E[/th][th]First-preference Votes[/th][/tr]
+[tr][th]Coconut[/th][td]1[/td][td]2[/td][td]1[/td][td]2[/td][td]2[/td][td][color=#00ff00]2[/color][/td][/tr]
+[tr][th]Lampshade[/th][td]3[/td][td]3[/td][td]3[/td][td]1[/td][td]1[/td][td][color=#00ff00]2[/color][/td][/tr]
+[tr][th]Iced Tea[/th][td]2[/td][td]1[/td][td]2[/td][td]3[/td][td]3[/td][td][color=#ff0000]1[/color][/td][/tr]
+[/table]
+
+[p]As you can see, here no candidate receives a majority of first-preference votes, so an instant-runoff round is needed. Iced Tea has the least first-preference votes, so they are eliminated and their votes are transferred to the other candidates. Ballots which ranked Iced Tea 1[sup]st[/sup] will have their 2[sup]nd[/sup]-ranked candidate take over the 1[sup]st[/sup] spot, 3[sup]rd[/sup] take over the 2[sup]nd[/sup], and so on.[/p]
+
+[table=noheader][tt=7]Round 2[/tt]
+[tr][th]Candidate | Ballot rank[/th][th]A[/th][th]B[/th][th]C[/th][th]D[/th][th]E[/th][th]First-preference Votes[/th][/tr]
+[tr][th]Coconut[/th][td]1[/td][td]1[/td][td]1[/td][td]2[/td][td]2[/td][td][color=#00ff00]3[/color][/td][/tr]
+[tr][th]Lampshade[/th][td]2[/td][td]2[/td][td]2[/td][td]1[/td][td]1[/td][td][color=#ff0000]2[/color][/td][/tr]
+[/table]
+
+[p]Coconut jumps from 2[sup]nd[/sup] to 1[sup]st[/sup] on ballot B to fill in the 1[sup]st[/sup] rank that originally listed Iced Tea. Lampshade also jumps from 3[sup]rd[/sup] to 2[sup]nd[/sup] on ballots A, B, and C to fill in the spot of the originally 2[sup]nd[/sup]-ranked Iced Tea.[/p]
+
+[p]After this round, Coconut has one first-preference vote more ‒ with now 3 votes, which is a majority, Coconut wins![/p]
+
+[/spoiler]
+
+{% endblock body %}

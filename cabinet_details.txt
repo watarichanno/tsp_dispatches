@@ -1,0 +1,197 @@
+{% extends 'layout/cabinet.txt' %}
+
+{% block body %}
+
+[title]Details on the Workings of the Executive branch[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[hr][h1]Summary[/h1]
+
+[h3]Terms:[/h3] [p]Four months in length; no term limits[/p]
+
+[h3]Powers:[/h3]
+[list]
+[*]Appoint advisors and deputies
+[*]Appoint/Nominate:
+[list][*][url=court_intro]High Court[/url] Associate Justices
+[*][url=legcomm]Legislator Committee[/url] members
+[*]Gameside Regional Officers
+[*][url=crs_intro]Council on Regional Security[/url] (CRS) members
+[/list]
+[*]Issue a [url=proscriptions]Proscription[/url]
+[*]Issue an [url=cabinet_eo]Executive Order[/url] (EO)
+[/list]
+
+[h3]Checks and balances:[/h3] [p]Decisions can be voided by the High Court[/p]
+
+[h3]Elections and recalls: [/h3]
+[list]
+[*]Elected by Legislators of the Assembly every four months
+[*]A member can be recalled by the Assembly
+[*]The entirety at once can be recalled using a Motion of No Confidence
+[/list]
+
+[h3]Handling of vacancies:[/h3]
+[list]
+[*]Special election if more than half the term remains
+[*]Appoint any legislator as a replacement until next normal election if less than half the term remains
+[/list]
+[hr]
+
+[h1]Term[/h1]
+
+[p]A Cabinet term lasts for four months. There is no term limit for Cabinet offices.[/p]
+
+[h1]Structure[/h1]
+
+[p]The Cabinet consists of a Prime Minister and five ministers along with deputies and advisors.[/p]
+
+[h2]Prime Minister[/h2]
+
+[p]The Prime Minister (PM) is the leader of the Cabinet and the head of government of the Coalition. The true political power of the Executive branch lies in this position.[/p]
+
+[p]The five Cabinet ministers run their respective ministries which handle specific areas of administration. Each ministry may be divided further into sectors, and each minister still has full authority over their ministry. They can appoint advisors or establish institutions to run the ministry on their behalf if needed.[/p]
+
+[h2]Ministry of Foreign Affairs – MoFA[/h2]
+
+[p]The Ministry of Foreign Affairs is a body responsible for the Coalition's diplomacy, bilateral and multilateral relations affairs. The MoFA is headed by the Minister of Foreign Affairs (Incumbent: {{ gov_officials.mofa|nation }}). The MoFA employs ambassadors, who run embassies and represent us in other regions, as well as advisors and deputies, who manage the daily operations of the ministry, participate in negotiations with other regions, draft treaties, establish the Coalition's foreign policies, etc.[/p]
+
+[p]For more information on the ministry and how to get involved, visit [url=f_mofa]this dispatch[/url].[/p]
+
+
+[h2]Ministry of Defense – MoD[/h2]
+
+[p]The Ministry of Defense operates our regional military, the South Pacific Special Forces (SPSF), and is responsible for the defense of the region, building military activity, conducting military operations, and running military intelligence. It consists of ranked members such as trainees, soldiers, officers, commanders, etc. The daily operations of the SPSF are managed by the General Corps ({{ gov_officials.general_corps|gen_list }}) and the Minister of Defense (Incumbent: {{ gov_officials.mod|nation }}).[/p]
+
+[p]For more information on the ministry, visit [url=f_spsf]this subforum[/url].[/p]
+
+[h2]Ministry of Culture – MoC[/h2]
+
+[p]The Ministry of Culture is mainly responsible for organizing regional cultural activities (like events), or, in collaboration with MoFA, cultural exchanges with other regions. Additionally, MoC is tasked with supporting the South Pacifican roleplay community, though it, as part of the government only in a supportive capacity, traditionally doesn't have direct authority over RP. MoC staff is simply divided into senior and normal staff members, with the Minister of Culture (Incumbent: {{ gov_officials.moc|nation }}) at the top.[/p]
+
+[p]For more information on the ministry, visit [url=f_moc]this subforum[/url].[/p]
+
+
+[h2]Ministry of Media – MoM[/h2]
+
+[p]The Ministry of Media oversees the public media of the South Pacific, like our regional newspaper The Southern Journal, and is responsible for ensuring regular publications and supporting South Pacificans interested in journalism. The Minister of Media (Incumbent: {{ gov_officials.mom|nation }}) and their leadership staff are in charge of the different department teams, who operate specific aspects (like statistics) or publications (like the short news Llama Drama) of the ministry.[/p]
+
+[p]For more information on the ministry, visit [url=f_mom]this subforum[/url].[/p]
+
+[h2]Ministry of Engagement – MoE[/h2]
+
+[p]The Ministry of Engagement in general handles everything around the integration of new members into our community and maintaining the infrastructure needed for that. This encompasses things like providing these dispatches, or supporting other government bodies by producing graphics for them. Also a new project by the ministry is the planned establishment of an organization for South Pacificans interested in the NationStates Cards game. Headed by the Minister of Engagement (Incumbent: {{ gov_officials.moe|nation }}), the different projects within MoE, each with its own team, are run by designated senior staff members.[/p]
+
+[p]For more information on the ministry, visit [url=f_moe]this subforum[/url].[/p]
+
+[h1]Powers[/h1]
+
+[h2]Appoint advisors and deputies[/h2]
+
+[p]Any Cabinet member can appoint anyone as an advisor or deputy as they see fit. Advisors and deputies are considered to be junior members of the Cabinet and are granted privileges (e.g. access to classified Cabinet-only documents) and powers (e.g. manage a project) at the discretion of the appointing Cabinet member. However, they will not have any voting right on Cabinet decisions which requires voting, such as [url=cabinet_eo]Executive Orders[/url] or [url=proscriptions]Proscriptions[/url].[/p]
+
+[p]Advisors and deputies can work as individuals, or be grouped into institutions like the former Ministry of Regional Affairs' Advisory Council, or the now-defunct MoFA Team.[/p]
+
+[ref][law]Section 15, Article IV of the Charter of the South Pacific[/law][/ref]
+
+[h2]Appoint positions in other institutions[/h2]
+
+[p]Several independent institutions of the Executive branch itself and other branches are appointed or nominated by the Cabinet. All of these appointments however require an approval vote from the Assembly, which will pass if a simple majority of those voting approve.[/p]
+
+[h2]Appoint Associate Justices of the High Court[/h2]
+
+[p]Associate Justices of the High Court (the Judicial branch) are appointed by the Cabinet. Such an appointment requires an approval vote by the Assembly. In order for the Cabinet to be able to appoint an individual, they first and foremost need to be a legislator, as well as require some more requirements laid out in the Judicial Act. In theory, the Cabinet can appoint as many Associate Justices as it likes. However, if there aren't enough justices for the High Court to operate normally, or the Associate Justices cannot choose a new Chief Justice, then the Cabinet will be forced to appoint more, as required.[/p]
+
+[p]For more information about the High Court, visit [url=court_intro]this dispatch[/url].[/p]
+
+[ref]
+[*][law]Article I of the Judicial Act[/law]
+[*][law]Article II of the Judicial Act[/law]
+[/ref]
+
+[h2]Appoint members of the Legislator Committee[/h2]
+
+[p]The Cabinet appoints the three to five members of the Legislator Committee, the body which processes legislator applications. A Legislator Committee appointment requires an approval vote by the Assembly.[/p]
+
+[anchor=legcomm_emergency_appointment][/anchor]
+[h3]Emergency appointments of Legislator Committee members[/h3]
+
+[p]When there is no member available on the Committee (due to vacancy or a leave of absence) and there is something important to perform, the Cabinet can appoint an emergency member to handle the matter. This emergency member will leave the Committee again one week after a normal member returns or the Cabinet rescinds the appointment. The [url=crs_intro]Council on Regional Security[/url] (CRS) however may stop an emergency appointment at any time should there be something seriously wrong about the appointee.[/p]
+
+[p]For more information about the Legislator Committee, visit [url=legcomm]this dispatch[/url].[/p]
+
+[ref][law]Article I of the Legislator Committee Act[/law][/ref]
+
+[h2]Nominate members of the Council on Regional Security[/h2]
+
+[p]The Cabinet and the Delegate can jointly nominate members for the Council on Regional Security (CRS), the body which handles the Coalition's security matters. A nominee needs to satisfy several technical requirements for CRS members (as listed in the relevant part of the Charter) in order to be nominated. Nominations will be subjected to review by the CRS itself – if two thirds of CRS members object to a nomination, it will not move forward. Otherwise, the nomination will be passed to the Assembly for an approval vote. If the vote passes, the nominee will officially become a member of the CRS.[/p]
+
+[p]For more information about the Council on Regional Security, visit [url=crs_intro]this dispatch[/url].[/p]
+
+[ref][law]Article IX of the Charter of the South Pacific[/law][/ref]
+
+[h1]Issue Executive Orders (EO)[/h1]
+
+[p]The Cabinet can issue Executive Orders (EO) with unanimous consent among the ministers and the Prime Minister. An Executive Order will immediately have the full effect of law after it has been issued. When an Executive Order is issued, it will automatically be presented to the Assembly for a three-day debate and a following vote on whether it should remain in effect or not. If the vote fails, the Executive Order expires and its effects are voided. Executive Orders should only be issued to address an emergency problem caused by holes or ambiguities in regional law.[/p]
+
+[p]Example: In May of 2018, all Legislator Committee members were vacant and a number of unprocessed legislator applications were piling up. Because at the time there was no law to define what to do with these applications when there is no one to process them, the Cabinet issued an Executive Order to appoint an emergency Legislator Committee member for the job. Today, this is not necessary anymore, as a section about this problem was added to the Legislator Committee Act (see [url=#legcomm_emergency_appointment]Emergency appointments of Legislator Committee members[/url]).[/p]
+
+[p]For more information about Executive Orders, visit [url=cabinet_eo]this dispatch[/url].[/p]
+
+[ref][law]Section 13, 14, Article VI of the Charter of the South Pacific[/law][/ref]
+
+[h1]High Court's invalidation power[/h1]
+
+[p]Any decision from the Cabinet, from an Executive Order to a normal directive, can be voided by the High Court, if such decisions violate the Charter of the South Pacific or any other constitutional law (such as [law]the Elections Act[/law]).[/p]
+
+[p]For more information on the High Court, visit [url=court_intro]this dispatch[/url].[/p]
+
+[ref][law]Section 4, Article VIII of the Charter of the South Pacific[/law][/ref]
+
+
+[h1]Elections and recalls[/h1]
+
+[h2]Cabinet elections[/h2]
+
+[p]Cabinet ministers and the Prime Minister are elected every four months (February, June, October) by all Legislators of the Assembly. A Cabinet election typically lasts for one and a half weeks. The nomination period (when Legislators can nominate others or declare their candidacy) lasts for six days. The campaign period, where candidates present their campaign promises in order to convince their fellow Legislators to vote for them, begins three days after nominations start and lasts for a week. Following the conclusion of the campaign period, the voting period of three days begins. Cabinet elections use Instant-runoff Voting (IRV) as voting method, where voters rank candidates on their ballot in their order of preference.[/p]
+
+[p]After the election concludes and the winners are announced, for one week, the outgoing Cabinet will coordinate with their elected successors to ensure a smooth transition; thereafter the new Cabinet will be officially inaugurated.[/p]
+
+[p]For more information about Cabinet elections along with how to vote and run in one, visit [url=cabinet_elections]this dispatch[/url].[/p]
+
+[ref]
+[*][law]Article 4 of the Elections Act[/law]
+[*][law]Section 5, Article VI of the Charter of the South Pacific[/law]
+[*][law]Section 6, Article VI of the Charter of the South Pacific[/law]
+[/ref]
+
+[h2]Recalls[/h2]
+
+[p]Any member of the Cabinet can individually be recalled by the Assembly with a Recall Resolution for dereliction of duty, abuse of authority, or violations of the law. Recall Resolution against a Cabinet member can be introduced by any legislator. The Resolution will be debated for at least three days. If the Resolution then receives a motion and a second, it will be put to a vote. In order for the Resolution to pass, there needs to be a three-fifths majority of those voting in favor. Immediately after the resolution is passed, the Cabinet member is removed from office. Read the [url=#vacancies]Vacancies section[/url] if you would like to know who will replace the open spot when a Cabinet member is removed.[/p]
+
+[ref][law]Section 1, Article XI of the Charter of the South Pacific[/law][/ref]
+
+
+[h2]Motion of No Confidence (MoNC)[/h2]
+
+[p]All Cabinet members can be recalled at the same time by the Assembly via a Motion of No Confidence (MoNC). Like Recalls, a MoNC can be initiated by any legislator and will be debated for at least three days after being introduced. If a MoNC receives a motion and a second, it will be put to a vote. The vote needs a three-fifths majority of those voting in order to pass. If it passes, a special Cabinet election will be triggered immediately in order to fill the spots left open by the removed Cabinet. A MoNC is usually initiated if everyone has lost faith in the effectiveness and activities of the Executive branch of the government.[/p]
+
+[ref][law]Section 2, Article XI of the Charter of the South Pacific[/law][/ref]
+[anchor=vacancies][/anchor]
+[h2]Vacancies[/h2]
+
+[p]If a Cabinet office is vacant (e.g. because the holder has resigned), a special election for that office will start if there is more than half of the term remaining; if less than half of the term remains or the office is vacant because nobody ran in its election, the Cabinet can appoint any legislator as a replacement until the next regularly scheduled election.[/p]
+
+[ref][law]Article 6 of the Elections Act[/law][/ref]
+
+[h1]Independent institutions[/h1]
+
+[p]Independent institutions, including the Legislator Committee and the Council on Regional Security, are regulated by laws separate from those concerning the Cabinet despite the fact that all belong to the Executive branch. For more information about the laws relating to these institutions, please refer to:[/p]
+
+[list]
+[*][url=legcomm]Legislator Committee[/url]
+[*][url=crs_intro]Council on Regional Security[/url]
+[*][url=election_commission]Election Commission[/url]
+[/list]
+
+{% endblock body %}

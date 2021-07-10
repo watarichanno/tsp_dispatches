@@ -1,0 +1,92 @@
+{% import 'macros/header_macros.txt' as macros with context %}
+
+{% extends 'layout/government.txt' %}
+
+{% block body %}
+
+[title]The Government[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[sidebar]
+[center][p][em]Official name:[/em][/p]
+[p][b]The Coalition of the South Pacific[/b][/p]
+
+[p][em]Flag:[/em][/p][/center]
+
+[img]tsp_flag[/img]
+
+[hr]
+[p][em]Government:[/em] Unitary parliamentary republic[/p]
+[list]
+[*][em]Delegate:[/em] {{ gov_officials.delegate|nation }}
+[*][em]Prime Minister:[/em] {{ gov_officials.pm|nation }}
+[*][em]Minister of Culture:[/em] {{ gov_officials.moc|nation }}
+[*][em]Minister of Defence:[/em] {{ gov_officials.mod|nation }}
+[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|nation }}
+[*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|nation }}
+[*][em]Minister of Media:[/em] {{ gov_officials.mom|nation }}
+[*][em]Chair of the Assembly:[/em] {{ gov_officials.coa|nation }}
+[*][em]Chief Justice:[/em] {{ gov_officials.hc_chief_justice|nation }}
+[*][em]Local Councillors:[/em] {{ gov_officials.local_council|gen_list }}
+[/list]
+[hr]
+[p][em]Legislature:[/em] The Assembly of the South Pacific[/p]
+[list][*][em]Type:[/em] Unicameral legislature[/list]
+[/sidebar]
+
+[p]The government of the South Pacific governs [region]the South Pacific[/region] and its community. It is a parliamentary republic and is one of NationStates' oldest and biggest democracies. Its job is to engage, moderate, and protect the community of this region. The government belongs to a part of NationStates known as [i]Gameplay[/i] or more specifically, [i]Regional Politics[/i]. This part of the game mainly deals with managing a region. This may include developing the internal culture, as well as managing relationships with other regions. Depending on one's goals as a player in the game, players may work to build up their region and government or tear it down. If you like realistic politics, making laws, interacting with others, or trying to make something better for everyone, then this is the place for you![/p]
+
+[p]Regional politics is not just roleplay as it involves real powers and responsibilities. Unlike roleplay, participating in regional politics doesn't require one to pretend to be something they aren't because there are actual game mechanics that allow its moves to be played out, and, in our region, actual votes will get actual candidates elected to roles with actual powers that they can use to affect the region, whether for the better or worse. It may sound scary, but remember, this is still just a game! We have an abundance of guides and tutorials to assist you along the way if you choose to play in this side of the game.[/p]
+
+[p]If you are an absolute beginner, we recommend you start by reading [url=politics_guide]this handy guide[/url] on our politics.[/p]
+
+[h3]External links[/h3]
+[list]
+[*][url=assembly_intro]The Assembly[/url]
+[*][url=cabinet_intro]The Cabinet[/url]
+[*][url=court_intro]The High Court[/url]
+[*][url=indie_intro]Independent institutions[/url]
+[*][url=crs_intro]Security[/url]
+[/list]
+
+[h1]Does the government have real purposes and powers?[/h1]
+
+[p]Yes! Members of the government are tasked with jobs such as community engagement, helping new nations, running [url=f_spsf]the military[/url], foreign affairs, maintaing regional security, and more. Some members of the government have real administrative powers such as moderating the message board, banning/ejecting nations from the region, changing the World Factbook Entry, etc., while others have the power to vote on and recall those members, and decide how they should do their job by passing or amending laws. In a sense, it is like there are some administrators responsible for certain tasks, while the community keeps them in check, similar to how some real-life governments work.[/p]
+
+[h1]The overall structure[/h1]
+
+[p]The government of the South Pacific is a democratic parliamentary republic with checks and balances between its three branches, as well as a separate head of state (Delegate) and head of government (Prime Minister). The Charter of the South Pacific is the supreme law of the land. The government is divided into two parts: gameside and forumside.[/p]
+
+[h3]Gameside government[/h3]
+
+[p][url=lc_intro]The Local Council (LC)[/url] is the governing body of the gameside. It consists of three members that are elected every four months by regional nations that are in the World Assembly. The Local Council mostly deals with engaging and moderating the gameside community, which is primarily based out of our region's Regional Message Board (RMB). Additionally, the LC acts as a bridge between the gameside and forumside community of the region.[/p]
+
+[h3]Forumside government[/h3]
+
+[p]This is the supreme governing body of the region, an equivalent to a national/federal government of a real-life country. It does its work on the forums of the region and consists of three branches:[/p]
+[list]
+[*][em]Legislature:[/em] [url=assembly_intro]The Assembly[/url] is the unicameral parliament of the region. It consists of legislators who voluntarily join by applying [url=become_legislator]here.[/url] The Assembly can pass laws, pass resolutions, elect/approve/recall members of other branches, and more. The Chair of the Assembly (Incumbent: {{ gov_officials.coa|nation }}) does the administrative work to keep the Assembly functioning.
+[*][em]Executive:[/em] The Executive branch is led by the Prime Minister (Incumbent: {{ gov_officials.pm|nation }}), who is the head of government and [url=cabinet_intro]the Cabinet.[/url] The Delegate (Incumbent: {{ gov_officials.delegate|nation }}) is the head of state who largely only has ceremonial roles but is granted technical administrative powers by the game itself. The Cabinet consists of the Prime Minister and the following Cabinet ministers:
+[list]
+[*]The [em]Minister of Foreign Affairs[/em] (Incumbent: {{ gov_officials.mofa|nation }}) leads the Ministry of Foreign Affairs (MoFA). The MoFA deals with relationships with other regions, building treaties, running embassies, running the ambassador program, and so on.
+[*]The [em]Minister of Defense[/em] (Incumbent: {{ gov_officials.mod|nation }}) leads the Ministry of Defense (MoD), also known as the South Pacific Special Forces (SPSF), which is our regional military. The SPSF participates in what known as [i]Military Gameplay[/i] or [i]Raiding/Defending[/i] (R/D), which is an area of gameplay that uses the game mechanics to invade other regions or defend them from being invaded.
+[*]The [em]Minister of Culture[/em] (Incumbent: {{ gov_officials.moc|nation }}) leads the Ministry of Culture[/url] (MoC). The MoC is tasked with promoting regional culture by hosting events, advertising roleplay, and more.
+[*]The [em]Minister of Media[/em] (Incumbent: {{ gov_officials.mom|nation }}) leads the Ministry of Media (MoM). The MoM produces journalism, including articles and surveys.
+[*]The [em]Minister of Engagement[/em] (Incumbent: {{ gov_officials.moe|nation }}) leads the Ministry of Engagement (MoE). The MoE is responsible for maintaining regional infrastructure such as dispatches, internal recruitment and integration, and providing graphics.
+[/list]
+[p]The Executive branch has a lot of people working within the ministries to make the region better, including ambassadors, event planners, soldiers, journalists, etc. The Cabinet and the Prime Minister have the power to issue executive orders and appoint some positions. They are elected every four months by the Assembly ([url=elections_intro]Click here[/url] to read more about elections).[/p]
+[*][em]Judiciary:[/em] The [url=hc_intro]High Court[/url] is the highest and only court of the region, where all matters related to law interpretations and conflicts are resolved. It consists of Associate Justices and is led by the Chief Justice (Incumbent: {{ gov_officials.hc_chief_justice|nation }}). Justices are appointed by the Cabinet and approved by the Assembly. Aside from Justices, there are also informal roles that the High Court may choose to establish such as legal text analyzers, court-related event organizers, investigators, paperwork managers, etc.
+[/list]
+
+[p]Aside from the above, there are a few bodies known as [url=indie_intro]independent institutions[/url] that don't belong to any branch of government, including the [url=crs_intro]Council on Regional Security[/url] (CRS), which handles regional security matters, and the [url=legcomm]Legislator Committee[/url] (LegComm), which handles legislator applications.[/p]
+
+[h1]Get involved in the Government[/h1]
+
+[list]
+[*][em]Become a legislator:[/em] Being a legislator will allow you to write, debate, and vote on laws that govern the region and run in elections for positions in the forumside government. It is very easy to become a legislator, just apply for it [url=become_legislator]here.[/url] There are no requirements to join, except that you are a resident in good faith.
+[*][em]Get involved in the ministries:[/em] The government offers a variety of positions such as journalists, graphic designers, event managers, military soldiers, community organizers, etc. If you want to run for elections of executive positions or just want to tangibly contribute to the region, this is the path for you. By gathering experience while working, you will build a strong resume, which is necessary if you want to become a future leader. [url=government_jobs]Click here[/url] to learn more about applying for a position.
+[/list]
+
+[p]If you are interested, check out our other dispatches about the government [url=government_index]here[/url].[/p]
+
+{% endblock body %}

@@ -1,0 +1,30 @@
+{% extends 'layout/indie.txt' %}
+
+{% block body %}
+
+[title]Election Commission[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[p]The [b]Election Commission[/b] ([b]EC[/b]) is an independent official appointed by the [url=crs_intro]Council on Regional Security[/url] (CRS) who oversees all elections in the Coalition of the South Pacific, whether for the [url=delegate_elections]Delegate[/url], [url=cabinet_elections]Cabinet[/url], [url=lc_elections]Local Council[/url], or [url=coa]Chair of the Assembly[/url]. The most recent election commissioner was {{ gov_officials.election_commissioner|nation }}.[/p]
+
+[h1]Powers and responsibilities[/h1]
+
+[p]Article 1 of the Elections Act lays out the powers and responsibilities of the Election Commission:[/p]
+[list][*]Provide notice of the upcoming election(s) and create a new election subforum (if held offsite)
+[*]Verify the eligibility of each candidate
+[*]Receive, verify, and count all submitted ballots
+[*]Resolve all disputes pertaining to the election(s) or refer law-related disputes to the High Court
+[*]Finalize the election(s) after the settlement of disputes
+[/list]
+
+[h1]Appointment and removal[/h1]
+
+[p]The Council on Regional Security appoints an election commissioner to serve in permanence but may replace them in the event of inactivity or ineligibility. Alternatively, [url=assembly_intro]the Assembly[/url] may vote to remove an election commissioner by a majority vote for the offenses of abusing their power or neglecting their responsibilities.[/p]
+
+[h1]Restrictions on eligibility[/h1]
+
+[p]The Elections Act prohibits the election commissioner from standing for election in an election they are conducting. Furthermore, the election commissioner cannot be the incumbent Delegate, Prime Minister, or another Cabinet member.[/p]
+
+[ref][law]Article 1 of the Elections Act[/law][/ref]
+
+{% endblock body %}

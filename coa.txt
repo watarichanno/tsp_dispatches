@@ -1,0 +1,57 @@
+{% extends 'layout/assembly' %}
+
+{% block body %}
+
+[title]Chair of Assembly[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[p]The Chair of Assembly is the official which maintains order and manages paperwork in [url=assembly_intro]the Assembly[/url]. A Chair moderates debates, maintains the law archive, conducts votes, and ensures every piece of legislation meets the standard. Chair elections begin eight days before the end of the current Chair's term (which usually lasts for four months).[/p]
+
+[p]The current Chair is {{ gov_officials.coa|nation }}.[/p]
+
+[p]If you have questions or requests (like resigning from legislatorship or a leave of absence), you can post on the [url=f_assembly_office]Office of Assembly Affairs[/url] forum thread.[/p]
+
+[h1]Powers and roles[/h1]
+
+[p]The Chair:[/p]
+[list][*]Conducts and record votes. Can also delay vote if necessary.
+[*]Keeps a legislative record and maintains the [url=law_index]Law Archive[/url].
+[*]Moderates debates. Can waive the [url=assembly_procedures]mandatory debate period[/url] if there is a seconded motion for them to do so and the motion receives no objection within 24 hours.
+[*]Corrects typographical errors, grammatical errors, naming or formatting inconsistencies in laws. Any correction needs to be presented to legislators for a three-day comment period.
+[*]Tells [url=legcomm]the Legislator Committee[/url] who to revoke the legislatorship of, including those who have failed the requirements for maintaining legislatorship or have demonstrated disruptive behavior.
+[*]Appoints deputies
+[/list]
+
+[ref][*][law]Article 2 of the Legislative Procedure Act[/law]
+[*][law]Section 2, 3, Article IV of the Charter of the South Pacific[/law]
+[*][law]Section 4, Article 3 of the Legislator Committee Act[/law]
+[/ref]
+
+[h1]Elections[/h1]
+
+[p]Legislators vote for the Chair in an election that begins eight days before the end of the current Chair's term (which usually lasts for four months). [url=elections_voting_methods]Approval Voting[/url] is used for Chair elections. Chair elections last for a little over one week and consist of these periods:[/p]
+[list][*][em]Nominations and Campaigning (Days 1-5):[/em] During this period, legislators can declare their candidacy or nominate others. Candidates also campaign by posting a campaign thread, answering questions, etc.
+[*][em]Voting (Days 6-9):[/em] Legislators vote on candidates in this period. It starts immediately after the Nomination and Campaign period ends.
+[/list]
+[p]After winning, the winner will immediately assume office and start their term.[/p]
+
+[p]If you want to know how to vote in Chair elections and other types of elections, please visit [url=elections_guide]this guide to elections[/url].[/p]
+
+[ref][law]Article 5 of the Elections Act[/law][/ref]
+
+
+[h1]Recalls[/h1]
+
+[p]Like any other government official, legislators can recall the Chair by passing a resolution, which requires a three-fifths supermajority to pass.[/p]
+
+[ref][law]Section 1, Article XI of the Charter of the South Pacific[/law][/ref]
+
+
+[h1]Vacancies[/h1]
+
+[p]If the Chair is vacant, the most senior deputy will serve as Acting Chair and a new Chair election will happen. If no deputy is available, [url=cabinet_intro]the Cabinet[/url] will appoint a legislator as Acting Chair.[/p]
+
+[ref][law]Section 4, Article IV of the Charter of the South Pacific[/law][/ref]
+
+
+{% endblock body %}

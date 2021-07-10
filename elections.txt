@@ -1,0 +1,100 @@
+{% extends 'layout/elections.txt' %}
+
+ {% block body %}
+
+[title]Elections in the South Pacific[/title]
+
+[p][url=lc_intro]The Local Council[/url] (Gameside government), [url=cabinet_intro]Cabinet ministers, the Prime Minister[/url], [url=delegate_intro]the Delegate[/url], and [url=coa_intro]the Chair of the Assembly[/url] are positions that are elected in the South Pacific. All elections in our region are similar in how they are carried out, with just a few variations in term of electors, voting methods, and timing. The [url=election_commission]Election Commission[/url] is the body which oversees and carries out elections.[/p]
+
+[p]Every election in the South Pacific consists of three periods:[/p]
+[list][p][em]Nomination:[/em] When people declare their candidacy or nominate others[/p]
+[p][em]Campaign:[/em] When candidates convince voters to vote for then via a campaign, debate, etc.[/p]
+[p][em]Voting:[/em] When people vote for their preferred candidates[/p]
+[/list]
+
+[center][h1]Summary of elections in the South Pacific[/h1][/center]
+[table=100]
+[tr][th]Position[/th][th]Elected by[/th][th]Time[/th][th]Period[/th][th]Voting method[/th][/tr]
+[tr][td]Delegate[/td]
+[td][b]1[sup]st[/sup] step:[/b] Assembly
+[b]2[sup]nd[/sup] step:[/b] Native WA nations on game-side[/td]
+[td]The first of every January and July[/td]
+[td][b]Nomination and campaign:[/b] First 8 days
+[b]1[sup]st[/sup] step voting:[/b] Next 3 days
+[b]2[sup]nd[/sup] step voting:[/b] Next 1 week[/td]
+[td][b]1[sup]st[/sup] step:[/b] Approval
+[b]2[sup]nd[/sup] step:[/b] First-past-the-post[/td][/tr]
+[tr][td]Cabinet ministers and Prime Minister[/td]
+[td]the Assembly[/td]
+[td]The first of every February, June, and October[/td]
+[td][b]Nomination:[/b] First 6 days
+[b]Campaign:[/b] Starts 3 days after nomination begins, lasts for 1 week
+[b]Voting:[/b] Starts after campaigning has ended, last for 3 days[/td]
+[td]Instant-Runoff[/td][/tr]
+[tr][td]Chair of Assembly (CoA)[/td]
+[td]Assembly[/td]
+[td]Eight days before the end of the current CoA's term[/td]
+[td][b]Nomination and campaign:[/b] First 5 days
+[b]Voting:[/b] Next 3 days[/td]
+[td]Approval[/td][/tr]
+[tr][td]Local Councillors[/td]
+[td]Native WA nations on game-side[/td]
+[td]Every March, July, and November[/td]
+[td][b]Nomination:[/b] First 3 days
+[b]Campaign:[/b] Next 3 days
+[b]Round one voting:[/b] Next 3 days
+[b]Round two voting:[/b] Next 3 days[/td]
+[td][b]Round one:[/b] First-past-the-post
+[b]Round two:[/b]Top two[/td][/tr][/table]
+
+[h1]Local Council elections[/h1]
+
+[p]Elections for the three seats of the [url=lc_intro]Local Council[/url] (LC), which is the gameside part of the government and handles interaction with the gameside community, happen once every 4 months (March, July, and November). Local Council candidates are voted on by Native World Assembly nations in our region using the regional poll feature. First-past-the-post (FPTP) voting method is used for these elections. Usually, the voting is split into two steps. In step one, all candidates are options in the poll, and the candidate with the most votes gets a spot on the LC. In step two, the remaining candidates are options on a new poll, and the top two candidates from that poll fill the remaining two seats. However, when there are a lot of candidates (more than what NationStates's poll feature can handle), the procedure is slightly different.[/p]
+
+[p]One needs to be a citizen of the South Pacific in order to run for these elections.[/p]
+
+[p]For more information about Local Council elections, please visit [url=lc_laws]this dispatch[/url].[/p]
+
+
+[h1]Cabinet elections[/h1]
+
+[p][url=cabinet_intro]The Cabinet[/url] is the head of the executive branch and consists of the Prime Minister, Minister of Culture (MoC), Minister of Defence (MoD), Minister of Engagement (MoE), Minister of Foreign Affairs (MoFA), and the Minister of Media (MoM). The Cabinet is elected every 4 months (February, June, and October) by legislators in the Assembly (our legislature). Electors will vote on candidates using Instant-Runoff Voting [url=election_voting_methods](Click here if you don't know what this is)[/url].[/p]
+
+[p]In order to run for a position in the Cabinet, one needs to be a legislator.[/p]
+
+[p]For more information about Cabinet elections, visit [url=cabinet_elections]this dispatch[/url].[/p]
+
+[h1]Delegate elections[/h1]
+
+[p][url=delegate_intro]The Delegate[/url] of the South Pacific, who is the head of state and holds the gameside Delegate position along with all the administrative powers that come with it, is elected every 6 months (January and June) in a two-step process. In the first step, legislators of the Assembly will vote on candidates using Instant-Runoff Voting. The two candidates with the most votes will go to the second step, where they will be voted on by Native World Assembly nations in the gameside using First-past-the-post. The candidate which gets the most votes will win the position.[/p]
+
+[p]The Delegate position is the hardest position to run for. One needs to be a legislator and both popular and trusted the gameside and forumside communities.[/p]
+
+[p]For more information about Delegate elections, visit [url=delegate_elections]this dispatch[/url].[/p]
+
+
+[h1]Chair of Assembly elections[/h1]
+
+[p]The [url=coa]Chair of the Assembly[/url], who handles administrative matters of the Assembly, is elected by legislators of the Assembly eight days before the end of term of the current Chair. The election uses Approval Voting [url=election_voting_methods](Click here if you don't know what this is)[/url]. The candidate that gets the most votes will win the election. As usual, one needs to be a legislator in order to run.[/p]
+
+[p]For more information about Chair of Assembly elections, visit [url=coa]this dispatch[/url].[/p]
+
+[h1]When is the next election?[/h1]
+
+[p]Check out our election schedule by visiting [url=elections_schedule]this dispatch[/url].[/p]
+
+[h1]How do I vote in an election?[/h1]
+
+[p]Voting is carried out on either the forum or the gameside (using the regional poll feature), depending on who the electors are. For forum elections, you usually post your ballot on a designated public thread (which the Election Commission will create during an election) or message your ballot (if you want to vote privately) to a designated forum account. For gameside elections, just click on the option you want on the poll then click [b]Vote[/b].[/p]
+
+[p]Each type of election has different voting methods and some methods can be confusing to newcomers, but a guide will always be posted before an election to instruct you. However, if you want, just [url=elections_voting_methods]click here[/url] to learn about voting methods that we use.[/p]
+
+[p]For more information on how to vote in an election, visit [url=elections_guide]this dispatch[/url].[/p]
+
+[h1]How do I run in an election?[/h1]
+
+[p]In order to run for a position, for forumside elections, you declare your candidacy and post your conflicts of interests (CoI) in designated public areas (which are always created by the Election Commission). For Local Council elections, you must accept a nomination from a nation in TSP that is not controlled by yourself, and in acceptance message, you must quote your nomination and tag the Election Commissioner. Additionally, you must post a CoI, usually in a campaign dispatch. Conflict of interest disclosures are a short summary about your participation in NationStates, both current and former, domestic and abroad. This includes roles you have held, what other regions you're involved in, etc.[/p]
+
+[p]For more information on how to run for a position, visit [url=elections_guide]this dispatch[/url].[/p]
+
+{% endblock body %}

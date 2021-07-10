@@ -1,0 +1,11 @@
+{% macro note(text, title='Note', box=false) -%}
+{% if box %}
+[box][h2]{{ title }}[/h2]
+
+[p]{{ text }}[/p][/box]
+{% else %}
+[hr][h2]{{ title }}[/h2]
+
+[p]{{ text }}[/p][hr]
+{% endif %}
+{%- endmacro %}

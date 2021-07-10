@@ -1,0 +1,49 @@
+{% extends 'layout/assembly' %}
+
+{% block body %}
+
+[title]The Assembly[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[p]The Assembly is the legislature of the Coalition of the South Pacific. It holds the supreme legislative authority in the region and anything else that lies under the Coalition government's jurisdiction. The Assembly's main job is making laws that govern the region, but it is also responsible for electing or recalling government officials, approving appointments and decisions from other branches of the government, and more. The Assembly is comprised of legislators who join voluntarily. The Chair of the Assembly (CoA) (currently {{ gov_officials.coa|nation }}) is in charge of keeping the Assembly in order and dealing with paperwork. Joining the Assembly is one of the easiest ways to get involved in our region's politics and learn how to make laws![/p]
+
+[h1]Joining the Assembly[/h1]
+
+[p]It is very easy to join this body, just sign up for it [url=f_become_legislator]here[/url]! After you have joined, we recommend you to read [url=assembly_guide]this beginner guide[/url] to learn how to participate in the body.[/p]
+
+[h1]Powers and roles[/h1]
+
+[p]These are the Assembly's main powers and purposes:[/p]
+[list]
+[*]Making laws and resolutions that govern the Coalition
+[*]Electing the Cabinet and the Delegate
+[*]Approving appointments and nominations from other branches
+[*]Recalling government officials
+[*]Approving the continuation of an Executive Order
+[*]Requesting the review of a Proscription
+[/list]
+
+[p]You can learn more about them [url=assembly_details]here[/url].[/p]
+
+[h1]Procedures[/h1]
+
+[p]The Assembly has a simple procedure for passing legislation:[/p]
+[list]
+[*]Drafting
+[*]Debating
+[*]Voting
+[/list]
+
+[p]The first two steps are nearly the same for everything for all types of legislation. The voting step varies by the type of legislation.[/p]
+
+[p]You can read more about the Assembly's legislative procedures [url=assembly_procedure]here[/url]. It is recommended to read [url=assembly_guide]this beginner guide[/url] first if you aren't familiar with participating in a legislative body.[/p]
+
+[h1]Where to find laws and legislative history?[/h1]
+
+[p]We keep a list of currently in-effect laws [url=law_index]here[/url] and an archive of everything related to the Assembly [url=f_assembly_archive]here[/url].[/p]
+
+[h1]The Chair of the Assembly (CoA)[/h1]
+
+[p]The Chair of Assembly is the official which moderates debates, maintains the law archive, conducts votes, and ensures every piece of legislation meets the standard. The Chair is elected by legislators, and the elections begin eight days before the end of the current Chair's term (which is usually 4 months long). You can find out more about this position [url=coa]here[/url].[/p]
+
+{% endblock body %}

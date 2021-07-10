@@ -1,0 +1,21 @@
+[gov_officials]
+delegate = 'Beepee'
+pm = 'Witchcraft and Sorcery'
+mofa = 'Qvait'
+mod = 'HumanSanity'
+moc = 'Holy Free'
+mom = 'Moonfungus'
+moe = 'Lucabaduka'
+owl_sec = 'Tepertopia'
+hc_chief_justice = 'Kringalia'
+hc_justices = ['Kringalia', 'Belschaft', 'Griffindor', 'Roavin']
+coa = 'Purple Hyacinth'
+election_commissioner = 'Erinor'
+local_council = ['Concrete Slab', 'Melicorium', 'Auphelia']
+crs = ['Sandaoguo', 'Farengeto', 'Kringalia', 'Erinor', 'Tsunamy', 'Aumeltopia', 'Amerion', 'Qvait', 'PenguinPies']
+legcomm = ['Roavin', 'PenguinPies', 'Witchcraft and Sorcery', 'The Moonstar']
+general_corps = ['Roavin', 'Nakarisaune']
+cabinet_advisors = []
+
+[misc]
+media_list_maintainer = 'United States of Vietnam'

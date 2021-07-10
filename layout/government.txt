@@ -1,0 +1,9 @@
+{% import 'macros/header_macros' as macros with context %}
+
+{% extends 'layout/general' %}
+
+{% block header %}
+{{ macros.gen_header(urls={'Introduction': 'government_intro',
+                           'Work for the government': 'f_government_jobs',
+                           'Elections &#10132;': 'elections'}) }}
+{% endblock  %}

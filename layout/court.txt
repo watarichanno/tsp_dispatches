@@ -1,0 +1,11 @@
+{% import 'macros/header_macros' as macros with context %}
+
+{% extends 'layout/general' %}
+
+{% block header %}
+{{ macros.gen_header(urls={'Home': 'court_intro',
+                           'Details': 'court_details',
+                           'Case library': 'f_court_orcs'},
+                     logo='court_header',
+                     prev_link=['Government &#10132', 'government_intro']) }}
+{% endblock header %}

@@ -1,0 +1,69 @@
+{% extends 'layout/welcome' %}
+
+{% block body %}
+
+[title]Welcome to NationStates and the South Pacific![/title]
+
+[p]Welcome to [em]the South Pacific[/em], or by its formal name, [em]the Coalition of the South Pacific[/em] (TSP). Home to over 8000 nations. the South Pacific is one of the oldest, most populous, and influential regions in NationStates with a regional government that operates similar to a real-life parliamentary republic that you and many other citizens can participate in. This guide will get you started on the multidimensional world of NationStates (NS) and this region.[/p]
+
+[p]If there are questions you have about the South Pacific or NationStates that were left unanswered by this guide, please reach out by sending a telegram to Delegate {{ gov_officials.delegate|nation }} or members of the [url=lc_intro]Local Council[/url]: {{ gov_officials.local_council|gen_list }}.[/p]
+
+[h1]Get started in NationStates[/h1]
+
+[p]If you are completely new to NationStates, you should check out the game's [url=ns_faq]Frequently Asked Questions[/url] or the [url=ns_comprehensive_guide]Comprehensive Guide to NationStates[/url]. These guides will give you everything you need to know to have fun with your nation and the community.[/p]
+
+[h1]Get started in the South Pacific[/h1]
+
+[p]First thing first, please [url=ns_wa]join the World Assembly[/url] then endorse Delegate {{ gov_officials.delegate|nation }} and all members of the [url=crs_intro]Council on Regional Security[/url]: {{ gov_officials.crs|gen_list }}.[/p]
+
+[p](How to do the above: Open the World Assembly page on the left then click [i]Apply to join[/i] and follow the instructions to join the World Assembly. Next, open the page of the nation you want to endorse, scroll down then click [i]Endorse[/i])[/p]
+
+[p]After doing that, you can try these next:[/p]
+
+[list]
+[*][url=rmb][b]Chat on the Regional Message Board (RMB):[/b][/url] Chat with other nations on our message board and get to know our community. Make sure you read the [url=rmb_rules]Rules and Etiquette[/url] first though to make sure moderators don't annoy you.
+[*][url=forum][b]Join our forum:[/b][/url] Most of the more formal activities in our region such as government proceedings and more elaborate roleplay happen on the forum. Joining the forum is a must if you want to involve yourself further in our community.
+[*][url=discord][b]Join our Discord server:[/b][/url] The majority of chats about daily life subjects and informal discussions about government matters and NationStates happen on our Discord server. This is also the easiest place to look for help and get in touch with government officials. Please join it if you haven't already!
+[/list]
+
+[h1]Get involved[/h1]
+
+[p]How to take yourself further into our region.[/p]
+
+[list]
+[*][url=swan_intro][b]Participate in the Southern World Assembly Initiative:[/b][/url] After you have joined the WA and endorsed the Delegate, you can take a step further by participating in SWAN! This is the best way to have more endorsements and influence on your nation and help our region more secure and powerful.
+[*][url=owl_region][b]Help the region vote on WA resolutions:[/b][/url] Help Delegate {{ gov_officials.delegate|nation }} and regional nations to decide how to vote on WA resolutions that govern the world before they are brought to the floor with the [url=owl_intro]Office of WA Legislation (OWL)[/url].
+[*][url=f_become_legislator][b]Become a legislator:[/b][/url] Join our legislature [url=assembly_intro]the Assembly[/url], where you can take part in our politics and let your voice heard by making, debating, voting on laws, and electing those who lead the region.
+[*][url=f_government_jobs][b]Join the executive branch:[/b][/url] If you prefer to get a hand in the day-to-day running of the region or just want to try out your real-life skills, you should join a ministry or department in the executive branch. The executive branch offers a wide variety of activities that you do such as representing our region abroad as ambassadors, journalism, engagement and promotion, clerical work, management, graphic design, and a lot more!
+[*][url=roleplay_intro][b]Roleplay (RP):[/b][/url] You can roleplay about wars, trading, or anything else about your nation with other nations on gameside using [region]Knowhere[/region] or on [url=f_roleplay]our forum[/url] if you want more formality. Roleplaying is awesome if you like writing, creating stories, and dislike the limits on creativity that issue answering imposes.
+[*][url=f_spsf_join][b]Enlist in the military:[/b][/url] The South Pacific Special Forces is our region's elite military force that defenses our region, our allies, and innocent regions from invasions alongside eradicating fascists and other hateful and destructive forces throughout NationStates. It engages in operations ranging from small scale to complex high-stake missions. If you like something fast-paced and require strategic thinking, the military is what you want!
+[*][em]More!:[/em] There is nearly no limit on what you can do in our region. You can create games, organizations, newspapers, discussion groups, political parties,... in our region on gameside or on the forum to build more activity for the region and have fun!
+[/list]
+
+[h1]Know what is happening[/h1]
+
+[p]You can know what is happening in our region by reading one of the following:[/p]
+
+[list]
+[*][url=f_cabinet_twitter][b]Cabinet Twitter[/b][/url]: These are short and concise updates from [url=cabinet_intro]the Cabinet[/url] which show what they have done abd what the current status of the government is.
+[*][url=tsj_news][b]The Southern Journal (TSJ):[/b][/url] This is our frequently published newspaper which summarizes everything that happened in the region in the past month. The Southern Journal presents news, interviews, analysis, and commentary about politics, foreign affairs, regional affairs, gameside events,... It is the best place for you to keep up to date about current events in the region.
+[*][url=media_services][b]Other media sources:[/b][/url] These include independent media organizations created and run by our citizens. They offer more diverse topics and views on issues.
+[*][em]Read the forum and the RMB:[/em] Don't like reading the news? Reading [url=forum]the forum[/url] or [url=rmb]the RMB[/url] by yourself is the best way to know what is happening without bias and in great detail.
+[*][em]Ask others:[/em] You can ask other players via the RMB, telegrams, or Discord to know more about various matters. It is recommended to ask a senior member of the region or a government official if you want the best answer.
+[/list]
+
+[h1]Learn more[/h1]
+
+[p]You can learn more about everything in our region by reading various dispatches and guides, below are a good few to get started:[/p]
+
+[list]
+[*][url=guide_index][b]List of guides:[/b][/url] A list of guides about NationStates and our region.
+[*][url=glossary][b]Glossary:[/b][/url] A list of common terms and abbreviations you may encounter.
+[*][url=politics_guide][b]Politics Guide:[/b][/url] A gentle introduction to politics in our region and NationStates. A must-read if you are new and want to get involved in our politics!
+[*][url=elections_guide][b]Election Guide:[/b][/url] Many positions in the government are elected. Read this to know what elections we have and how to vote and run in an election.
+[*][url=owl_guide][b]World Assembly Guide:[/b][/url] An introduction to the World Assembly and the Office of WA Legislation.
+[*][url=roleplay_intro][b]Roleplay Guide:[/b][/url] Where and how to roleplay in our region.
+[*][url=index][b]List of government dispatches:[/b][/url] These dispatches will give you official information about our region and the structures, procedures, and staff of our government.
+[/list]
+
+{% endblock body %}

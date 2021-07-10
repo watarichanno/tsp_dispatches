@@ -1,0 +1,29 @@
+{% import 'macros/sign' as sign %}
+
+{% extends 'layout/general' %}
+
+{% block body %}
+[title]List of media services in the South Pacific[/title]
+
+[p]This is a list of media services (newspapers, podcasts,...) that operate in the South Pacific. Both public and private media services are listed. These services can cover anything from roleplay, regional politics, real-life opinions to memes and jokes.[/p]
+
+{{ sign.note("Please telegram Minister of Media " ~ misc.media_list_maintainer|nation ~ " with a link to your media service's homepage (or index) dispatch or forum thread to get it listed. Please note that your media service needs to have a homepage (or index) dispatch which contains links to content you have published or a thread (or subforum) on our [url=f_media]media forum area[/url] for it to be listed here.", title="Don't see your media services on this?") }}
+
+[h1]Active[/h1]
+
+[p]These are media services that publish frequently. In general, services here publish at least one publication per two months.[/p]
+
+[list][*][url=https://tspforums.xyz/forum-39.html]The Southern Journal - TSJ (Public)[/url]
+[*][url=https://tspforums.xyz/forum-201.html]South Pacific Independent News Network - SPINN[/url]
+[*][url=https://tspforums.xyz/forum-183.html]Treasure Island Report[/url]
+[/list]
+
+[h1]Other[/h1]
+
+[p]These are services that aren't active enough to be put on the above list. You can find services that either publish very rarely or are inactive in this list.[/p]
+
+[list][*][url=https://tspforums.xyz/forum-293.html]South Pacific News - SPN[/url]
+[*][url=https://tspforums.xyz/forum-186.html]Real Time[/url]
+[/list]
+
+{% endblock body %}

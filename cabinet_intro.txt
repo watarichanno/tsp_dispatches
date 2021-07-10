@@ -1,0 +1,93 @@
+{% extends 'layout/cabinet' %}
+
+{% block body %}
+
+[title]The executive branch[/title]
+[subtitle]of the Coalition of the South Pacific[/subtitle]
+
+[sidebar]
+
+[center][p][em]Badge:[/em][/p]
+[img]tsp_flag[/img]
+[/center]
+
+[hr]
+
+[center][p][em]Headquarter:[/em][/p]
+
+[url=f_executive_offices]Executive Offices subforum[/url][/center][hr]
+
+[center][p][em]The Cabinet[/em][/p][/center]
+
+[list][*][em]Prime Minister:[/em] {{ gov_officials.pm|nation }}
+[*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|nation }}
+[*][em]Minister of Defense:[/em] {{ gov_officials.mod|nation }}
+[*][em]Minister of Culture:[/em] {{ gov_officials.moc|nation }}
+[*][em]Minister of Media:[/em] {{ gov_officials.mom|nation }}
+[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|nation }}
+[/list]
+
+[hr]
+
+[center][p][em]Independent institutions[/em][/p][/center]
+[list]
+[*][em]Delegate:[/em] {{ gov_officials.delegate|nation }}
+[*][em]Councilors on Regional Security:[/em] {{ gov_officials.crs|gen_list }}
+[*][em]Legislator Committee members:[/em] {{ gov_officials.legcomm|gen_list }}
+[/list]
+[hr]
+[center][p][em]Advisors:[/em][/p][/center]
+[list]
+[*][em]Cabinet:[/em] {{ gov_officials.cabinet_advisors|gen_list }}
+[*][em]General Corps:[/em] {{ gov_officials.general_corps|gen_list }}
+[/list]
+[hr]
+[/sidebar]
+
+[p]The [em]executive branch of the South Pacific[/em] executes and enforces the laws established by [url=assembly_intro]the Assembly[/url]. It consists of five ministries and several independent institutions. Led by the Cabinet, there are five ministers, each with unique portfolios, and a Prime Minister. The executive branch is the primary generator of activity in the region as it organizes events and festivals, publishes regional news, maintains our regional projects, conducts military operations, engages in diplomatic relations, and manages other executive activities. By participating in the executive branch, South Pacificans can help improve the region and its standing in the world.[/p]
+
+[h1]Structure[/h1]
+
+[p]The Cabinet of the South Pacific manages the executive branch and consists of five ministers and a Prime Minister who serves as the head of government. The Cabinet may have advisors and deputies who serve at their pleasure. Each minister oversees a ministry with different portfolios, with the Prime Minister serving at the helm.[/p]
+
+[list][*][em]Ministry of Foreign Affairs (MoFA)[/em] – The Minister of Foreign Affairs handles the South Pacific's diplomatic relations with other regions, negotiates treaties and other interregional agreements, and updates the South Pacific's residents on interregional affairs.
+[*][em]Ministry of Defense (MoD)[/em] – The Minister of Defense serves as the head of the regional military, the South Pacific Special Forces (SPSF). Engaging in military gameplay, the SPSF participates in raiding and defending operations (R/D), mainly the latter, across [i]NationStates[/i].
+[*][em]Ministry of Culture (MoC)[/em] – The Minister of Culture organizes and oversees events and festivals within the South Pacific and with other regions and works with the roleplay community toward expanding it and collaborating with other regional communities from time to time.
+[*][em]Ministry of Media (MoM)[/em] – The Minister of Media manages the regional public media and supervises the periodic publication of the regional happenings of the South Pacific.
+[*][em]Ministry of Engagement (MoE)[/em] – The Minister of Engagement maintains the public infrastructure of the South Pacific, oversees the region's projects and services, and manages the official repository of regional graphics.[/list]
+[p]Details on how to participate in a ministry(s) can be found [url=f_government_jobs]here[/url].[/p]
+
+[h1]The Delegate[/h1]
+
+[p][url=delegate_intro][b]Delegate of the South Pacific[/b][/url] holds the gameside Delegate position along with all technical administration powers of the region on gameside. The Delegate's job is to interact with the gameside community and along with [url=lc_intro]the Local Council[/url], acts as the bridge between the gameside and forumside community. The Delegate is elected by legislators of the Assembly and gameside World Assembly nations via a two-step process.[/p]
+
+[h1]Independent institutions[/h1]
+
+[p]The executive branch also has institutions that don't lie under the leadership of the Cabinet. These institutions typically handle regional security and stability so they are required to not be interfered by politics. Despite that, the Cabinet still involves in them in one way or another by appointing or approving members of these institutions. Currently, these institutions are:[/p]
+
+[list]
+[*][url=crs_intro][b]Council on Regional Security – CRS[/b][/url]: It consists of experienced and trustworthy members of the region and is responsible for monitoring and responding to regional security issues as well as operating the main regional intelligence service.
+[*][url=legcomm][b]Legislator Committee – LegComm[/b][/url]: It is a body which handles the admissions of new legislators. It checks and accepts/rejects legislator applications and suspends legislators that cause troubles if necessary.
+[*][url=election_commission][b]Election Commission – EC[/b][/url]: It conducts and oversees all elections in our region.
+[/list]
+
+
+[h1]Authority and Executive Orders[/h1]
+
+[p]Cabinet members have absolute authority over the ministry they are handling and can appoint any deputy and advisors as they see fit. The Cabinet can collectively issue an Executive Order (EO) to address immediate issues created by holes in laws which will immediately have the effect of law.[/p]
+
+[p]The Cabinet appoints a number of positions in the government such as [url=court_intro]High Court[/url] justices, Legislator Committee members,... All major Cabinet appointments require approval from the Assembly. The Assembly can recall the Cabinet if it wishes to do so.[/p]
+
+[p]For more information on the powers and responsibilities of the executive branch, visit [url=cabinet_details]this dispatch[/url]. A short introduction to Executive Orders along with a list of issued ones can be found [url=cabinet_eo]here[/url].[/p]
+
+
+[h1]Get Involved[/h1]
+
+[p]The executive branch offers a wide variety of positions and activties that you can apply without any special requirement aside from being a citizen of our region. Visit [url=f_government_jobs]this forum post[/url] or the dispatches of each ministry to find more information. Getting a job in the executive branch then working your way up the ladder is the most common way to gain popularity and win elections in our region so you should give it a try if you have the time and passion for public administration or just want to make things better and have fun![/p]
+
+[h1]Cabinet elections[/h1]
+
+[p]The Cabinet is elected every four months (February, July, October) by legislators of the Assembly. Cabinet elections last for a week and use [url=voting_methods]Instant-runoff Voting[/url] (IRV) as the voting method. For more information on how to vote or run in Cabinet elections, visit [url=cabinet_elections]this dispatch[/url].[/p]
+
+
+{% endblock body %}

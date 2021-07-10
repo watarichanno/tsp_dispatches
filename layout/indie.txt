@@ -1,0 +1,11 @@
+{% import 'macros/header_macros' as macros with context %}
+
+{% extends 'layout/general' %}
+
+{% block header %}
+{{ macros.gen_header(urls={'Home': 'indie_intro',
+                           'Legislator Committee': 'legcomm',
+                           'Election Commission': 'election_commission',
+                           'CRS &#10132': 'crs_intro'},
+                     prev_link=['Government &#10132', 'government_intro']) }}
+{% endblock header %}

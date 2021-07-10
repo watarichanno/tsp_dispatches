@@ -1,0 +1,168 @@
+{% import 'macros/header_macros' as headers with context %}
+
+{% extends 'layout/elections' %}
+
+{% block outer_body %}
+
+[box][anchor=intro][/anchor]
+{{ headers.gen_sub_header(title='Introduction') }}
+
+[hr]
+
+[p]A lot of leadership positions in the South Pacific are elected so our region has many different types of elections, however nearly all of them have the same procedure. This guide will walk you over on what elections there are along with how to vote and run in one.[/p]
+
+[h1]What elections are there?[/h1]
+
+[p]We have elections for the following positions:[/p]
+
+[list][*][url=delegate_intro]Delegate[/url]
+[*][url=cabinet_intro]Cabinet[/url] (Prime Minister, Minister of Foreign Affairs, Minister of Regional Affairs, Minister of Military Affairs)
+[*][url=lc_intro]Local Council[/url]
+[*][url=coa]Chair of Assembly[/url]
+[/list]
+
+[p]If you are new, and you don't know what the different positions are and how our politics works, you should read [url=politics_guide]this guide[/url] first then return to this later.[/p]
+
+[h1]Stages of an election[/h1]
+
+[p]Every election in the South Pacific consists of three periods:[/p]
+[list][p][em]Nomination:[/em] When you declare your candidacy or nominate others[/p]
+[p][em]Campaign:[/em] When you convince electors to vote for you via a campaign, debate,...[/p]
+[p][em]Voting:[/em] When electors vote for you[/p]
+[/list]
+
+[p]Each period has different length for different types of elections but the total duration is always less than 2 weeks. At the start of an election, there will be a thread or dispatch which shows you the date and duration of each period. You can find the full information about the schedule of our elections [url=elections]here[/url].[/p]
+
+[h1]Voting method[/h1]
+
+[p]Instant-runoff Voting (IRV), Approval Voting (AV), and First-past-the-post (FPTP) are the methods that our elections use. The below will show you which elections use which method and how to vote with each method. [i]Counting[/i] the votes is tricky, especially with IRV, so we have [url=elections_voting_methods]another guide[/url] just for this. You don't need to know how to count votes though, since the [url=election_commission]Election Commission[/url] (the body that organizes elections) and media outlets already do that for you.[/p]
+
+[h1]Where elections happen and how to vote[/h1]
+
+[p]Elections always happen in two places. One of the places is [url=forum]the forum[/url], and the other is on our regional page itself. Usually, elections happen on where their positions reside in.[/p]
+
+[/box]
+
+[box][anchor=how_to][/anchor]
+{{ headers.gen_sub_header(title='How to vote') }}
+
+[hr]
+
+[h1]How to participate in forumside elections[/h1]
+
+[p]Elections of all positions which reside on the forum happen on the forum (Cabinet, Chair of Assembly). Since the Delegate is both a forumside and gameside position, the first part of a Delegate election happens on the forum while the second one happens on the regional page.[/p]
+
+[h2]Eligibility[/h2]
+
+[p]You need to be a [url=f_become_legislator]legislator[/url] in order to nominate and vote in any forumside election and you need to become one [u]before[/u] the election you are voting in.[/p]
+
+[h2]How do I nominate and vote for a candidate?[/h2]
+
+[p]All forumside elections have the same way of voting and nominating for candidates:[/p]
+
+[p][em]Step 1 - Get information:[/em] Read the [i]Declarations of Candidacy[/i] thread pinned in the Election Center section of the forum (This section will be uncovered on the forum a few days before an election starts) for information such as where the campaigns are, where to vote, time, candidates, and detailed instructions.[/p]
+
+[img]
+
+[p][em]Step 2 - Nominate a candidate:[/em] If you want, you can nominate someone for a position. Just post "I nominate Glen for Prime Minister" in the [i]Declarations of Candidacy[/i] thread. The nominee can either accept the nomination and run for the position or refuse it.[/p]
+
+[img]
+
+[p][em]Step 3 - Know who to vote:[/em] Read campaign posts of candidates in the campaign sub-forum to know who to vote for. Ask them some questions in their campaign thread if you want. Occasionally, there will be live debates between candidates in the #conference-hall channel of our [url=discord]Discord server[/url] which will be announced ahead. It is important to get a hold of current affairs by reading [url=media_services]the news[/url] or asking other players to make up your mind further.[/p]
+
+[img]
+
+[p][em]Step 4 - Vote:[/em] Write your ballot then post it in the voting thread (The [i]Declarations of Candidacy[/i] thread will show you where). At the top of the voting thread there will be instructions on how to write your ballot.[/p]
+
+[p]For Cabinet elections (which uses IRV), you list all candidates on your ballot and sort them by your order of preference.[/p]
+[spoiler=[p]Example IRV ballot[/p]]
+[p]If you like to vote for Donald Duck the most, Mickey Mouse the second, Goofy the third, and Mermaid the fourth then make a ballot like below (Candidates are sorted based on how much you like them) then post it in the voting thread.[/p]
+[box][p]Donald Duck[/p]
+[p]Mickey Mouse[/p]
+[p]Goofy[/p]
+[p]Mermaid[/p]
+[/box]
+[/spoiler]
+
+[p]For other elections (which uses Approval Voting), you just list candidates that you vote for. The order on the ballot doesn't matter in Approval Voting[/p]
+[spoiler=[p]Example Approval Voting ballot[/p]]
+[p]If you vote for Donald Duck and Mickey Mouse, but don't want Goofy, then make a ballot like the one below.[/p]
+[box][p]Donald Duck[/p]
+[p]Mickey Mouse[/p]
+[/box]
+[/spoiler]
+
+[p]Because you are posting your ballot into a public forum thread, it can be seen by anyone else, so if you wish to cast a private ballot, just direct message a designated forum account made for this purpose. The top post of the voting thread will tell you what the account is.[/p]
+
+[p]All winners of these elections will enter their positions one week later (for Cabinet positions) or immediately (for the CoA), apart from the delegate elections, where the two candidates with the highest votes will move onto round two, which happens on gameside.[/p]
+
+[hr]
+
+[h1]How to participate in gameside elections[/h1]
+
+[p]Elections for positions reside on the gameside which include the Local Council and the Delegate (round two) happen on the gameside.[/p]
+
+[h2]Eligibility[/h2]
+
+[p]You need to be a member of the [url=ns_wa]World Assembly[/url] in order to participate in gameside elections.[/p]
+
+[h2]How do you nominate and vote in these elections?[/h2]
+
+[p]For Local Council elections, you can nominate someone by posting on the [url=rmb]RMB[/url] (e.g. I nominate Auphelia for the LC). For the secound round of Delegate elections, the candidates are the two with the most votes in the first round (forumside).[/p]
+
+[p]All gameside elections use the traditional First-past-the-post voting method. To vote for a candidate in these elections:[/p]
+[list]
+[*][em]Step One:[/em] Join the World Assembly ([url=ns_wa]Click here[/url])
+[*][em]Step Two:[/em] Choose your preferred candidate on the poll and click [i]Vote[/i]
+[/list]
+
+[p]Local Council elections happens over two rounds, with three positions. The candidate with the most vote in round one will win, the remaining move to round two. Two candidates with the most votes in the second round win.[/p]
+
+[p]For Delegate elections' second round, the candidate with the most votes in the gameside poll will win. The new Delegate will inaugurate after their endorsement number is higher than the current one.[/p]
+[/box]
+
+[box][anchor=intro][/anchor]
+{{ headers.gen_sub_header(title='Standing in elections') }}
+
+[p]You can summarize running for an election into these steps:[/p]
+[list][*][em]Step 1 - Nomination:[/em] Start your candidacy by declaring it or accepting nominations from others.
+[*][em]Step 2 - Campaign:[/em] Write a campaign post, answer questions, participate in debates and interviews to convince voters to vote for you.
+[*][em]Step 3 - Wait:[/em] Wait for voters to vote. If you win, the process of peacefully transfering power from the current officeholder to you will begin.
+[/list]
+
+[h1]How to announce your candidacy[/h1]
+
+[p]To stand in an election, you can declare candidacy or accept others' nominations of you during the Nominations period of the election. This happens in the [i]Declarations of Candidacy[/i] thread of the Election Central subforum for forumside elections and on the RMB as shown above.[/p]
+
+[p]For example, one may say: "I nominate <your name> for the position of Delegacy!". If you accept your nomination, you can post "I accept my nomination. Thank you!", or if you decline, "I decline my nomination since I won't have time. Thank you though!". You can declare candidacy by yourself by posting something like "I declare my candidacy for the Minister of Defense".[/p]
+
+[p]While accepting nominations, remember: You may not hold more than one elected position at a time and you may not hold a similar position in another region if you are running for a high-profile post like a Cabinet position. You can run for a diffrent position while holding one though, but you must resign from the current one if you win.[/p]
+
+[h1]How to campaign[/h1]
+
+[p]After you have announced your candidacy, it is time to convince voters to vote for you! You need to write a campaign post in the appropriate place in the Election Central subforum (you will see easily see where). This post should contain these information:[/p]
+[list][*]An introduction of yourself and your past experience.
+[*]The policies and other things that you will do to better the region if you are elected.
+[*]Some inspirational messages at the end
+[*]The most important part, a [em]Conflict of Interest[/em] which shows regions, organizations, and positions you are and have participated, and notable alternative identities. (e.g. notable puppets)
+[/list]
+
+[p]A campaign post with CoI is [u]mandatory[/u] for your candidacy to be recognized. You need to post it during the campaign period of the election.[/p]
+
+[p]Aside from written campaigns, you may participate in interviews or debates organized by [url=media_services]media organizations[/url] to further promote yourself.[/p]
+
+[h1]Then what?[/h1]
+
+[p]Once voting period has arrived, you just need to wait for democracy to do its magic. Once this period is over, the result will be posted in the Election Central subforum or/and in a dispatch on gameside. If you lose, nothing bad! You can run again in the future. If you win, the current officeholder will reach out to you and begin transferring everything you need to take the helm. You will officially inaugurate after a week for Cabinet positions, immediately for CoA and LC (after the Delegate grants the regional officer role to your nation), or for the Delegacy, after your endorsement count is higher than the current Delegate.[/p]
+
+[h3]How To ACE Elections[/h3]
+[p]There is no single way to win elections. People like different things and different promises. Knowing what the people truly need and want at the current moment, having experience in the past to prove yourself, making your campaign post reasonably specific and logical, and be friendly and outgoing are great tips for a successful campaign.[/p]
+
+[p]Some example of successful campaigns include [url=https://tspforums.xyz/thread-9429.html]W&S's June 2021 Prime Minister Campaign[/url], [url=https://tspforums.xyz/thread-8440.html]Amerion's July 2020 Delegate Campaign[/url], [url=https://tspforums.xyz/thread-8440.html]Amerion's July 2020 Delegate Campaign[/url], [url=https://tspforums.xyz/thread-9424.html]HumanSanity's June 2021 Minister of Defense Campaign[/url], [url=https://www.nationstates.net/page=dispatch/id=1523769]Melicorium's April 2021 Local Council Campaign[/url].[/p]
+
+[p]Have a read. Each campaign should be unique, and should represent you and your beliefs, so don't copy them, but think about what you believe in and changes you can make to the region, and put them into a campaign. Why are you standing for the position, and what will you do if elected are vital to answer in a campaign.[/p]
+
+[p]So, there you have it, the guide to TSP elections. Further information can be found in [law]the Elections Act[/law].[/p]
+[/box]
+
+{% endblock outer_body %}

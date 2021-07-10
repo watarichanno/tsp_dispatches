@@ -1,0 +1,2 @@
+{% import 'macros/header_macros' as macros with context %}
+{{ macros.gen_header(logo='test') }}
