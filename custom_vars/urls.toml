@@ -43,7 +43,7 @@ lc_intro = 'https://www.nationstates.net/page=dispatch/id=1199328'
 lc_policies = 'https://www.nationstates.net/page=dispatch/id=1199330'
 lc_elections = 'https://www.nationstates.net/page=dispatch/id=1186281'
 rmb_rules = 'https://www.nationstates.net/page=dispatch/id=1381878'
-tsj_news = ''
+tsj_news = 'https://tspforums.xyz/forum-39.html'
 
 wiki = 'https://wiki.tspforums.xyz/wiki/Main_Page'
 

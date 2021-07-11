@@ -13,10 +13,9 @@
 [*][url=swan_guide][b]SWAN Guide[/b][/url]: How to participate in the [url=swan_intro]Southern World Assembly Initiative[/url].
 [*][url=roleplay_intro][b]Roleplay Guide:[/b][/url] How to roleplay in [region]the South Pacific[/region].
 [*][url=ns_card_guide][b]Card Trading Guide:[/b][/url] A comprehensive guide to the card game.
-[*][url=politics_guide][b]Politics Guide:[/b][/url] An introduction to our politics and government. (WIP)
-[*][url=elections_guide][b]Elections Guide:[/b][/url] How to participate in our elections. (WIP)
+[*][url=politics_guide][b]Politics Guide:[/b][/url] An introduction to our politics and government.
+[*][url=elections_guide][b]Elections Guide:[/b][/url] How to participate in our elections.
 [*][url=assembly_guide][b]Assembly Guide:[/b][/url] How to participate in [url=assembly_intro]the Assembly[/url] (Our law-making body).
-[*][url=court_guide][b]High Court guide:[/b][/url] How to participate in a case and utilize [url=court_intro]the High Court[/url]. (Our judicial body) (WIP)
 [/list]
 
 [h1]References[/h1]

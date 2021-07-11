@@ -16,6 +16,3 @@ crs = ['Sandaoguo', 'Farengeto', 'Kringalia', 'Erinor', 'Tsunamy', 'Aumeltopia',
 legcomm = ['Roavin', 'PenguinPies', 'Witchcraft and Sorcery', 'The Moonstar']
 general_corps = ['Roavin', 'Nakarisaune']
 cabinet_advisors = []
-
-[misc]
-media_list_maintainer = 'United States of Vietnam'
