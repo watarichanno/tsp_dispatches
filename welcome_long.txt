@@ -1,0 +1,70 @@
+{% extends 'layout/welcome' %}
+
+{% block body %}
+
+[title]So, you want something slower![/title]
+
+[h3]Now that you’ve started playing NationStates and you’ve been randomly assigned to the South Pacific region. What now?[/h3]
+
+[p]There’s already a great [url=ns_faq]FAQ[/url] on the site that’s worth reading, but we'll do our best to give you a basic run through here as well.[/p]
+
+[p]Firstly, you will want to get to know your nation and get a feel for how you can mould it to your will. This is done by answering issues, which pop up every six hours or so. [Pro-tip - you can change the frequency that you receive issues in your settings] Each issue has a number of possible decisions to choose from. These will usually cover a range of positions on the political spectrum, but they will also tend to be rather extreme - that’s part of the fun! When you’ve chosen which decision you want to take, you’ll get a screen showing you its effect on your nation, as your stats go up or down in various ways, as well as a humorous tagline which will usually make it sound like you made a bad decision (don’t worry, it’s just being funny).[/p]
+
+[p]Answering issues is the only way you can directly change your nation’s stats (except population, which just increases steadily over time as a measure of how long you’ve been playing - population milestones will unlock some new customisation features for your nation, like naming your capital city), and it is, basically the whole of the base game. Anything else NationStates has to offer is kinda added-on.[/p]
+
+[p]Indeed, the only other part of the game that connects directly to your nation is [url=ns_wa]the World Assembly[/url]. It’s kinda like NationStates’ version of the UN, and if you join it you can vote on resolutions created by other nations, the outcome of which will affect your nation’s stats. You can only have one WA nation. Don’t try and have more than one - it’s a serious offence!
+There’s more to being in the WA, but that’s the only part of it that affects your nation’s general stats and is, therefore, part of the basics of the game. We’ll look at the other features of being in the WA later.[/p]
+
+[h3]Okay, so you said I’d been assigned to a region. What is a region anyway and can I change which region I’m in?[/h3]
+
+[p]Well, regions in NationStates are communities which your nation can be part of. Each nation can only belong to one region at a time, but you are free to move your nation as much as you like, or you can create multiple nations to experience several regions at once.[/p]
+
+[p]The South Pacific is a Game-Created Region (GCR), meaning that it was not founded by an individual player and, as one of the five Pacifics, it serves the purpose of being a ‘feeder’ region, meaning it is where new nations are randomly assigned once they are created, because everybody has to start somewhere.[/p]
+
+[p]As such, there are a lot of nations in the South Pacific at any one time and nations come and go quite quickly, but this also means that the region is very diverse and inclusive and this is reflected in the aims of the regional government.[/p]
+
+[h3]Wait, what? The region has a government?[/h3]
+
+[p]Yes, but there’s more to tell you about regions first![/p]
+
+[h3]Okay...[/h3]
+
+[p]You can find other regions by searching for them on ‘The World’ page and you can change your nation’s region by visiting the World Factbook Entry (WFE - here’s the South Pacific’s) of another region and then scrolling until you see a button labeled ‘Move [nation name] to [region name]’. Click it and youre off![/p]
+
+[h3]Right. Are you going to tell me about the regional government, now? Is that, like, a roleplaying thing?[/h3]
+
+[p]Yes, okay.[/p]
+
+[p]Firstly, the regional government of the South Pacific (known as the Coalition of the South Pacific) is not a roleplaying government, at least, not exactly. It is made up of individuals within the South Pacific who have been elected to office by others in the South Pacific and, once in office, they have real power over the community and what happens there. In that sense, at least, this is not roleplaying. They are not ‘in character’. It is, however, a kind of gameplay, as it allows people to ‘play’ at politics and enjoy another aspect of being part of this community.[/p]
+
+[h3]So, how does it work?[/h3]
+
+[p]Well, regional governments sprang up not long after the game was first created back in 2003. They grew up out of the delegate system, which is where nations which are members of the WA can endorse each other and the nation with the most endorsements in the region becomes the regional WA delegate, with increased voting power in the WA itself. That automatically creates a kind of democracy and, since the regional WA delegate has certain powers (like banning nations and editing the WFE), it became a desirable position and one that people wanted to make sure was used wisely.[/p]
+
+[p]The limitations of what is possible on regional message boards made regions begin to form the structures of government on off-site forums and, over time and through the work and effort of many ‘generations’ of players, those structures have evolved into fully-functioning governments.[/p]
+
+[p]The Coalition of the South Pacific (found [url=forum]on these forums[/url]) is one of the oldest democracies in the game. It has [url=https://tspforums.xyz/thread-4111.html]a charter[/url] from which all our laws are derived, an Assembly which serves as the legislature of the coalition, creating and voting on laws and presided over by the Chair; a Cabinet consisting of a Prime Minister and the Ministers, respectively, of Foreign Affairs, Defense, Culture, Media, and Engagement, who serve as our executive; and a local government on the game website consisting of the Delegate and three Local Council members. All of these positions are elected at regular intervals, allowing players frequent opportunity to run for them.[/p]
+
+[p]You can read more about our government by clicking the Governemnt link at the top.[/p]
+
+[h3]That sounds interesting. How do I get involved?[/h3]
+
+[p]The best thing to do is to join the forum [url=forum]here[/url] and [url=f_become_legislator]register as a legislator[/url], which will allow you to vote on laws. Then you should read the [url=politics_guide]guide to our politics[/url] and [url=assembly_guide]guide to the Assembly[/url] to know about our political system and law-making process. Then you can lurk a little while and look through threads in the Assembly forum to see what people actually do in government and how it affects the community as well as ask others about anything you don't know.[/p]
+
+[p]We also recommend joining [url=discord]our Discord chat server[/url]. It’s great fun and a lot happens on there which is relevant to the forum-based government. Indeed, in many ways, it’s more active than the forums, with the latter serving as the place to store and action all our laws, debates and votes.[/p]
+
+[h3]What else is there to do?[/h3]
+
+[p]There is roleplaying on both the TSP forum and the NationStates forum. Roleplaying is about writing the lore of your nation, such as your history, wars, diplomacy with other nations,... It is the way for you to escape the limitations of this game. [url=roleplay_intro]Here is the guide[/url] toget your feet wet with it.[/p]
+
+[p]You can help the region vote on WA resolutions by casting your votes and voicing your opinions on upcoming resolutions with the [url=owl_region]Office of WA Legislation's voting program[/region].[/p]
+
+[p]There is military gameplay, which takes the form of using WA membership and delegate endorsement to ‘raid’ regions, taking over their in-game power-structure to make changes or just say that you’ve done it. Other’s ‘defend’ regions from attacks by raiders who seek to damage a region’s membership or culture. There are also independents, who raid or defend just for fun and don’t seek to cause any damage. (the South Pacific has it’s own military - the South Pacific Special Forces, which you can join [url=f_spsf_join]here[/url]) There are even special GCRs called Warzones (e.g. [region]Warzone Asia[/region]) designed just for this purpose.[/p]
+
+[p]You can also [url=f_government_jobs]join the executive branch[/url] and get to do work interesting government work like organizing festivals and events, writing for our public media, engaging with new players and more.[/p]
+
+[p]And of course there’s the usual banter and word games, karaoke competitions, inter-regional festivals - all sorts of things really. There’s always something going on in NationStates![/p]
+
+[p]But don’t be overwhelmed. Take your time, get involved in whatever you feel like whenever you feel like it and don’t stress. Above all, have fun and play nicely with other players![/p]
+
+{% endblock body %}
