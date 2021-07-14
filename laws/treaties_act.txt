@@ -1,0 +1,40 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+
+[align=center][b][p]Treaties Act[/p][/b][/align]
+[align=center][i][p]An act defining the Cabinet’s treaty powers[/p][/i][/align]
+
+
+[b][anchor=a1][/anchor][p]1. Assembly Ratification[/p][/b]
+
+ 
+[anchor=a1_s1][/anchor][p](1) Upon the receipt of a treaty by the Minister of Foreign Affairs, the Assembly will debate the proposed treaty for at least five days before any vote is held.[/p]
+
+ 
+[anchor=a1_s2][/anchor][p](2) Amendments to existing treaties must be ratified under the same protocols as original treaties. [/p]
+
+ 
+
+[b][anchor=a2][/anchor][p]2. Treaty Dissolution and Repeal[/p][/b]
+
+
+[anchor=a2_s1][/anchor][p](1) A treaty will be dissolved if the Cabinet reports to the Assembly that a signatory to the treaty has violated its terms. The dissolution report must include detailed evidence, which will be up for a commenting period in the Assembly for one week before the dissolution is legally binding.[/p]
+
+ 
+[anchor=a2_s2][/anchor][p](2) If a signatory to a treaty notifies the Cabinet that they have dissolved the treaty on their end, the Cabinet will swiftly notify the Assembly. The treaty will be dissolved automatically upon Assembly notification.[/p]
+
+ 
+[anchor=a2_s3][/anchor][p](3) Should the Cabinet wish to dissolve a treaty for reasons other than the violation of its terms, they must notify the Assembly. The Assembly will debate for at least five days, and then vote on its repeal. Should a vote on its repeal pass with majority support, the treaty will be dissolved officially, and the signatory notified promptly. [/p]
+
+ 
+
+[b][anchor=a3][/anchor][p]3. Supremacy Clause[/p][/b]
+
+
+[anchor=a3_s1][/anchor][p](1) The terms of the Charter and of this act are held supreme over terms found within a treaty. No treaty may contradict or violate the laws of the Coalition.        	   		[/p]
+
+
+
+{% endblock body %}

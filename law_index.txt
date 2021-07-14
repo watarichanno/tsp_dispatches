@@ -3,19 +3,45 @@
 {% extends 'layout/general' %}
 
 {% block header %}
-{{ macros.gen_header(sub_urls={'Return to the Assembly': 'assembly_intro'}) }}
+{{ macros.gen_header(urls={'Return to the Assembly &#10132': 'assembly_intro'}) }}
 {% endblock header %}
 
 {% block body %}
 
-[title]Law Index of the South Pacific[/title]
+[title]Laws of the South Pacific[/title]
 
-[p]This is an index of laws currently in effect in the South Pacific. Only [url=assembly_intro]Assembly-passed[/url] laws are included here. For Local Council laws, please check [url=lc_policies]here[/url]. Repealed laws and non-law legislation can be found on the forumside [url=f_matt_duck]MATT-DUCK Law Index[/url].[/p]
+[p]This is an index of laws currently in effect in the South Pacific. Only [url=assembly_intro]Assembly-passed[/url] laws are included here. For Local Council laws, please check [url=lc_policies]here[/url]. Repealed laws and non-Assembly-law legislation can be found on the forumside [url=f_matt_duck]MATT-DUCK Law Index[/url].[/p]
+
+[h1]Constitutional Laws[/h1]
+
+[p]Constitutional laws are laws that form the foundation of our community, are fundamental to governance, or otherwise are considered of great importance by the Assembly. The Charter of the Coalition of the South Pacific is our supreme constitutional law, which defines the purpose of our government and its framework. Constitutional laws take precedence over all other laws and require a three-fifths supermajority vote (60%) in the Assembly for passage, as well as a game-side vote if the [url=coa]Chair of the Assembly[/url] determines that they directly affect the game-side community or its home governance.[/p]
 
 [list]
-{% for url, name in data_products.laws.items() %}
-[*][url={{ url }}]{{ name }}[/url]
-{% endfor %}
+[*][url=laws/charter]The Charter of the Coalition of the South Pacific[/url]
+[*][url=laws/elecions_act]Elections Act[/url]
+[*][url=laws/legislative_procedure_act]Legislative Procedure Act[/url]
+[*][url=laws/legislator_committee_act]Legislator Committee Act[/url]
+[*][url=laws/proscription_act]Proscription Act[/url]
+[/list]
+
+[h1]General Laws[/h1]
+
+[p]General laws are laws that are subordinate to constitutional laws and require a simple majority vote (50%+1) in the Assembly for passage.[/p]
+
+[list]
+[*][url=laws/border_control_act]Border Control Act[/url]
+[*][url=laws/criminal_code]Criminal Code[/url]
+[*][url=laws/cultural_act]Cultural Act[/url]
+[*][url=laws/judicial_act]Judicial Act[/url]
+[*][url=laws/law_standards_act]Law Standards Act[/url]
+[*][url=laws/military_code]Military Code[/url]
+[*][url=laws/political_parties_act]Political Parties Act[/url]
+[*][url=laws/regional_communications_act]Regional Communications Act[/url]
+[*][url=laws/regional_officers_act]Regional Officers Act[/url]
+[*][url=laws/sunshine_act]Sunshine Act[/url]
+[*][url=laws/times_act]Times Act[/url]
+[*][url=laws/treaties_act]Treaties Act[/url]
+[*][url=laws/whistleblower_protection_act]Whistleblower Protection Act[/url]
 [/list]
 
 {% endblock body %}

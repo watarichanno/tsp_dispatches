@@ -8,7 +8,8 @@
                            'Guide': 'assembly_guide',
                            'Details': 'assembly_details',
                            'Procedures': 'assembly_procedures',
-                           'Chair of Assembly': 'coa'},
+                           'The Chair': 'coa',
+                           'Laws': 'law_index'},
                      logo='assembly_header',
                      prev_link=['Government &#10132', 'government_intro'])  }}
 {% endblock header %}

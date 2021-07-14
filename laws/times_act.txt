@@ -1,0 +1,44 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+
+[align=center][b][p]Times Act[/p][/b][/align]
+[align=center][i][p]An act to establish a common timezone for all official deadlines[/p][/i][/align]
+
+
+[b][p]Table of contents[/p][/b]
+
+[list=1][*_r][p]Scope[/p]
+
+
+[*_r][p]Official Timezone[/p]
+
+
+[/list]
+
+
+[b][anchor=a1][/anchor][p]1. Scope[/p][/b]
+
+
+[anchor=a1_s1][/anchor][p](1) This act applies to all legal deadlines used by government entities in the South Pacific.[/p]
+
+
+
+[b][anchor=a2][/anchor][p]2. Official Timezone[/p][/b]
+
+
+[anchor=a2_s1][/anchor][p](1) All legal deadlines that establish a specific hour and minute must use Coordinated Universal Time (UTC) in either a 12-hour or 24-hour format.[/p]
+
+
+[anchor=a2_s2][/anchor][p](2) The deadline must contain a link to a countdown timer established using the [/p][p]Time and Date Live Countdown Timer[/p][p].[/p]
+
+
+[anchor=a2_s3][/anchor][p](3) All such deadlines shall be accompanied by a reference to the equivalent time in London, New York and Sydney provided by the [/p][p]Time and Date Time Zone Converter[/p][p].[/p]
+
+
+[anchor=a2_s4][/anchor][p](4) When publishing non-legal deadlines, conformance to this act is strongly encouraged.        	   		[/p]
+
+
+
+{% endblock body %}

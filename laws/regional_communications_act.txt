@@ -1,0 +1,56 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+
+[align=center][b][p]Regional Communications Act[/p][/b][/align]
+[align=center][i][p]An act clarifying proper communication by government officials[/p][/i][/align]
+
+
+[b][anchor=a1][/anchor][p]1. Scope[/p][/b]
+
+
+[anchor=a1_s1][/anchor][p](1) Modes of mass communication covered include[/p]
+[anchor=a1_s1_a][/anchor][p]a. Mass Telegrams to the region using Regional Officer powers,[/p]
+[anchor=a1_s1_b][/anchor][p]b. Dispatches pinned to the regional World Factbook Entry,[/p]
+[anchor=a1_s1_c][/anchor][p]c. changes to the regional World Factbook Entry, and[/p]
+[anchor=a1_s1_d][/anchor][p]d. any other form of communication, apart from the Regional Message Board, that is directly visible on the NationStates website by the in-game region at large. [/p]
+
+
+[anchor=a1_s2][/anchor][p](2) Any individual capable of engaging in mass communication with the region as described above shall be subject to the regulations contained herein.[/p]
+
+
+
+[b][anchor=a2][/anchor][p]2. Mass Communication[/p][/b]
+
+
+[anchor=a2_s1][/anchor][p](1) Communications to the region shall be[/p]
+[anchor=a2_s1_a][/anchor][p]a. respectful,[/p]
+[anchor=a2_s1_b][/anchor][p]b. honest,[/p]
+[anchor=a2_s1_c][/anchor][p]c. restrained to a reasonable frequency of notifications, and[/p]
+[anchor=a2_s1_d][/anchor][p]d. neutral with respect to political ideology or debate.[/p]
+
+
+[anchor=a2_s2][/anchor][p](2) Communications to the region shall not[/p]
+[anchor=a2_s2_a][/anchor][p]a. mislead the public,[/p]
+[anchor=a2_s2_b][/anchor][p]b. attack or otherwise diminish other officials,[/p]
+[anchor=a2_s2_c][/anchor][p]c. attack or otherwise diminish the South Pacific or her allies,[/p]
+[anchor=a2_s2_d][/anchor][p]d. directly or indirectly threaten the security apparatus of the South Pacific or her allies, or[/p]
+[anchor=a2_s2_e][/anchor][p]e. deliberately influence a regional election in favour of or against specific candidates.[/p]
+
+
+[anchor=a2_s3][/anchor][p](3) The Delegate may, at their discretion, enact further restrictions, guidelines, or approval processes on the use of mass communications.[/p]
+
+
+[anchor=a2_s4][/anchor][p](4) The Council on Regional Security may temporarily suspend the provisions contained herein for themselves or any duly chosen surrogates for purposes of regional security.[/p]
+
+
+
+[b][anchor=a3][/anchor][p]3. Infractions[/p][/b]
+
+
+[anchor=a3_s1][/anchor][p](1) Infractions may be brought before the High Court in a court case. For the duration of the court proceedings, the Delegate may suspend the mass communication capabilities of the accused.        	   		[/p]
+
+
+
+{% endblock body %}

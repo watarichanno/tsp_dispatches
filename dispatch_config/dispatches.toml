@@ -108,7 +108,7 @@ subcategory = "gameplay"
 
 [coalition_of_the_south_pacific.cabinet_intro]
 ns_id = "1192519"
-title = "The executive branch of the South Pacific"
+title = "The Executive Branch of the South Pacific"
 category = "meta"
 subcategory = "gameplay"
 
@@ -199,5 +199,11 @@ subcategory = "gameplay"
 [coalition_of_the_south_pacific.delegate_elections]
 ns_id = "1192531"
 title = "Delegate elections in the South Pacific"
+category = "meta"
+subcategory = "gameplay"
+
+[coalition_of_the_south_pacific.law_index]
+ns_id = "1192536"
+title = "Laws of the South Pacific"
 category = "meta"
 subcategory = "gameplay"

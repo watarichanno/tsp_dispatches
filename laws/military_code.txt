@@ -1,0 +1,112 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+
+[align=center][b][p]Military Code[/p][/b][/align]
+[align=center][i][p]An act establishing the rules and regulations of military forces[/p][/i][/align]
+
+
+[b][p]Table of contents[/p][/b]
+
+[list=1][*_r][p]General Corps[/p]
+
+
+[*_r][p]Ranks[/p]
+
+
+[*_r][p]Rules[/p]
+
+
+[*_r][p]Disciplinary Actions[/p]
+
+
+[/list]
+
+
+[b][anchor=a1][/anchor][p]1. General Corps[/p][/b]
+
+
+[anchor=a1_s1][/anchor][p](1) The General Corps is a commission comprising up to three Commanders and the Minister of Defense. A Commander on the General Corps shall be called a General.[/p]
+
+
+[anchor=a1_s2][/anchor][p](2) The General Corps shall be the supreme entity leading the military, hold responsibility for the planning and overseeing all missions of the military, decide all personnel matters including applications and promotions, and handle disciplinary actions as a tribunal.[/p]
+
+
+[anchor=a1_s3][/anchor][p](3) In case of a vacancy on the General Corps, the Minister of Defense may appoint a Commander with approval by the Assembly to become a General. Should there be no Generals, the military shall not operate except for the self-defense of the South Pacific, for the defense of an ally, or for the purposes of explicit treaty obligations.[/p]
+
+
+[anchor=a1_s4][/anchor][p](4) A General is removed from the General Corps if[/p]
+[anchor=a1_s4_a][/anchor][p]a. the General no longer holds the rank of Commander (temporary demotions shall not be considered for this purpose),[/p]
+[anchor=a1_s4_b][/anchor][p]b. a simple majority of the General Corps votes for the removal, or[/p]
+[anchor=a1_s4_c][/anchor][p]c. the General is recalled by the Assembly through regular order.[/p]
+
+
+
+[b][anchor=a2][/anchor][p]2. Ranks[/p][/b]
+
+
+[anchor=a2_s1][/anchor][p](1) The attainable ranks in the military are, from lowest to highest:[/p]
+[anchor=a2_s1_a][/anchor][p]a. Trainee, which is the entry rank for any new member of the military, regardless of prior experience;[/p]
+[anchor=a2_s1_b][/anchor][p]b. Soldier, which is the rank for which a member of the military is considered to be able to autonomously follow any order described in battlefield-typical terms;[/p]
+[anchor=a2_s1_c][/anchor][p]c. Officer, which is for individuals deemed capable of leading troops in operations;[/p]
+[anchor=a2_s1_d][/anchor][p]d. Commander, which is considered the rank that can plan and execute larger, potentially long-term operations.[/p]
+
+
+[anchor=a2_s2][/anchor][p](2) The General Corps may introduce specialized ranks within the main ranks at its discretion.[/p]
+
+
+[anchor=a2_s3][/anchor][p](3) The General Corps shall define rank requirements for each rank, which must be viewable by any member of the military. The requirements must include objective criteria based on operations performed by the individual in the name of this military, as well as subjective criteria based on the General Corps's judgement of the individual's character as it relates to the specific rank to be attained.[/p]
+
+
+[anchor=a2_s4][/anchor][p](4) For the rank requirements for Commanders, the General Corps must include criteria that require state-of-the-art skills and knowledge required for liberating a large game-created region.[/p]
+
+
+[anchor=a2_s5][/anchor][p](5) When rank requirements are changed such that there are members of the military that no longer qualify for their current rank, the General Corps must grant a reasonable grace time for affected members to meet these new requirements before they are demoted.[/p]
+
+
+
+[b][anchor=a3][/anchor][p]3. Rules[/p][/b]
+
+
+[anchor=a3_s1][/anchor][p](1) A member of the military must show respectful behavior towards a superior, must not bully, humiliate, or intimidate their subordinates, and must not act in an unbecoming manner toward their peers.[/p]
+
+
+[anchor=a3_s2][/anchor][p](2) A member of the military may not intentionally or recklessly disobey a lawful command given by a superior, or intentionally or recklessly put at risk, delay, or otherwise disrupt a lawful operation.[/p]
+
+
+[anchor=a3_s3][/anchor][p](3) A member of the military may only be a member of another military with assent of the General Corps, which it may rescind at any time and for any reason. If the member's other military is on the opposing side of an arbitrary R/D conflict, the member may not change sides for the duration of the operation, and shall be considered suspended from the military for the duration of the operation should they be engaged on the opposing side.[/p]
+
+
+[anchor=a3_s4][/anchor][p](4) A member of the military must not aid the enemy. A member who is also a member of another military and engaged alongside that military on the opposing side during an arbitrary R/D conflict shall not be considered in conflict of this rule.[/p]
+
+
+[anchor=a3_s5][/anchor][p](5) A member of the military may not obtain or attempt to obtain confidential information with the intent to disclose it to individuals or organizations not authorized to possess it.[/p]
+
+
+[anchor=a3_s6][/anchor][p](6) A member of the military is required to perform at least one mission every calendar month, unless suspended or granted leave by the General Corps.[/p]
+
+
+[anchor=a3_s7][/anchor][p](7) The General Corps may instate additional rules that do not contradict rules stated here at its discretion. These rules must be publicly visible.[/p]
+
+
+
+[b][anchor=a4][/anchor][p]4. Disciplinary Actions[/p][/b]
+
+
+[anchor=a4_s1][/anchor][p](1) The General Corps is responsible for determining whether a member of the military has conducted themselves in a way not befitting their rank or not befitting their membership in the military. Upon making such a determination, the General Corps will issue one or more disciplinary actions as appropriate, keeping in mind the severity of the infraction and the individual's disciplinary history.[/p]
+
+
+[anchor=a4_s2][/anchor][p](2) A disciplinary action given to a member of the military can be any one of:[/p]
+[anchor=a4_s2_a][/anchor][p]a. Temporary demotion, in which the affected member must serve under a lower effective rank for a duration of up to one month;[/p]
+[anchor=a4_s2_b][/anchor][p]b. Indefinite demotion, in which the affected member's effective rank is indefinitely lowered by virtue of no longer meeting rank requirements;[/p]
+[anchor=a4_s2_c][/anchor][p]c. Suspension, in which the affected member may not serve the military for a duration of up to one month;[/p]
+[anchor=a4_s2_d][/anchor][p]d. Honorable discharge, in which the affected member is dismissed of duty in good faith;[/p]
+[anchor=a4_s2_e][/anchor][p]e. Dishonorable discharge, in which the affected member is dismissed of duty and not permitted to return without special assent of the Assembly.[/p]
+
+
+[anchor=a4_s3][/anchor][p](3) A member of the military subject to a disciplinary action may appeal that disciplinary action and offer a defense to be reviewed by the General Corps. If an amicable resolution cannot be achieved, the member may demand that the charge be brought to the High Court. In this case, the court shall conduct a trial akin to a criminal trial, in which General Corps shall act as the Complainant, the accused member as the Accused, and the disciplinary actions listed herein shall be used by the court for sentencing.        	   		[/p]
+
+
+
+{% endblock body %}

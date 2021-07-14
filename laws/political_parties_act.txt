@@ -1,0 +1,81 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+
+[align=center][b][p]Political Parties Act[/p][/b][/align]
+[align=center][i][p]An act outlining political parties and their benefits[/p][/i][/align]
+
+
+[b][p]Table of contents[/p][/b]
+
+[list=1][*_r][p]Defining Political Parties[/p]
+
+
+[*_r][p]Rights of Political Parties[/p]
+
+
+[*_r][p]Benefits to Active Political Parties[/p]
+
+
+[*_r][p]Archival of Inactive Subforums[/p]
+
+
+[/list]
+
+
+[b][anchor=a1][/anchor][p]1. Defining Political Parties[/p][/b]
+
+
+[anchor=a1_s1][/anchor][p](1) A political party is any group of people in the South Pacific, counting at least as many members as senior Cabinet officials, who organize together in an official association for political or electoral purposes.[/p]
+
+
+[anchor=a1_s2][/anchor][p](2) Associations for purposes other than politics, including satirical, social, or casual groups, do not qualify as political parties under this act.[/p]
+
+
+
+[b][anchor=a2][/anchor][p]2. Rights of Political Parties[/p][/b]
+
+
+[anchor=a2_s1][/anchor][p](1) Political parties have the right to exist without undue government interference, per the freedom of assembly guaranteed in Article III of the Charter.[/p]
+
+
+[anchor=a2_s2][/anchor][p](2) Political parties have the right to engage in coordinated legislative and electoral efforts, without fear of reprisal from any government official.[/p]
+
+
+[anchor=a2_s3][/anchor][p](3) Political parties have the right to conduct business in private, without the arbitrary interference of the government or arbitrarily being compelled to publish private communications.[/p]
+
+
+
+[b][anchor=a3][/anchor][p]3. Benefits to Active Political Parties[/p][/b]
+
+
+[anchor=a3_s1][/anchor][p](1) Political parties that maintain an accurate public membership roster, and field at least one member for public office in an election per year, qualify for a dedicated public and private subforum.[/p]
+
+
+[anchor=a3_s2][/anchor][p](2) Political parties may petition the Chair of the Assembly for approval for a subforum. The Chair of the Assembly will verify the qualifications of the party, and if the party meets those qualifications, notify the Off-Site Administration Team to create the party's dedicated subforums.[/p]
+
+
+[anchor=a3_s3][/anchor][p](3) Dedicated party subforums will consist of two parts--[/p]
+[anchor=a3_s3_a][/anchor][p]a. a public subforum, where the party must pin an up to date version of its membership roster;[/p]
+[anchor=a3_s3_b][/anchor][p]b. a password-protected subforum, which will have the necessary permissions to ensure non-members cannot read threads without authorization.[/p]
+
+
+[anchor=a3_s4][/anchor][p](4) All political party subforums are to be contained within a single catch-all forum designated for political parties in an appropriate forum section of the official offsite forums of the South Pacific.[/p]
+
+
+[anchor=a3_s5][/anchor][p](5) The subforums of political parties are to be sorted by order of registration.[/p]
+
+
+
+[b][anchor=a4][/anchor][p]4. Archival of Inactive Subforums[/p][/b]
+
+
+[anchor=a4_s1][/anchor][p](1) The Off-Site Administration Team will non-destructively archive political party subforums if the requirements listed in Article 3 are no longer met.[/p]
+
+
+[anchor=a4_s2][/anchor][p](2) Inactive political parties may petition the Chair of the Assembly for revival of their archived subforums, under the same process outlined in Article 3.        	   		[/p]
+
+
+
+{% endblock body %}

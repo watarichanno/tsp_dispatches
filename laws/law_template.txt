@@ -1,0 +1,7 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+[law]
+
+{% endblock body %}
