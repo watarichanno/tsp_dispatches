@@ -3,7 +3,7 @@
 {% extends 'layout/general' %}
 
 {% block header %}
-{{ macros.gen_header(urls={'Return to the Assembly &#10132': 'assembly_intro'}) }}
+{{ macros.gen_header(urls={'The Assembly &#10132': 'assembly_intro'}) }}
 {% endblock header %}
 
 {% block body %}

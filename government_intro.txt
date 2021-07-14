@@ -45,6 +45,7 @@
 [*][url=assembly_intro]The Assembly[/url]
 [*][url=cabinet_intro]The Cabinet[/url]
 [*][url=court_intro]The High Court[/url]
+[*][url=delegate_intro]The Delegate[/url]
 [*][url=indie_intro]Independent institutions[/url]
 [*][url=crs_intro]Security[/url]
 [/list]
@@ -66,7 +67,7 @@
 [p]This is the supreme governing body of the region, an equivalent to a national/federal government of a real-life country. It does its work on the forums of the region and consists of three branches:[/p]
 [list]
 [*][em]Legislature:[/em] [url=assembly_intro]The Assembly[/url] is the unicameral parliament of the region. It consists of legislators who voluntarily join by applying [url=become_legislator]here.[/url] The Assembly can pass laws, pass resolutions, elect/approve/recall members of other branches, and more. The Chair of the Assembly (Incumbent: {{ gov_officials.coa|nation }}) does the administrative work to keep the Assembly functioning.
-[*][em]Executive:[/em] The Executive branch is led by the Prime Minister (Incumbent: {{ gov_officials.pm|nation }}), who is the head of government and [url=cabinet_intro]the Cabinet.[/url] The Delegate (Incumbent: {{ gov_officials.delegate|nation }}) is the head of state who largely only has ceremonial roles but is granted technical administrative powers by the game itself. The Cabinet consists of the Prime Minister and the following Cabinet ministers:
+[*][em]Executive:[/em] The Executive branch is led by the Prime Minister (Incumbent: {{ gov_officials.pm|nation }}), who is the head of government and [url=cabinet_intro]the Cabinet.[/url] [url=delegate_intro]The Delegate[/url] (Incumbent: {{ gov_officials.delegate|nation }}) is the head of state who largely only has ceremonial roles but is granted technical administrative powers by the game itself. The Cabinet consists of the Prime Minister and the following Cabinet ministers:
 [list]
 [*]The [em]Minister of Foreign Affairs[/em] (Incumbent: {{ gov_officials.mofa|nation }}) leads the Ministry of Foreign Affairs (MoFA). The MoFA deals with relationships with other regions, building treaties, running embassies, running the ambassador program, and so on.
 [*]The [em]Minister of Defense[/em] (Incumbent: {{ gov_officials.mod|nation }}) leads the Ministry of Defense (MoD), also known as the South Pacific Special Forces (SPSF), which is our regional military. The SPSF participates in what known as [i]Military Gameplay[/i] or [i]Raiding/Defending[/i] (R/D), which is an area of gameplay that uses the game mechanics to invade other regions or defend them from being invaded.

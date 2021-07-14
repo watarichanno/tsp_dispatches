@@ -54,9 +54,7 @@
 [*][url=f_moe]Ministry of Engagement[/url]
 [/list]
 [*][url=court_intro]Introduction to the High Court[/url]
-[list][*][url=court_guide]Beginner guide to the High Court[/url] (WIP)
-[*][url=court_details]Powers and roles of the High Court[/url]
-[*][url=court_procedures]High Court procedures[/url]
+[list][*][url=court_details]Powers and roles of the High Court[/url]
 [*][url=f_court_orcs]Case library[/url]
 [/list]
 [*][url=indie_intro]Introduction to independent institutions[/url]

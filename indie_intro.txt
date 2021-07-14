@@ -9,6 +9,7 @@
 
 [p]The following are the independent institutions of the South Pacific:[/p]
 [list]
+[*]The [url=delegate_intro][b]The Delegate[/b][/url], who is the head of state who largely only has ceremonial roles but is granted technical administrative powers by the game itself.
 [*]The [url=crs_intro][b]Council on Regional Security (CRS)[/b][/url], which oversees security and intelligence matters,
 [*]The [url=legcomm][b]Legislator Committee (LegComm)[/b][/url], which reviews legislator applications and legislatorship, and
 [*]The [url=election_commission][b]Election Commission (EC)[/b][/url], which supervises the democratic process and organizes elections.
