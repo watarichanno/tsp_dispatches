@@ -96,15 +96,9 @@ class Ref():
             return ('[font=Avenir, Segoe UI, sans-serif][size=120][color=#109aed][b]Reference: [/b]'
                     '[/color]{}[/size][/font]').format(value)
 
-"""
+
 @BBCode.register('law')
 class Law():
-    def __init__(self):
-        path = self.config['laws_config_path']
-        laws = toml.load(path)['laws']
-        self.names_lut = build_names_lut(laws)
-
     def format(self, tag_name, value, options, parent, context):
-        url = get_laws_url(value, self.config,
-                           self.names_lut, context['dispatch_info'])
-        return '[url={}][color=#ff9900]{}[/color][/url]'.format(url, value)"""
+        url = utils.get_law_url(value, self.config, context['dispatch_info'])
+        return '[url={}][color=#ff9900]{}[/color][/url]'.format(url, value)

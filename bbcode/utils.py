@@ -47,57 +47,39 @@ def get_url(url, custom_vars_urls, dispatches):
     return r
 
 
-def build_names_lut(laws):
-    """Get law name lookup table for quick access.
-
-    Args:
-        laws (dict): Laws configuration.
-    """
-
-    lut = {}
-    for name, config in laws.items():
-        if 'alt_names' in config:
-            lut.update({alt_name.lower(): name for alt_name in config['alt_names']})
-
-    return lut
-
-
-def get_base_url(text, names_lut, dispatch_info):
+def get_base_url(text, dispatch_info, dispatch_name_prefix):
     """Get base URL of law dispatch from law name.
 
     Args:
         text (str): Law name
-        names_lut (dict): Law name lookup table.
+        dispatch_info (dict): Dispatch info
+        dispatch_name_prefix (str): Dispatch name prefix
 
     Returns:
-        str: Base URL.
+        str: Base URL
     """
 
     name = text.lower()
-    if name.find('the ') == 0:
-        name = name.replace('the ', '', 1)
-
-    if name in names_lut:
-        name = names_lut[name]
+    name = name.replace('the ', '', 1)
 
     name = name.replace(' ', '_')
+    name = '{}{}'.format(dispatch_name_prefix, name)
     if name in dispatch_info:
         dispatch_id = dispatch_info[name]['ns_id']
         return '{}{}'.format(DISPATCH_URL, dispatch_id)
 
-    print(name)
-    logger.warning('Law "%s" not found in storage', text)
+    logger.error('Law "%s" not found in dispatch config', name)
     return None
 
 
-def get_laws_url(text, config, names_lut, dispatch_info):
+def get_law_url(text, config, dispatch_info):
     url = ""
     pattern = re.compile(config['citation_pattern'])
     r = pattern.search(text)
 
     law = r.group('law')
     if law:
-        base_url = get_base_url(law, names_lut, dispatch_info)
+        base_url = get_base_url(law, dispatch_info, config['dispatch_name_prefix'])
         if base_url:
             url += base_url
 
