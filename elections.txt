@@ -79,10 +79,6 @@
 
 [p]For more information about Chair of Assembly elections, visit [url=coa]this dispatch[/url].[/p]
 
-[h1]When is the next election?[/h1]
-
-[p]Check out our election schedule by visiting [url=elections_schedule]this dispatch[/url].[/p]
-
 [h1]How do I vote in an election?[/h1]
 
 [p]Voting is carried out on either the forum or the gameside (using the regional poll feature), depending on who the electors are. For forum elections, you usually post your ballot on a designated public thread (which the Election Commission will create during an election) or message your ballot (if you want to vote privately) to a designated forum account. For gameside elections, just click on the option you want on the poll then click [b]Vote[/b].[/p]
