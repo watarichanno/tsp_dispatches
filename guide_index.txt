@@ -11,6 +11,7 @@
 [*][url=ns_faq][b]NationStates FAQ[/b][/url]: The basics of NationStates.
 [*][url=ns_guide][b]Full NationStates Guide:[/b][/url] A guide to everything about NationStates, even things you don't need to know.
 [*][url=swan_guide][b]SWAN Guide[/b][/url]: How to participate in the [url=swan_intro]Southern World Assembly Initiative[/url].
+[*][url=owl_guide][b]World Assembly Guide:[/b][/url] An introduction to the World Assembly and the Office of WA Legislation.
 [*][url=roleplay_intro][b]Roleplay Guide:[/b][/url] How to roleplay in [region]the South Pacific[/region].
 [*][url=ns_card_guide][b]Card Trading Guide:[/b][/url] A comprehensive guide to the card game.
 [*][url=politics_guide][b]Politics Guide:[/b][/url] An introduction to our politics and government.
@@ -21,7 +22,7 @@
 [h1]References[/h1]
 [list]
 [*][url=glossary][b]Glossary[/b][/url]: Explanations for all weird NationStates terms you may encounter.
-[*][url=index][b]Dispatch Index[/b][/url]: An index with all dispatches about our region.
+[*][url=index][b]Dispatch Index[/b][/url]: An index of all dispatches about our region.
 [*][url=ns_codes][b]NSCodes List[/b][/url]: A list of BBCode-like tags you can use to format your factbooks, dispatches, messages, forum posts,...
 [*][url=ns_tools][b]NationStates Tools and Utilities[/b][/url]: Tools and utilities to make your NationStates experience better.
 [/list]

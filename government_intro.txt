@@ -20,11 +20,11 @@
 [list]
 [*][em]Delegate:[/em] {{ gov_officials.delegate|nation }}
 [*][em]Prime Minister:[/em] {{ gov_officials.pm|nation }}
-[*][em]Minister of Culture:[/em] {{ gov_officials.moc|nation }}
-[*][em]Minister of Defence:[/em] {{ gov_officials.mod|nation }}
-[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|nation }}
 [*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|nation }}
+[*][em]Minister of Defence:[/em] {{ gov_officials.mod|nation }}
+[*][em]Minister of Culture:[/em] {{ gov_officials.moc|nation }}
 [*][em]Minister of Media:[/em] {{ gov_officials.mom|nation }}
+[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|nation }}
 [*][em]Chair of the Assembly:[/em] {{ gov_officials.coa|nation }}
 [*][em]Chief Justice:[/em] {{ gov_officials.hc_chief_justice|nation }}
 [*][em]Local Councillors:[/em] {{ gov_officials.local_council|gen_list }}
@@ -52,11 +52,11 @@
 
 [h1]Does the government have real purposes and powers?[/h1]
 
-[p]Yes! Members of the government are tasked with jobs such as community engagement, helping new nations, running [url=f_spsf]the military[/url], foreign affairs, maintaing regional security, and more. Some members of the government have real administrative powers such as moderating the message board, banning/ejecting nations from the region, changing the World Factbook Entry, etc., while others have the power to vote on and recall those members, and decide how they should do their job by passing or amending laws. In a sense, it is like there are some administrators responsible for certain tasks, while the community keeps them in check, similar to how some real-life governments work.[/p]
+[p]Yes! Members of the government are tasked with jobs such as community engagement, helping new nations, running [url=f_spsf]the military[/url], foreign affairs, maintaing regional security, and more. Some members of the government have real administrative powers such as moderating the message board, banning/ejecting nations from the region, changing the World Factbook Entry, etc., while others have the power to vote on and recall those members, and decide how they should do their job by passing laws. In a sense, it is like there are some administrators responsible for certain tasks, while the community keeps them in check, similar to how some real-life governments work.[/p]
 
 [h1]The overall structure[/h1]
 
-[p]The government of the South Pacific is a democratic parliamentary republic with checks and balances between its three branches, as well as a separate head of state (Delegate) and head of government (Prime Minister). The Charter of the South Pacific is the supreme law of the land. The government is divided into two parts: gameside and forumside.[/p]
+[p]The government of the South Pacific is a democratic parliamentary republic with checks and balances between its three branches, as well as a separate head of state (Delegate) and head of government (Prime Minister). [law]The Charter of the South Pacific[/law] is its constitution. The government is divided into two parts: gameside and forumside.[/p]
 
 [h3]Gameside government[/h3]
 
@@ -67,27 +67,27 @@
 [p]This is the supreme governing body of the region, an equivalent to a national/federal government of a real-life country. It does its work on the forums of the region and consists of three branches:[/p]
 [list]
 [*][em]Legislature:[/em] [url=assembly_intro]The Assembly[/url] is the unicameral parliament of the region. It consists of legislators who voluntarily join by applying [url=become_legislator]here.[/url] The Assembly can pass laws, pass resolutions, elect/approve/recall members of other branches, and more. The Chair of the Assembly (Incumbent: {{ gov_officials.coa|nation }}) does the administrative work to keep the Assembly functioning.
-[*][em]Executive:[/em] The Executive branch is led by the Prime Minister (Incumbent: {{ gov_officials.pm|nation }}), who is the head of government and [url=cabinet_intro]the Cabinet.[/url] [url=delegate_intro]The Delegate[/url] (Incumbent: {{ gov_officials.delegate|nation }}) is the head of state who largely only has ceremonial roles but is granted technical administrative powers by the game itself. The Cabinet consists of the Prime Minister and the following Cabinet ministers:
+[*][em]Executive:[/em] The Executive branch is led by the Prime Minister (Incumbent: {{ gov_officials.pm|nation }}), who is [url=cabinet_intro]the Cabinet.[/url] [url=delegate_intro]The Delegate[/url] (Incumbent: {{ gov_officials.delegate|nation }}) is the head of state who largely has ceremonial roles but is granted all administrative powers by the game. The Cabinet consists of the Prime Minister and the following Cabinet ministers:
 [list]
 [*]The [em]Minister of Foreign Affairs[/em] (Incumbent: {{ gov_officials.mofa|nation }}) leads the Ministry of Foreign Affairs (MoFA). The MoFA deals with relationships with other regions, building treaties, running embassies, running the ambassador program, and so on.
-[*]The [em]Minister of Defense[/em] (Incumbent: {{ gov_officials.mod|nation }}) leads the Ministry of Defense (MoD), also known as the South Pacific Special Forces (SPSF), which is our regional military. The SPSF participates in what known as [i]Military Gameplay[/i] or [i]Raiding/Defending[/i] (R/D), which is an area of gameplay that uses the game mechanics to invade other regions or defend them from being invaded.
+[*]The [em]Minister of Defense[/em] (Incumbent: {{ gov_officials.mod|nation }}) leads the Ministry of Defense (MoD), also known as the [url=f_spsf_join]South Pacific Special Forces[/url] (SPSF), which is our regional military. The SPSF participates in what known as [i]Military Gameplay[/i] or [i]Raiding/Defending[/i] (R/D), which is an area of gameplay that uses the game mechanics to invade other regions or defend them from being invaded.
 [*]The [em]Minister of Culture[/em] (Incumbent: {{ gov_officials.moc|nation }}) leads the Ministry of Culture[/url] (MoC). The MoC is tasked with promoting regional culture by hosting events, advertising roleplay, and more.
 [*]The [em]Minister of Media[/em] (Incumbent: {{ gov_officials.mom|nation }}) leads the Ministry of Media (MoM). The MoM produces journalism, including articles and surveys.
-[*]The [em]Minister of Engagement[/em] (Incumbent: {{ gov_officials.moe|nation }}) leads the Ministry of Engagement (MoE). The MoE is responsible for maintaining regional infrastructure such as dispatches, internal recruitment and integration, and providing graphics.
+[*]The [em]Minister of Engagement[/em] (Incumbent: {{ gov_officials.moe|nation }}) leads the Ministry of Engagement (MoE). The MoE is responsible for maintaining regional infrastructure such as dispatches, recruitment, integration, and providing graphics.
 [/list]
-[p]The Executive branch has a lot of people working within the ministries to make the region better, including ambassadors, event planners, soldiers, journalists, etc. The Cabinet and the Prime Minister have the power to issue executive orders and appoint some positions. They are elected every four months by the Assembly ([url=elections_intro]Click here[/url] to read more about elections).[/p]
-[*][em]Judiciary:[/em] The [url=hc_intro]High Court[/url] is the highest and only court of the region, where all matters related to law interpretations and conflicts are resolved. It consists of Associate Justices and is led by the Chief Justice (Incumbent: {{ gov_officials.hc_chief_justice|nation }}). Justices are appointed by the Cabinet and approved by the Assembly. Aside from Justices, there are also informal roles that the High Court may choose to establish such as legal text analyzers, court-related event organizers, investigators, paperwork managers, etc.
+[p]The Executive branch has a lot of people working within the ministries to run the region's day-to-day activities, including ambassadors, event planners, soldiers, journalists, etc. The Cabinet has the power to issue executive orders and appoint some positions. They are elected every four months by the Assembly ([url=elections]Click here[/url] to read more about elections).[/p]
+[*][em]Judiciary:[/em] The [url=court_intro]High Court[/url] is the highest and only court of the region, where all matters related to law interpretations and conflicts are resolved. It consists of Associate Justices led by the Chief Justice (Incumbent: {{ gov_officials.hc_chief_justice|nation }}). Justices are appointed by the Cabinet and approved by the Assembly. Aside from Justices, there are also informal roles that the High Court may choose to establish such as legal text analyzers, court-related event organizers, investigators, paperwork managers, etc.
 [/list]
 
-[p]Aside from the above, there are a few bodies known as [url=indie_intro]independent institutions[/url] that don't belong to any branch of government, including the [url=crs_intro]Council on Regional Security[/url] (CRS), which handles regional security matters, and the [url=legcomm]Legislator Committee[/url] (LegComm), which handles legislator applications.[/p]
+[p]Aside from the above, there are a few bodies known as [url=indie_intro]independent institutions[/url] that belong to the executive branch but aren't under the Cabinet's authority, such as the [url=crs_intro]Council on Regional Security[/url] (CRS), which handles regional security matters, and the [url=legcomm]Legislator Committee[/url] (LegComm), which handles legislator applications.[/p]
 
 [h1]Get involved in the Government[/h1]
 
 [list]
 [*][em]Become a legislator:[/em] Being a legislator will allow you to write, debate, and vote on laws that govern the region and run in elections for positions in the forumside government. It is very easy to become a legislator, just apply for it [url=become_legislator]here.[/url] There are no requirements to join, except that you are a resident in good faith.
-[*][em]Get involved in the ministries:[/em] The government offers a variety of positions such as journalists, graphic designers, event managers, military soldiers, community organizers, etc. If you want to run for elections of executive positions or just want to tangibly contribute to the region, this is the path for you. By gathering experience while working, you will build a strong resume, which is necessary if you want to become a future leader. [url=government_jobs]Click here[/url] to learn more about applying for a position.
+[*][em]Get involved in the ministries:[/em] The government offers a variety of positions such as journalists, graphic designers, event managers, military soldiers, community organizers, etc. If you want to run for elections of executive positions or just want to tangibly contribute to the region, this is the path for you. By gathering experience while working, you will build a strong resume, which is necessary if you want to become a future leader. [url=f_government_jobs]Click here[/url] to learn more about applying for a position.
 [/list]
 
-[p]If you are interested, check out our other dispatches about the government [url=government_index]here[/url].[/p]
+[p]If you are interested, check out our other dispatches about the government [url=index]here[/url].[/p]
 
 {% endblock body %}
