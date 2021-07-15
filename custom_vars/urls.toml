@@ -63,7 +63,7 @@ swan_stats = 'https://www.nationstates.net/page=dispatch/id=1043852'
 swan_faq = 'https://www.nationstates.net/page=dispatch/id=1049890'
 
 ns_faq = 'https://www.nationstates.net/page=faq'
-ns_comprehensive_guide = 'https://www.nationstates.net/page=dispatch/id=444406'
+ns_guide = 'https://www.nationstates.net/page=dispatch/id=444406'
 ns_wa = 'https://www.nationstates.net/page=un'
 ns_telegram = 'https://www.nationstates.net/page=telegrams'
 ns_nation_census = 'https://www.nationstates.net/page=list_nations/mode=g?censusid=0'
