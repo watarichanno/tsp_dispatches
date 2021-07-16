@@ -5,6 +5,6 @@
 {% block header %}
 {{ macros.gen_header(sub_urls={'Return to the Law Index': 'law_index'}) }}
 [box][h2]Note[/h2]
-[p]This law dispatch is automatically syndicated from the forum laws archive. Formatting errors may happen![/p]
+[p]This law dispatch is automatically generated from the forum law archive. Formatting errors may happen![/p]
 [/box]
 {% endblock header %}
