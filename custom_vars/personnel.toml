@@ -13,6 +13,6 @@ coa = 'Purple Hyacinth'
 election_commissioner = 'Erinor'
 local_council = ['Concrete Slab', 'Melicorium', 'Auphelia']
 crs = ['Sandaoguo', 'Farengeto', 'Kringalia', 'Erinor', 'Tsunamy', 'Aumeltopia', 'Amerion', 'Qvait', 'PenguinPies']
-legcomm = ['Roavin', 'Witchcraft and Sorcery']
+legcomm = ['Roavin', 'Witchcraft and Sorcery', 'Nakarisaune']
 general_corps = ['Roavin', 'Nakarisaune']
 cabinet_advisors = ['Nakarisaune']
