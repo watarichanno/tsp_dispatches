@@ -17,8 +17,8 @@
 [p]Constitutional laws are laws that form the foundation of our community, are fundamental to governance, or otherwise are considered of great importance by the Assembly. The Charter of the Coalition of the South Pacific is our supreme constitutional law, which defines the purpose of our government and its framework. Constitutional laws take precedence over all other laws and require a three-fifths supermajority vote (60%) in the Assembly for passage, as well as a game-side vote if the [url=coa]Chair of the Assembly[/url] determines that they directly affect the game-side community or its home governance.[/p]
 
 [list]
-[*][url=laws/charter]The Charter of the Coalition of the South Pacific[/url]
-[*][url=laws/elecions_act]Elections Act[/url]
+[*][url=laws/charter_of_the_south_pacific]The Charter of the Coalition of the South Pacific[/url]
+[*][url=laws/elections_act]Elections Act[/url]
 [*][url=laws/legislative_procedure_act]Legislative Procedure Act[/url]
 [*][url=laws/legislator_committee_act]Legislator Committee Act[/url]
 [*][url=laws/proscription_act]Proscription Act[/url]
@@ -42,6 +42,7 @@
 [*][url=laws/times_act]Times Act[/url]
 [*][url=laws/treaties_act]Treaties Act[/url]
 [*][url=laws/whistleblower_protection_act]Whistleblower Protection Act[/url]
+[*][url=laws/world_assembly_act]World Assembly Act[/url]
 [/list]
 
 {% endblock body %}

@@ -1,0 +1,46 @@
+{% extends 'layout/law' %}
+
+{% block body %}
+
+
+[align=center][b][p]World Assembly Act[/p][/b][/align]
+[align=center][i][p]An act to define the World Assembly procedures of the Coalition of the South Pacific[/p][/i][/align]
+
+
+[b][anchor=a1][/anchor][p]1. Powers[/p][/b]
+
+
+[anchor=a1_s1][/anchor][p](1) The Delegate shall cast their vote on proposed World Assembly resolutions according to voting recommendations issued by the Office of World Assembly Legislation, except under circumstances in which the Office issued a recommendation for the Delegate to abstain from voting. If the Office's recommendation is contrary to the vote of all World Assembly nations in the South Pacific, the Delegate may choose to change their vote in collaboration with the Office.[/p]
+
+
+[anchor=a1_s2][/anchor][p](2) In the absence of a recommendation, the Delegate shall vote on proposed World Assembly resolutions according to the overall vote of all World Assembly nations in the South Pacific.[/p]
+
+
+[anchor=a1_s3][/anchor][p](3) The Cabinet may override a vote on a World Assembly resolution for security and diplomatic purposes.[/p]
+
+
+
+[b][anchor=a2][/anchor][p]2. Approval voting[/p][/b]
+
+
+[anchor=a2_s1][/anchor][p](1) The Delegate may give an approval vote on proposed World Assembly resolutions freely or based on the instruction of the Office of World Assembly Legislation.[/p]
+
+
+[anchor=a2_s2][/anchor][p](2) The South Pacific Special Forces are prohibited from engaging in approval raiding, except as prescribed in the Charter.[/p]
+
+
+
+[b][anchor=a3][/anchor][p]3. Voting[/p][/b]
+
+
+[anchor=a3_s1][/anchor][p](1) The Office of World Assembly Legislation shall determine the medium for voting on proposed World Assembly resolutions.[/p]
+
+
+[anchor=a3_s2][/anchor][p](2) Nations of the South Pacific that are World Assembly members or members of the South Pacific Special Forces may not be barred from eligibility in having their votes counted.[/p]
+
+
+[anchor=a3_s3][/anchor][p](3) If a nation resigns from the World Assembly or their membership in the South Pacific Special Forces before the voting period ends, their vote shall not count.        	   		[/p]
+
+
+
+{% endblock body %}

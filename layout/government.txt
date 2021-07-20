@@ -5,5 +5,6 @@
 {% block header %}
 {{ macros.gen_header(urls={'Introduction': 'government_intro',
                            'Work for the government': 'f_government_jobs',
-                           'Elections &#10132;': 'elections'}) }}
+                           'Elections &#10132;': 'elections',
+                           'Laws &#10132': 'law_index'}) }}
 {% endblock  %}
