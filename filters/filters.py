@@ -1,21 +1,21 @@
 """Custom template filters."""
 
 
-def nation(name, modifier=None):
+def nation(name):
     """Enclose nation name with [nation][/nation] tag.
+    If provided value is a personnel info dict, use the nation value.
 
     Args:
-        name (str): Nation name.
-        mode (str, optional): Defaults to None. Modifier (short, noflag, noname).
+        name (str|dict): Nation name or personnel info
 
     Returns:
-        str: [nation=modifier]nation name[/nation]
+        str: [nation]nation name[/nation]
     """
 
-    if modifier is None:
-        return '[nation]{}[/nation]'.format(name)
+    if isinstance(name, dict) and 'nation' in name:
+        name = name['nation']
 
-    return '[nation={}]{}[/nation]'.format(modifier, name)
+    return '[nation]{}[/nation]'.format(name)
 
 
 def region(name):
@@ -29,6 +29,12 @@ def region(name):
     """
 
     return '[region]{}[/region]'.format(name)
+
+
+def info(personnel, print_format='{nation} ({discord_handle})'):
+    return print_format.format(nation=nation(personnel.get('nation', '')), 
+                               discord_handle=personnel.get('discord_handle', ''),
+                               name=personnel['name'])
 
 
 def gen_list(input_list, delimiter=', ', start_tag='[nation]', end_tag='[/nation]'):

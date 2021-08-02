@@ -1,5 +1,5 @@
 [gov_officials]
-delegate = 'Beepee'
+delegate = 'Amerion'
 pm = 'Witchcraft and Sorcery'
 mofa = 'Qvait'
 mod = 'HumanSanity'
@@ -11,8 +11,13 @@ hc_chief_justice = 'Kringalia'
 hc_justices = ['Kringalia', 'Belschaft', 'Ebonhand', 'Roavin']
 coa = 'Purple Hyacinth'
 election_commissioner = 'Erinor'
-local_council = ['Concrete Slab', 'Melicorium', 'Auphelia']
+local_council = ['Concrete Slab', 'Auphelia']
 crs = ['Sandaoguo', 'Farengeto', 'Kringalia', 'Erinor', 'Tsunamy', 'Aumeltopia', 'Amerion', 'Qvait', 'PenguinPies']
 legcomm = ['Roavin', 'Witchcraft and Sorcery', 'Nakarisaune']
 general_corps = ['Roavin', 'Nakarisaune']
 cabinet_advisors = ['Nakarisaune']
+
+[personnel_info]
+[personnel_info.Amerion]
+nation = 'Amerion'
+discord_handle = 'Amerion#9702'
