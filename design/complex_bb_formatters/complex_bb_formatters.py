@@ -14,6 +14,7 @@ from nsdu import BBCode
 sys.path.append(os.path.dirname(__file__))
 
 import utils
+import law_config
 
 DISPATCH_URL = 'https://www.nationstates.net/page=dispatch/id='
 
@@ -100,5 +101,6 @@ class Ref():
 @BBCode.register('law')
 class Law():
     def format(self, tag_name, value, options, parent, context):
-        url = utils.get_law_url(value, self.config, context['dispatch_info'])
+        url = utils.get_law_url(value, context['dispatch_info'], law_config.DISPATCH_NAME_PREFIX,
+                                law_config.CITATION_PATTERN, law_config.ARTICLE_FORMAT, law_config.SECTION_FORMAT)
         return '[url={}][color=#ff9900]{}[/color][/url]'.format(url, value)

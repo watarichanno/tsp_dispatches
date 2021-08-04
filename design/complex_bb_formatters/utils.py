@@ -1,8 +1,11 @@
 """Utility functions for some BBCode tags.
 """
 
+import pathlib
 import re
 import logging
+
+import toml
 
 
 logger = logging.getLogger(__name__)
@@ -72,14 +75,15 @@ def get_base_url(text, dispatch_info, dispatch_name_prefix):
     return None
 
 
-def get_law_url(text, config, dispatch_info):
+def get_law_url(text, dispatch_info, dispatch_name_prefix,
+                citation_pattern, article_format, section_format):
     url = ""
-    pattern = re.compile(config['citation_pattern'])
+    pattern = re.compile(citation_pattern)
     r = pattern.search(text)
 
     law = r.group('law')
     if law:
-        base_url = get_base_url(law, dispatch_info, config['dispatch_name_prefix'])
+        base_url = get_base_url(law, dispatch_info, dispatch_name_prefix)
         if base_url:
             url += base_url
 
@@ -87,8 +91,8 @@ def get_law_url(text, config, dispatch_info):
     section = r.group('sec')
     if article:
         url += '#'
-        url += config['article_format'].format(article)
+        url += article_format.format(article)
     if section:
-        url += config['section_format'].format(section)
+        url += section_format.format(section)
 
     return url
