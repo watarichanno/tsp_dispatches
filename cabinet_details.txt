@@ -54,33 +54,33 @@
 
 [h2]Ministry of Foreign Affairs – MoFA[/h2]
 
-[p]The Ministry of Foreign Affairs is a body responsible for the Coalition's diplomacy, bilateral and multilateral relations affairs. The MoFA is headed by the Minister of Foreign Affairs (Incumbent: {{ gov_officials.mofa|nation }}). The MoFA employs ambassadors, who run embassies and represent us in other regions, as well as advisors and deputies, who manage the daily operations of the ministry, participate in negotiations with other regions, draft treaties, establish the Coalition's foreign policies, etc.[/p]
+[p]The Ministry of Foreign Affairs is a body responsible for the Coalition's diplomacy, bilateral and multilateral relations affairs. The MoFA is headed by the Minister of Foreign Affairs (Incumbent: {{ gov_officials.mofa|info }}). The MoFA employs ambassadors, who run embassies and represent us in other regions, as well as advisors and deputies, who manage the daily operations of the ministry, participate in negotiations with other regions, draft treaties, establish the Coalition's foreign policies, etc.[/p]
 
 [p]For more information on the ministry and how to get involved, visit [url=f_mofa]this dispatch[/url].[/p]
 
 
 [h2]Ministry of Defense – MoD[/h2]
 
-[p]The Ministry of Defense operates our regional military, the South Pacific Special Forces (SPSF), and is responsible for the defense of the region, building military activity, conducting military operations, and running military intelligence. It consists of ranked members such as trainees, soldiers, officers, commanders, etc. The daily operations of the SPSF are managed by the General Corps ({{ gov_officials.general_corps|gen_list }}) and the Minister of Defense (Incumbent: {{ gov_officials.mod|nation }}).[/p]
+[p]The Ministry of Defense operates our regional military, the South Pacific Special Forces (SPSF), and is responsible for the defense of the region, building military activity, conducting military operations, and running military intelligence. It consists of ranked members such as trainees, soldiers, officers, commanders, etc. The daily operations of the SPSF are managed by the General Corps ({{ gov_officials.general_corps|gen_list }}) and the Minister of Defense (Incumbent: {{ gov_officials.mod|info }}).[/p]
 
 [p]For more information on the ministry, visit [url=f_spsf]this subforum[/url].[/p]
 
 [h2]Ministry of Culture – MoC[/h2]
 
-[p]The Ministry of Culture is mainly responsible for organizing regional cultural activities (like events), or, in collaboration with MoFA, cultural exchanges with other regions. Additionally, MoC is tasked with supporting the South Pacifican roleplay community, though it, as part of the government only in a supportive capacity, traditionally doesn't have direct authority over RP. MoC staff is simply divided into senior and normal staff members, with the Minister of Culture (Incumbent: {{ gov_officials.moc|nation }}) at the top.[/p]
+[p]The Ministry of Culture is mainly responsible for organizing regional cultural activities (like events), or, in collaboration with MoFA, cultural exchanges with other regions. Additionally, MoC is tasked with supporting the South Pacifican roleplay community, though it, as part of the government only in a supportive capacity, traditionally doesn't have direct authority over RP. MoC staff is simply divided into senior and normal staff members, with the Minister of Culture (Incumbent: {{ gov_officials.moc|info }}) at the top.[/p]
 
 [p]For more information on the ministry, visit [url=f_moc]this subforum[/url].[/p]
 
 
 [h2]Ministry of Media – MoM[/h2]
 
-[p]The Ministry of Media oversees the public media of the South Pacific, like our regional newspaper The Southern Journal, and is responsible for ensuring regular publications and supporting South Pacificans interested in journalism. The Minister of Media (Incumbent: {{ gov_officials.mom|nation }}) and their leadership staff are in charge of the different department teams, who operate specific aspects (like statistics) or publications (like the short news Llama Drama) of the ministry.[/p]
+[p]The Ministry of Media oversees the public media of the South Pacific, like our regional newspaper The Southern Journal, and is responsible for ensuring regular publications and supporting South Pacificans interested in journalism. The Minister of Media (Incumbent: {{ gov_officials.mom|info }}) and their leadership staff are in charge of the different department teams, who operate specific aspects (like statistics) or publications (like the short news Llama Drama) of the ministry.[/p]
 
 [p]For more information on the ministry, visit [url=f_mom]this subforum[/url].[/p]
 
 [h2]Ministry of Engagement – MoE[/h2]
 
-[p]The Ministry of Engagement in general handles everything around the integration of new members into our community and maintaining the infrastructure needed for that. This encompasses things like providing these dispatches, or supporting other government bodies by producing graphics for them. Also a new project by the ministry is the planned establishment of an organization for South Pacificans interested in the NationStates Cards game. Headed by the Minister of Engagement (Incumbent: {{ gov_officials.moe|nation }}), the different projects within MoE, each with its own team, are run by designated senior staff members.[/p]
+[p]The Ministry of Engagement in general handles everything around the integration of new members into our community and maintaining the infrastructure needed for that. This encompasses things like providing these dispatches, or supporting other government bodies by producing graphics for them. Also a new project by the ministry is the planned establishment of an organization for South Pacificans interested in the NationStates Cards game. Headed by the Minister of Engagement (Incumbent: {{ gov_officials.moe|info }}), the different projects within MoE, each with its own team, are run by designated senior staff members.[/p]
 
 [p]For more information on the ministry, visit [url=f_moe]this subforum[/url].[/p]
 

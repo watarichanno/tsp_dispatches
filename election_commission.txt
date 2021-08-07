@@ -5,7 +5,7 @@
 [title]Election Commission[/title]
 [subtitle]of the Coalition of the South Pacific[/subtitle]
 
-[p]The [b]Election Commission[/b] ([b]EC[/b]) is an independent official appointed by the [url=crs_intro]Council on Regional Security[/url] (CRS) who oversees all elections in the Coalition of the South Pacific, whether for the [url=delegate_elections]Delegate[/url], [url=cabinet_elections]Cabinet[/url], [url=lc_elections]Local Council[/url], or [url=coa]Chair of the Assembly[/url]. The most recent election commissioner was {{ gov_officials.election_commissioner|nation }}.[/p]
+[p]The [b]Election Commission[/b] ([b]EC[/b]) is an independent official appointed by the [url=crs_intro]Council on Regional Security[/url] (CRS) who oversees all elections in the Coalition of the South Pacific, whether for the [url=delegate_elections]Delegate[/url], [url=cabinet_elections]Cabinet[/url], [url=lc_elections]Local Council[/url], or [url=coa]Chair of the Assembly[/url].[/p]
 
 [h1]Powers and responsibilities[/h1]
 

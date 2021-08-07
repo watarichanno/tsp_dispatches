@@ -6,7 +6,7 @@
 
 [p]Welcome to [em]the South Pacific[/em], or by its formal name, [em]the Coalition of the South Pacific[/em] (TSP). Home to over 8000 nations. the South Pacific is one of the oldest, most populous, and influential regions in NationStates with a parliamentary republic government that you and many other citizens can participate in. This guide will get you started on the multidimensional world of NationStates (NS) and this region. If you want a longer introduction, read [url=welcome_long]this guide[/url].[/p]
 
-[p]If there are questions you have about the South Pacific or NationStates that were left unanswered by this guide, please reach out by sending a telegram to Delegate {{ gov_officials.delegate|nation }} or members of the [url=lc_intro]Local Council[/url]: {{ gov_officials.local_council|gen_list }}.[/p]
+[p]If there are questions you have about the South Pacific or NationStates that were left unanswered by this guide, please reach out by sending a telegram to Delegate {{ gov_officials.delegate|info }} or members of the [url=lc_intro]Local Council[/url]: {{ gov_officials.local_council|gen_list }}.[/p]
 
 [h1]Get started in NationStates[/h1]
 

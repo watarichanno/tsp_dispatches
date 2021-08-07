@@ -5,11 +5,11 @@
 [title]The Delegate[/title]
 [subtitle]of the Coalition of the South Pacific[/subtitle]
 
-[subtitle]Incumbent: {{ gov_officials.delegate|nation }}[/subtitle]
+[subtitle]Incumbent: {{ gov_officials.delegate|info }}[/subtitle]
 
 [p]In gameplay terms, the Delegate, or more properly the [b]World Assembly Delegate[/b], is the nation with the most World Assembly endorsements in the region and the most powerful position available, being able to perform all the region's administrative functions and to appoint Regional Officers with any combination of those powers.[/p]
 
-[p]In terms of the region's legal structure, however, the Delegate is the Head of State of the South Pacific and is a figurehead role, with very little legal power. The [i]de facto[/i] leader of the region is the Prime Minister (Incumbent: {{ gov_officials.pm|nation }}).[/p]
+[p]In terms of the region's legal structure, however, the Delegate is the Head of State of the South Pacific and is a figurehead role, with very little legal power. The [i]de facto[/i] leader of the region is the Prime Minister (Incumbent: {{ gov_officials.pm|info }}).[/p]
 
 [h1]Powers and roles[/h1]
 

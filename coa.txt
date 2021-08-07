@@ -7,7 +7,7 @@
 
 [p]The Chair of Assembly is the official which maintains order and manages paperwork in [url=assembly_intro]the Assembly[/url]. A Chair moderates debates, maintains the law archive, conducts votes, and ensures every piece of legislation meets the standard. Chair elections begin eight days before the end of the current Chair's term (which usually lasts for four months).[/p]
 
-[p]The current Chair is {{ gov_officials.coa|nation }}.[/p]
+[p]The current Chair is {{ gov_officials.coa|info }}.[/p]
 
 [p]If you have questions or requests (like resigning from legislatorship or a leave of absence), you can post on the [url=f_assembly_office]Office of Assembly Affairs[/url] forum thread.[/p]
 

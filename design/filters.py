@@ -32,9 +32,10 @@ def region(name):
 
 
 def info(personnel, print_format='{nation} ({discord_handle})'):
-    return print_format.format(nation=nation(personnel.get('nation', '')), 
-                               discord_handle=personnel.get('discord_handle', ''),
+    return print_format.format(nation=nation(personnel.get('nation', '')),
+                               discord_handle=personnel.get('discord_handle', 'No Discord'),
                                name=personnel['name'])
+
 
 
 def gen_list(input_list, delimiter=', ', start_tag='[nation]', end_tag='[/nation]'):

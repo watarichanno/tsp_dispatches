@@ -5,7 +5,7 @@
 [title]The Assembly[/title]
 [subtitle]of the Coalition of the South Pacific[/subtitle]
 
-[p]The Assembly is the legislature of the Coalition of the South Pacific. It holds the supreme legislative authority in the region and anything else that lies under the Coalition government's jurisdiction. The Assembly's main job is making laws that govern the region, but it is also responsible for electing or recalling government officials, approving appointments and decisions from other branches of the government, and more. The Assembly is comprised of legislators who join voluntarily. The Chair of the Assembly (CoA) (currently {{ gov_officials.coa|nation }}) is in charge of keeping the Assembly in order and dealing with paperwork. Joining the Assembly is one of the easiest ways to get involved in our region's politics and learn how to make laws![/p]
+[p]The Assembly is the legislature of the Coalition of the South Pacific. It holds the supreme legislative authority in the region and anything else that lies under the Coalition government's jurisdiction. The Assembly's main job is making laws that govern the region, but it is also responsible for electing or recalling government officials, approving appointments and decisions from other branches of the government, and more. The Assembly is comprised of legislators who join voluntarily. The Chair of the Assembly (CoA) (currently {{ gov_officials.coa|info }}) is in charge of keeping the Assembly in order and dealing with paperwork. Joining the Assembly is one of the easiest ways to get involved in our region's politics and learn how to make laws![/p]
 
 [h1]Joining the Assembly[/h1]
 

@@ -55,7 +55,7 @@
 
 [h2]The Chair of Assembly[/h2]
 
-[p]Most of the moderation and paperwork matters in the Assembly is handled by the [url=coa]Chair of Assembly[/url], who is elected by legislators. {{ gov_officials.coa|nation }} is our current Chair.[/p]
+[p]Most of the moderation and paperwork matters in the Assembly is handled by the [url=coa]Chair of Assembly[/url], who is elected by legislators. {{ gov_officials.coa|info }} is our current Chair.[/p]
 
 [h2]The Code of Conduct[/h2]
 

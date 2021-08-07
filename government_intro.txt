@@ -18,15 +18,15 @@
 [hr]
 [p][em]Government:[/em] Unitary parliamentary republic[/p]
 [list]
-[*][em]Delegate:[/em] {{ gov_officials.delegate|nation }}
-[*][em]Prime Minister:[/em] {{ gov_officials.pm|nation }}
-[*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|nation }}
-[*][em]Minister of Defence:[/em] {{ gov_officials.mod|nation }}
-[*][em]Minister of Culture:[/em] {{ gov_officials.moc|nation }}
-[*][em]Minister of Media:[/em] {{ gov_officials.mom|nation }}
-[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|nation }}
-[*][em]Chair of the Assembly:[/em] {{ gov_officials.coa|nation }}
-[*][em]Chief Justice:[/em] {{ gov_officials.hc_chief_justice|nation }}
+[*][em]Delegate:[/em] {{ gov_officials.delegate|info }}
+[*][em]Prime Minister:[/em] {{ gov_officials.pm|info }}
+[*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|info }}
+[*][em]Minister of Defence:[/em] {{ gov_officials.mod|info }}
+[*][em]Minister of Culture:[/em] {{ gov_officials.moc|info }}
+[*][em]Minister of Media:[/em] {{ gov_officials.mom|info }}
+[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|info }}
+[*][em]Chair of the Assembly:[/em] {{ gov_officials.coa|info }}
+[*][em]Chief Justice:[/em] {{ gov_officials.hc_chief_justice|info }}
 [*][em]Local Councillors:[/em] {{ gov_officials.local_council|gen_list }}
 [/list]
 [hr]

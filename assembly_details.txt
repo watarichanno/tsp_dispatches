@@ -165,7 +165,7 @@
 
 [h1]The Chair of Assembly[/h1]
 
-[p]The Chair of Assembly (CoA) (currently {{ gov_officials.coa|nation }}) is the official who maintains order and handles paperwork in the Assembly. The CoA can appoint any legislator as deputies to help. The Chair is elected by legislators eight days before the term of the current Chair ends (a Chair term usually lasts for four months) via Approval Voting. The CoA has the power to conduct votes, moderate, update the law archive, order the suspension of disruptive legislators, etc.[/p]
+[p]The Chair of Assembly (CoA) (currently {{ gov_officials.coa|info }}) is the official who maintains order and handles paperwork in the Assembly. The CoA can appoint any legislator as deputies to help. The Chair is elected by legislators eight days before the term of the current Chair ends (a Chair term usually lasts for four months) via Approval Voting. The CoA has the power to conduct votes, moderate, update the law archive, order the suspension of disruptive legislators, etc.[/p]
 
 [p]For more information on the CoA, visit [url=coa]this dispatch[/url].[/p]
 

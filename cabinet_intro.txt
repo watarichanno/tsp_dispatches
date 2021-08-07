@@ -19,19 +19,19 @@
 
 [center][p][em]The Cabinet[/em][/p][/center]
 
-[list][*][em]Prime Minister:[/em] {{ gov_officials.pm|nation }}
-[*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|nation }}
-[*][em]Minister of Defense:[/em] {{ gov_officials.mod|nation }}
-[*][em]Minister of Culture:[/em] {{ gov_officials.moc|nation }}
-[*][em]Minister of Media:[/em] {{ gov_officials.mom|nation }}
-[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|nation }}
+[list][*][em]Prime Minister:[/em] {{ gov_officials.pm|info }}
+[*][em]Minister of Foreign Affairs:[/em] {{ gov_officials.mofa|info }}
+[*][em]Minister of Defense:[/em] {{ gov_officials.mod|info }}
+[*][em]Minister of Culture:[/em] {{ gov_officials.moc|info }}
+[*][em]Minister of Media:[/em] {{ gov_officials.mom|info }}
+[*][em]Minister of Engagement:[/em] {{ gov_officials.moe|info }}
 [/list]
 
 [hr]
 
 [center][p][em]Independent institutions[/em][/p][/center]
 [list]
-[*][em]Delegate:[/em] {{ gov_officials.delegate|nation }}
+[*][em]Delegate:[/em] {{ gov_officials.delegate|info }}
 [*][em]Councilors on Regional Security:[/em] {{ gov_officials.crs|gen_list }}
 [*][em]Legislator Committee members:[/em] {{ gov_officials.legcomm|gen_list }}
 [/list]
