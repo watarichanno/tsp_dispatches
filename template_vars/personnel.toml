@@ -1,21 +1,20 @@
 [gov_officials]
 delegate = 'Amerion'
-pm = 'Witchcraft and Sorcery'
+pm = 'W&S'
 mofa = 'Qvait'
 mod = 'HumanSanity'
-moc = 'Holy Free'
+moc = 'Tin'
 mom = 'Moonfungus'
-moe = 'Lucabaduka'
-owl_sec = 'Tepertopia'
-hc_chief_justice = 'Kringalia'
-hc_justices = ['Kringalia', 'Belschaft', 'Ebonhand', 'Roavin']
+moe = 'Luca'
+owl_sec = 'Anjo'
+hc_chief_justice = 'Kringle'
+hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Purple Hyacinth'
-election_commissioner = 'Erinor'
-local_council = ['PenguinPies', 'Erinor', 'Murelia']
-crs = ['Sandaoguo', 'Farengeto', 'Kringalia', 'Erinor', 'Tsunamy', 'Aumeltopia', 'Amerion', 'Qvait', 'PenguinPies']
-legcomm = ['Roavin', 'Witchcraft and Sorcery', 'Nakarisaune']
-general_corps = ['Roavin', 'Nakarisaune']
-cabinet_advisors = ['Nakarisaune']
+local_council = ['Penguin', 'Seraph', 'Murelia']
+crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Seraph', 'Tsunamy', 'Somyrion', 'Amerion', 'Qvait', 'Penguin']
+legcomm = ['Roavin', 'W&S', 'Nakari']
+general_corps = ['Roavin', 'Nakari']
+cabinet_advisors = ['Nakari']
 
 [personnel_info]
 [personnel_info.Amerion]
