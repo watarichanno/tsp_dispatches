@@ -5,7 +5,8 @@
 {% endblock header %}
 
 {% block outer_body %}
-[box]{% block body %}{% endblock body %}[/box]
+[box]{% block body %}{% endblock body %}
+[size=90]If you notice any issue on this dispatch, please telegram [nation=noflag]Coalition of the South Pacific[/nation] or ping @MoE:Dispatch Team on the region's Discord server[/size].[/box]
 {% endblock outer_body %}
 
 {% block footer %}
