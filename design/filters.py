@@ -31,30 +31,24 @@ def region(name):
     return '[region]{}[/region]'.format(name)
 
 
-def info(personnel, print_format='{nation} ({discord_handle})'):
-    return print_format.format(nation=nation(personnel.get('nation', '')),
-                               discord_handle=personnel.get('discord_handle', 'No Discord'),
-                               name=personnel['name'])
-
-
-
-def gen_list(input_list, delimiter=', ', start_tag='[nation]', end_tag='[/nation]'):
-    """Generate a text list with each item separated by a delimiter.
-    E.g [nation]nation1[/nation], [nation]nation2[/nation], [nation]nation3[/nation]
+def info(personnel, print_format='{nation} ({discord_handle})', print_format_no_discord='{nation}'):
+    """Output information of a government official.
 
     Args:
-        input_list (list): List.
-        delimiter (str, optional): Delimiter. Defaults to ', '.
-        start_tag (str, optional): Start tag to format an item. Defaults to '[nation]'.
-        end_tag (str, optional): End tag to format an item. Defaults to '[/nation].
+        personnel (dict): Government official info defined in template variables
+        print_format (str, optional): Output format. Defaults to '{nation} ({discord_handle})'.
 
     Returns:
-        str: A text list.
+        str: Formatted output
     """
 
-    result = delimiter.join(["{}{}{}".format(start_tag, item, end_tag) for item in input_list])
+    if 'discord_handle' not in personnel:
+        return print_format_no_discord.format(nation=nation(personnel.get('nation', '')),
+                                              name=personnel['name'])
 
-    return result
+    return print_format.format(nation=nation(personnel.get('nation', '')),
+                               discord_handle=personnel.get('discord_handle'),
+                               name=personnel['name'])
 
 
 def gen_table_tags(input_list, column_num=5, start_tag='[nation]', end_tag='[/nation]'):

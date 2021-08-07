@@ -1,25 +1,38 @@
-from nsdu.templates.filters import filters
+from tsp_dispatches.design import filters
 
 
 class TestNation():
-    def test_default(self):
+    def test_with_regular_string(self):
         assert filters.nation('test') == '[nation]test[/nation]'
 
-    def test_with_modifier(self):
-        assert filters.nation('test', 'noflag') == '[nation=noflag]test[/nation]'
+    def test_with_dict_variable(self):
+        assert filters.nation({'nation': 'cool'}) == '[nation]cool[/nation]'
 
 
 class TestRegion():
     def test_default(self):
         assert filters.region('test') == '[region]test[/region]'
 
+class TestInfo():
+    def test_default_format_with_discord_handle(self):
+        r = filters.info({'name': 'foo', 'nation': 'footopia', 'discord_handle': 'Foo#1234'})
+        assert r == '[nation]footopia[/nation] (Foo#1234)'
 
-class TestGenList():
-    def test_with_default_tag(self):
-        assert filters.gen_list(['1', '2', '3']) == '[nation]1[/nation], [nation]2[/nation], [nation]3[/nation]'
+    def test_default_format_with_no_discord_handle(self):
+        r = filters.info({'name': 'foo', 'nation': 'footopia'})
+        assert r == '[nation]footopia[/nation]'
 
-    def test_with_custom_tag(self):
-        assert filters.gen_list(['1', '2', '3'], start_tag='[a]', end_tag='[/a]') == '[a]1[/a], [a]2[/a], [a]3[/a]'
+    def test_custom_format_with_discord_handle(self):
+        r = filters.info({'name': 'foo', 'nation': 'footopia', 'discord_handle': 'Foo#1234'},
+                         print_format='{name} {nation} {discord_handle}',
+                         print_format_no_discord='{name} {nation}')
+        assert r == 'foo [nation]footopia[/nation] Foo#1234'
+
+    def test_custom_format_with_no_discord_handle(self):
+        r = filters.info({'name': 'foo', 'nation': 'footopia'},
+                         print_format='{name} {nation} {discord_handle}',
+                         print_format_no_discord='{name} {nation}')
+        assert r == 'foo [nation]footopia[/nation]'
 
 
 class TestGenTableList():

@@ -3,10 +3,9 @@ import os
 import pytest
 import toml
 
-from nsdu.templates.bbcode import complex_formatters
+from tsp_dispatches.design.complex_bb_formatters import complex_bb_formatters
 
-
-STD_URL = '[url=https://www.nationstates.net/page=dispatch/id={}][color=#ff9900]{}[/color][/url]'
+STD_URL = '[url=https://www.nationstates.net/page=dispatch/id={}][url_content]{}[/url_content][/url]'
 
 
 class TestURL():
@@ -16,23 +15,23 @@ class TestURL():
                'urls': {'efg': 'https://www.wikipedia.org'}}
 
     def test_url_with_full_url(self, context):
-        ins = complex_formatters.Url()
+        ins = complex_bb_formatters.Url()
 
         r = ins.format('url', 'foo', options={'url': 'https://www.google.com'},
                        parent=None, context=context)
 
-        assert r == '[url=https://www.google.com][color=#ff9900]foo[/color][/url]'
+        assert r == '[url=https://www.google.com][url_content]foo[/url_content][/url]'
 
     def test_url_with_special_url(self, context):
-        ins = complex_formatters.Url()
+        ins = complex_bb_formatters.Url()
 
         r = ins.format('url', 'foo', options={'url': 'efg'},
                        parent=None, context=context)
 
-        assert r == '[url=https://www.wikipedia.org][color=#ff9900]foo[/color][/url]'
+        assert r == '[url=https://www.wikipedia.org][url_content]foo[/url_content][/url]'
 
     def test_url_with_special_dispatch_url(self, context):
-        ins = complex_formatters.Url()
+        ins = complex_bb_formatters.Url()
 
         r = ins.format('url', 'foo', options={'url': 'abc'},
                        parent=None, context=context)
@@ -40,15 +39,15 @@ class TestURL():
         assert r == STD_URL.format('1234', 'foo')
 
     def test_url_with_non_existent_special_url(self, context):
-        ins = complex_formatters.Url()
+        ins = complex_bb_formatters.Url()
 
         r = ins.format('url', 'foo', options={'url': 'bar'},
                        parent=None, context=context)
 
-        assert r == '[url=bar][color=#ff9900]foo[/color][/url]'
+        assert r == '[url=bar][url_content]foo[/url_content][/url]'
 
     def test_url_with_special_dispatch_url_contains_anchor(self, context):
-        ins = complex_formatters.Url()
+        ins = complex_bb_formatters.Url()
 
         r = ins.format('url', 'foo', options={'url': 'abc#cool'},
                        parent=None, context=context)
@@ -58,7 +57,7 @@ class TestURL():
 
 class TestRef():
     def test_ref_with_list_element(self):
-        ins = complex_formatters.Ref()
+        ins = complex_bb_formatters.Ref()
 
         r = ins.format('ref', '[*]foo[*]bar', options={},
                        parent=None, context=None)
@@ -67,7 +66,7 @@ class TestRef():
                      '[/color][/size][/font][list][*]foo[*]bar[/list]')
 
     def test_ref_without_list_element(self):
-        ins = complex_formatters.Ref()
+        ins = complex_bb_formatters.Ref()
 
         r = ins.format('ref', 'foo', options={},
                        parent=None, context=None)
@@ -88,13 +87,13 @@ class TestLaw():
         context = {'dispatch_info': {'law_1': {'id': 1234},
                                      'law_2': {'id': 5678},
                                      'law_3': {'id': 9012}}}
-        ins = complex_formatters.Law
+        ins = complex_bb_formatters.Law
         ins.config = {'laws_config_path': 'test.toml',
                       'citation_pattern': ('(Section ((?P<sec>\d+), ))?(((\d+), )+)'
                                            '?(Article (?P<art>\w+) of )?(?P<law>.+)'),
                       'article_format': 'a{}',
                       'section_format': '_s{}'}
-        ins = complex_formatters.Law()
+        ins = complex_bb_formatters.Law()
 
         yield ins, context
 
