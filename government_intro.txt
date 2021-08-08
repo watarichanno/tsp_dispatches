@@ -27,7 +27,7 @@
 [*][em]Minister of Engagement:[/em] {{ gov_officials.moe|info }}
 [*][em]Chair of the Assembly:[/em] {{ gov_officials.coa|info }}
 [*][em]Chief Justice:[/em] {{ gov_officials.hc_chief_justice|info }}
-[*][em]Local Councillors:[/em] {{ gov_officials.local_council|gen_list }}
+[*][em]Local Councillors:[/em] {{ gov_officials.local_council|gen_personnel_list }}
 [/list]
 [hr]
 [p][em]Legislature:[/em] The Assembly of the South Pacific[/p]
@@ -40,7 +40,7 @@
 
 [p]If you are an absolute beginner, we recommend you start by reading [url=politics_guide]this handy guide[/url] on our politics.[/p]
 
-[h3]External links[/h3]
+[h3]Learn more about each government body:[/h3]
 [list]
 [*][url=assembly_intro]The Assembly[/url]
 [*][url=cabinet_intro]The Cabinet[/url]

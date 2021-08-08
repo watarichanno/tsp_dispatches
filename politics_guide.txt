@@ -23,7 +23,7 @@
 
 [p]The [url=court_intro]High Court[/url] is our sole and highest judicial authority. They are tasked with conducting criminal trials, resolving disputes, interpreting laws, and striking them down if they violate our constitutional laws such as the Charter. The High Court consists of Associate Justices and is led by the Chief Justice (Incumbent: {{ gov_officials.hc_chief_justice|nation }})[/p]
 
-[p]On-site the government has the position of [url=delegate_intro]the Delegate[/url] (Incumbent: {{ gov_officials.delegate|nation }}), who serves as our head of state and as an advisor to the Cabinet, as well as [url=lc_intro]the Local Council[/url] (Incumbent: {{ gov_officials.local_council|gen_list }}), who serve to moderate the on-site community and represent their opinions in the Assembly.[/p]
+[p]On-site the government has the position of [url=delegate_intro]the Delegate[/url] (Incumbent: {{ gov_officials.delegate|nation }}), who serves as our head of state and as an advisor to the Cabinet, as well as [url=lc_intro]the Local Council[/url] (Incumbent: {{ gov_officials.local_council|gen_personnel_list(print_format='{nation}') }}), who serve to moderate the on-site community and represent their opinions in the Assembly.[/p]
 
 [p]Aside from these, we also have [url=indie_intro]independent institutions[/url] not tying with leadership from any branch of the government such as the [url=crs_intro]Council on Regional Security[/url] (CRS) which oversees our security and intelligence matters, [url=legcomm]the Legislator Committee[/url] (LegComm) which handles legislatorship, [url=election_commission]the Election Commission[/url] (EC) which runs elections.[/p]
 

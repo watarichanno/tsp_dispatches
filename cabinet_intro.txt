@@ -32,14 +32,14 @@
 [center][p][em]Independent institutions[/em][/p][/center]
 [list]
 [*][em]Delegate:[/em] {{ gov_officials.delegate|info }}
-[*][em]Councilors on Regional Security:[/em] {{ gov_officials.crs|gen_list }}
-[*][em]Legislator Committee members:[/em] {{ gov_officials.legcomm|gen_list }}
+[*][em]Councilors on Regional Security:[/em] [url=crs_intro]See here[/url]
+[*][em]Legislator Committee members:[/em] [url=legcomm]See here[/url]
 [/list]
 [hr]
 [center][p][em]Advisors:[/em][/p][/center]
 [list]
-[*][em]Cabinet:[/em] {{ gov_officials.cabinet_advisors|gen_list }}
-[*][em]General Corps:[/em] {{ gov_officials.general_corps|gen_list }}
+[*][em]Cabinet:[/em] {{ gov_officials.cabinet_advisors|gen_personnel_list }}
+[*][em]General Corps:[/em] {{ gov_officials.general_corps|gen_personnel_list }}
 [/list]
 [hr]
 [/sidebar]
