@@ -36,6 +36,15 @@ class Url():
         return '[url={}][url_content]{}[/url_content][/url]'.format(url, value)
 
 
+@BBCode.register('raw_url')
+class RawUrl():
+    def format(self, tag_name, value, options, parent, context):
+        url = utils.get_url(options['raw_url'],
+                            context['urls'],
+                            context['dispatch_info'])
+        return '[url={}]{}[/url]'.format(url, value)
+
+
 @BBCode.register('img')
 class Img():
     def format(self, tag_name, value, options, parent, context):
@@ -69,19 +78,10 @@ class Th():
         return '[td={}][th_content]{}[/th_content][/td]'.format(options['th'], value)
 
 
-@BBCode.register('*')
+@BBCode.register('*', render_embedded=True, newline_closes=True, same_tag_closes=True)
 class ListElem():
     def format(self, tag_name, value, options, parent, context):
         return '[*][*_content]{}[/*_content]'.format(value)
-
-
-@BBCode.register('ref')
-class Ref():
-    def format(self, tag_name, value, options, parent, context):
-        if '[*]' in value:
-            return '([*][p][em]References:[/em] {}[/p]'.format(value)
-        else:
-            return '[p][em]References:[/em] {}[/p]'.format(value)
 
 
 @BBCode.register('law')

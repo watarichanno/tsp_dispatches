@@ -35,11 +35,46 @@ class TestInfo():
         assert r == 'foo [nation]footopia[/nation]'
 
 
-class TestGenTableList():
+class TestGenList():
+    def test_default(self):
+        assert filters.gen_list(['a', 'b', 'c']) == 'a, b, c'
+
+    def test_with_custom_delimiter(self):
+        assert filters.gen_list(['a', 'b', 'c'], delimiter='. ') == 'a. b. c'
+
+    def test_with_custom_tag(self):
+        expected = '[n]a[/n], [n]b[/n], [n]c[/n]'
+        assert filters.gen_list(['a', 'b', 'c'], start_tag='[n]', end_tag='[/n]') == expected
+
+
+class TestGenPersonnelList():
+    def test_default(self):
+        personnel = [{'name': 'foo', 'nation': 'footopia', 'discord_handle': 'Foo#1234'},
+                     {'name': 'bar', 'nation': 'bartopia', 'discord_handle': 'Bar#4321'}]
+        expected = '[nation]footopia[/nation] (Foo#1234), [nation]bartopia[/nation] (Bar#4321)'
+        assert filters.gen_personnel_list(personnel) == expected
+
+    def test_with_custom_delimiter(self):
+        personnel = [{'name': 'foo', 'nation': 'footopia', 'discord_handle': 'Foo#1234'},
+                     {'name': 'bar', 'nation': 'bartopia', 'discord_handle': 'Bar#4321'}]
+        expected = '[nation]footopia[/nation] (Foo#1234). [nation]bartopia[/nation] (Bar#4321)'
+        assert filters.gen_personnel_list(personnel, delimiter='. ') == expected
+
+
+class TestGenTableTags():
     def test_with_default_tag_and_column_num(self):
-        expected = '[tr][td][nation]1[/nation][/td][td][nation]2[/nation][/td][td][nation]3[/nation][/td][/tr]'
+        expected = '[tr][td]1[/td][td]2[/td][td]3[/td][/tr]'
         assert filters.gen_table_tags(['1', '2', '3']) == expected
 
     def test_with_custom_tag_and_column_num(self):
         expected = '[tr][td][a]1[/a][/td][td][a]2[/a][/td][/tr][tr][td][a]3[/a][/td][/tr]'
         assert filters.gen_table_tags(['1', '2', '3'], column_num=2, start_tag='[a]', end_tag='[/a]') == expected
+
+
+class TestGenTableTagsPersonnel():
+    def test_default(self):
+        personnel = [{'name': 'foo', 'nation': 'footopia', 'discord_handle': 'Foo#1234'},
+                     {'name': 'bar', 'nation': 'bartopia', 'discord_handle': 'Bar#4321'}]
+        expected = ('[tr][td][nation]footopia[/nation] (Foo#1234)[/td]'
+                    '[td][nation]bartopia[/nation] (Bar#4321)[/td][/tr]')
+        assert filters.gen_table_tags_personnel(personnel) == expected

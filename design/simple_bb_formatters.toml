@@ -38,7 +38,7 @@ format_string = '[font=Avenir, Segoe UI, sans-serif][size=130][color=#109aed][b]
 format_string = '[background-block=#1089e6][hr][center][font=Avenir, Segoe UI, sans-serif][size=140][color=#ffffff][b]%(value)s[/b][/color][/size][/font][/center][hr][/background-block]'
 
 ['*_content']
-format_string = '[*][font=Avenir, Segoe UI, sans-serif][size=120]%(value)s[/size][/font]'
+format_string = '[font=Avenir, Segoe UI, sans-serif][size=120]%(value)s[/size][/font]'
 render_embedded = true
 newline_closes = true
 same_tag_closes = true
