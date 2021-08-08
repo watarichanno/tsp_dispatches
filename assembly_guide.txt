@@ -1,5 +1,5 @@
 {% import 'macros/header_macros' as headers %}
-{% import 'macros/sign' as sign %}
+{% import 'macros/tools' as tools %}
 
 {% extends 'layout/assembly' %}
 
@@ -8,7 +8,7 @@
 [title]Beginner Guide to the Assembly[/title]
 [subtitle]of the Coalition of the South Pacific[/subtitle]
 
-{{ sign.note("This guide is long. You should read [url=assembly_procedures]this[/url] if you don't like the hand-holding approach of this guide", box=true) }}
+{{ tools.note("This guide is long. You should read [url=assembly_procedures]this[/url] if you don't like the hand-holding approach of this guide", box=true) }}
 
 [box][anchor=intro][/anchor]
 {{ headers.gen_sub_header(urls={'Introduction': '#intro_intro',
