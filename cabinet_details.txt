@@ -61,7 +61,7 @@
 
 [h2]Ministry of Defense – MoD[/h2]
 
-[p]The Ministry of Defense operates our regional military, the South Pacific Special Forces (SPSF), and is responsible for the defense of the region, building military activity, conducting military operations, and running military intelligence. It consists of ranked members such as trainees, soldiers, officers, commanders, etc. The daily operations of the SPSF are managed by the General Corps ({{ gov_officials.general_corps|gen_list }}) and the Minister of Defense (Incumbent: {{ gov_officials.mod|info }}).[/p]
+[p]The Ministry of Defense operates our regional military, the South Pacific Special Forces (SPSF), and is responsible for the defense of the region, building military activity, conducting military operations, and running military intelligence. It consists of ranked members such as trainees, soldiers, officers, commanders, etc. The daily operations of the SPSF are managed by the General Corps ({{ gov_officials.general_corps|gen_personnel_list }}) and the Minister of Defense (Incumbent: {{ gov_officials.mod|info }}).[/p]
 
 [p]For more information on the ministry, visit [url=f_spsf]this subforum[/url].[/p]
 
@@ -92,7 +92,7 @@
 
 [p]Advisors and deputies can work as individuals, or be grouped into institutions like the former Ministry of Regional Affairs' Advisory Council, or the now-defunct MoFA Team.[/p]
 
-[ref][law]Section 15, Article IV of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 15, Article IV of the Charter of the South Pacific[/law][/p]
 
 [h2]Appoint positions in other institutions[/h2]
 
@@ -104,10 +104,10 @@
 
 [p]For more information about the High Court, visit [url=court_intro]this dispatch[/url].[/p]
 
-[ref]
-[*][law]Article I of the Judicial Act[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Article I of the Judicial Act[/law]
 [*][law]Article II of the Judicial Act[/law]
-[/ref]
+[/list]
 
 [h2]Appoint members of the Legislator Committee[/h2]
 
@@ -120,7 +120,7 @@
 
 [p]For more information about the Legislator Committee, visit [url=legcomm]this dispatch[/url].[/p]
 
-[ref][law]Article I of the Legislator Committee Act[/law][/ref]
+[p][em]References:[/em] [law]Article I of the Legislator Committee Act[/law][/p]
 
 [h2]Nominate members of the Council on Regional Security[/h2]
 
@@ -128,7 +128,7 @@
 
 [p]For more information about the Council on Regional Security, visit [url=crs_intro]this dispatch[/url].[/p]
 
-[ref][law]Article IX of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Article IX of the Charter of the South Pacific[/law][/p]
 
 [h1]Issue Executive Orders (EO)[/h1]
 
@@ -138,7 +138,7 @@
 
 [p]For more information about Executive Orders, visit [url=cabinet_eo]this dispatch[/url].[/p]
 
-[ref][law]Section 13, 14, Article VI of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 13, 14, Article VI of the Charter of the South Pacific[/law][/p]
 
 [h1]High Court's invalidation power[/h1]
 
@@ -146,7 +146,7 @@
 
 [p]For more information on the High Court, visit [url=court_intro]this dispatch[/url].[/p]
 
-[ref][law]Section 4, Article VIII of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 4, Article VIII of the Charter of the South Pacific[/law][/p]
 
 
 [h1]Elections and recalls[/h1]
@@ -159,30 +159,30 @@
 
 [p]For more information about Cabinet elections along with how to vote and run in one, visit [url=cabinet_elections]this dispatch[/url].[/p]
 
-[ref]
-[*][law]Article 4 of the Elections Act[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Article 4 of the Elections Act[/law]
 [*][law]Section 5, Article VI of the Charter of the South Pacific[/law]
 [*][law]Section 6, Article VI of the Charter of the South Pacific[/law]
-[/ref]
+[/list]
 
 [h2]Recalls[/h2]
 
 [p]Any member of the Cabinet can individually be recalled by the Assembly with a Recall Resolution for dereliction of duty, abuse of authority, or violations of the law. Recall Resolution against a Cabinet member can be introduced by any legislator. The Resolution will be debated for at least three days. If the Resolution then receives a motion and a second, it will be put to a vote. In order for the Resolution to pass, there needs to be a three-fifths majority of those voting in favor. Immediately after the resolution is passed, the Cabinet member is removed from office. Read the [url=#vacancies]Vacancies section[/url] if you would like to know who will replace the open spot when a Cabinet member is removed.[/p]
 
-[ref][law]Section 1, Article XI of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 1, Article XI of the Charter of the South Pacific[/law][/p]
 
 
 [h2]Motion of No Confidence (MoNC)[/h2]
 
 [p]All Cabinet members can be recalled at the same time by the Assembly via a Motion of No Confidence (MoNC). Like Recalls, a MoNC can be initiated by any legislator and will be debated for at least three days after being introduced. If a MoNC receives a motion and a second, it will be put to a vote. The vote needs a three-fifths majority of those voting in order to pass. If it passes, a special Cabinet election will be triggered immediately in order to fill the spots left open by the removed Cabinet. A MoNC is usually initiated if everyone has lost faith in the effectiveness and activities of the Executive branch of the government.[/p]
 
-[ref][law]Section 2, Article XI of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 2, Article XI of the Charter of the South Pacific[/law][/p]
 [anchor=vacancies][/anchor]
 [h2]Vacancies[/h2]
 
 [p]If a Cabinet office is vacant (e.g. because the holder has resigned), a special election for that office will start if there is more than half of the term remaining; if less than half of the term remains or the office is vacant because nobody ran in its election, the Cabinet can appoint any legislator as a replacement until the next regularly scheduled election.[/p]
 
-[ref][law]Article 6 of the Elections Act[/law][/ref]
+[p][em]References:[/em] [law]Article 6 of the Elections Act[/law][/p]
 
 [h1]Independent institutions[/h1]
 

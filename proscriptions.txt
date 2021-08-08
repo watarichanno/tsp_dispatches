@@ -20,7 +20,7 @@
 [*][em]Full Proscription:[/em] Comprises a Regional Proscription as well as a ban on access to off-site resources of the Coalition such as our [url=forum]forum[/url] and [url=discord]Discord server[/url].
 [/list]
 
-[ref][law]Article 2 of the Proscription Act[/law][/ref]
+[p][em]References:[/em] [law]Article 2 of the Proscription Act[/law][/p]
 
 
 [h1]Issuing/revoking a Proscription[/h1]
@@ -36,7 +36,7 @@
 
 [p]The issuing authority can revoke a Proscription if they want. The issuing authority must issue a report on why the Proscription isn't necessary anymore to present to the Assembly.[/p]
 
-[ref][law]Article 3 of the Proscription Act[/law][/ref]
+[p][em]References:[/em] [law]Article 3 of the Proscription Act[/law][/p]
 
 [h1]Reviewing a Proscription[/h1]
 
@@ -47,7 +47,7 @@
 [*][em]Membership review:[/em] For a Proscription on regions/organizations, review whether an individual is a member of the proscribed regions/organizations.
 [/list]
 
-[ref][law]Article 4 of the Proscription Act[/law][/ref]
+[p][em]References:[/em] [law]Article 4 of the Proscription Act[/law][/p]
 
 [p]Normal [url=court_procedure]judicial procedures[/url] are used, just like any other case.[/p]
 
@@ -57,6 +57,6 @@
 
 [p]The Assembly can require the issuing authority to review a Proscription by passing a resolution with a simple majority vote. Reviews of Proscriptions on regions/organizations is only possible with this method.[/p]
 
-[ref][law]Section 4, Article 3 of the Proscription Act[/law][/ref]
+[p][em]References:[/em] [law]Section 4, Article 3 of the Proscription Act[/law][/p]
 
 {% endblock body %}

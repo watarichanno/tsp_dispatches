@@ -13,7 +13,7 @@
 
 [p]The CRS is composed of experienced and trustworthy members of the region. Currently, they are:[/p]
 [table=noheader][tt]Number of CRS nations: {{ gov_officials.crs|count }}[/tt]
-{{ gov_officials.crs|gen_table_tags }}
+{{ gov_officials.crs|gen_table_tags_personnel }}
 [/table]
 
 [h1]Duties and powers of the CRS[/h1]
@@ -29,7 +29,7 @@
 [*]Appoint an Intelligence Coordinator among themselves to handle intelligence operations.
 [/list]
 
-[ref][law]Section 9, 10, 11, 12, 13, Article IX of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 9, 10, 11, 12, 13, Article IX of the Charter of the South Pacific[/law][/p]
 
 
 [h1]Requirements to become a member of the CRS[/h1]
@@ -43,7 +43,7 @@
 
 [p]The specific influence score, ranking, and endorsement numbers may be updated by the CRS, with majority approval by [url=assembly_intro]the Assembly[/url] (Our legislature), to reflect changes to the disbursement of influence in the region or updates to the game.[/p]
 
-[ref][law]Section 2, Article IX of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 2, Article IX of the Charter of the South Pacific[/law][/p]
 
 
 [h1]How do I join the CRS?[/h1]
@@ -56,7 +56,7 @@
 
 [p]Alternatively, the Delegate and [url=cabinet_intro]the Cabinet[/url] can jointly nominate you if they want you. The nomination is stopped if two-thirds of the CRS members objected. If the nomination moves pass the CRS with no objection then it will be put on a simple majority approval vote by the Assembly like above.[/p]
 
-[ref][law]Section 3, 4, 5, Article IX of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 3, 4, 5, Article IX of the Charter of the South Pacific[/law][/p]
 
 [h1]Can a CRS member be removed?[/h1]
 
@@ -64,9 +64,10 @@
 
 [p]Also, like any other government official, a CRS member can be recalled by the Assembly with a resolution which requires a 3/5 supermajority to pass.[/p]
 
-[ref][*][law]Section 6, 7, Article IX of the Charter of the South Pacific[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Section 6, 7, Article IX of the Charter of the South Pacific[/law]
 [*][law]Section 1, Article XI of the Charter of the South Pacific[/law]
-[/ref]
+[/list]
 
 [h1]How does the CRS perform its duties?[/h1]
 

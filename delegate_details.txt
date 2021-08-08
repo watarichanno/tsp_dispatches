@@ -1,4 +1,4 @@
-{% import 'macros/sign.txt' as sign %}
+{% import 'macros/tools.txt' as tools %}
 
 {% extends 'layout/delegate.txt' %}
 
@@ -7,7 +7,7 @@
 [title]Details on the Workings of the Delegate[/title]
 [subtitle]of the Coalition of the South Pacific[/subtitle]
 
-{{ sign.note("This dispatch uses the word 'Regional Officers', which are different from government officials. Regional Officers (RO) are nations appointed by the Delegate with some administrative powers, such as the ability to change the World Factbook Entry (WFE), flag, moderate the Message Board (RMB),... While ROs are usually the same people as government officials, the two concepts are totally different: ROs are the equivalent of forum moderators and are a feature of NationStates, while government officials are in-character positions created by our laws. Our laws don't dictate how ROs work.") }}
+{{ tools.note("This dispatch uses the word 'Regional Officers', which are different from government officials. Regional Officers (RO) are nations appointed by the Delegate with some administrative powers, such as the ability to change the World Factbook Entry (WFE), flag, moderate the Message Board (RMB),... While ROs are usually the same people as government officials, the two concepts are totally different: ROs are the equivalent of forum moderators and are a feature of NationStates, while government officials are in-character positions created by our laws. Our laws don't dictate how ROs work.") }}
 
 [h1]Summary[/h1]
 
@@ -89,22 +89,22 @@
 
 [p]For more information about the Delegate elections, visit [url=delegate_elections]this dispatch[/url].[/p]
 
-[ref]
-[*][law]Article 3 of the Elections Act[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Article 3 of the Elections Act[/law]
 [*][law]Section 4, Article VII of the Charter of the South Pacific[/law]
 [*][law]Section 5, Article VII of the Charter of the South Pacific[/law]
-[/ref]
+[/list]
 
 [h1]Recalls[/h1]
 
 [p]The Delegate can be recalled by the Assembly through a Recall Resolution for dereliction of duty, abuse of authority, or violations of the law. Any legislator can initiate a Recall Resolution against the Delegate. The Resolution will be debated for three days. If the Resolution receives a motion and a second, it will be put to vote. In order for the Resolution to pass, there needs to be a 3/5 supermajority of those voting. Immediately after the Recall Resolution is passed, the Delegate will be removed from office.[/p]
 
-[ref][law]Section 1, Article XI of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 1, Article XI of the Charter of the South Pacific[/law][/p]
 
 [h1]Vacancies[/h1]
 
 [p]If the current Delegate is vacant (because of resignation, recall,...) then the next nation on the succession order (jointly established by the [url=crs_intro]Council on Regional Security[/url], the Prime Minister, and the current Delegate) will become the Delegate.[/p]
 
-[ref][law]Section 12, Article IX of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 12, Article IX of the Charter of the South Pacific[/law][/p]
 
 {% endblock body %}

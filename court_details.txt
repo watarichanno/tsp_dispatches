@@ -25,11 +25,11 @@
 
 [h1]Composition[/h1]
 
-[p]The High Court is comprised of Associate Justices (Incumbent: {{ gov_officials.hc_justices|gen_list }}) who will handle cases either individually or collectively. In many occasions, a typical case has more than one justice. The Chief Justice ({{ gov_officials.hc_chief_justice|info }}) is the head of the team, organizes various matters in the Court, and assigns cases to Associate Justices. A Chief Justice is chosen by their fellow Associate Justices. If the Chief Justice is vacant, Associate Justices will collectively operate the Court until a new Chief Justice is chosen.[/p]
+[p]The High Court is comprised of Associate Justices (Incumbent: {{ gov_officials.hc_justices|gen_personnel_list }}) who will handle cases either individually or collectively. In many occasions, a typical case has more than one justice. The Chief Justice ({{ gov_officials.hc_chief_justice|info }}) is the head of the team, organizes various matters in the Court, and assigns cases to Associate Justices. A Chief Justice is chosen by their fellow Associate Justices. If the Chief Justice is vacant, Associate Justices will collectively operate the Court until a new Chief Justice is chosen.[/p]
 
 [p]Both Associate Justices and Chief Justice have no term. They will serve until they retire or are recalled.[/p]
 
-[ref][law]Section 1, 2, 3, Article I of the Judicial Act[/law][/ref]
+[p][em]References:[/em] [law]Section 1, 2, 3, Article I of the Judicial Act[/law][/p]
 
 [h1]Powers[/h1]
 
@@ -37,9 +37,10 @@
 
 [p]The High Court is the only institution in the Coalition which has the right to conduct trials on criminal cases happened within the jurisdiction of the Coalition government. The procedure for criminal trials are the same for any other types of cases (Read below for more information). The High Court typically depends on [law]the Criminal Code[/law] for criminal trials.[/p]
 
-[ref][*][law]Section 7, Article VIII of the Charter of the South Pacific[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Section 7, Article VIII of the Charter of the South Pacific[/law]
 [*][law]Article 5 of the Judicial Act[/law]
-[/ref]
+[/list]
 
 [h2]Answer Legal Questions[/h2]
 
@@ -53,15 +54,16 @@
 
 [p]The procedure to conduct a LQ is the same as any other types of cases.[/p]
 
-[ref][*][law]Section 6, Article VIII of the Charter of the South Pacific[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Section 6, Article VIII of the Charter of the South Pacific[/law]
 [*][law]Article 4 of the Judicial Act[/law]
-[/ref]
+[/list]
 
 [h2]Void laws or directives[/h2]
 
 [p]If the High Court finds a general law passed by the Assembly, a regulation, directive (such as Executive Orders),  given out by the executive branch, or any other official acts of the government violate constitutional laws (Such as the Charter, the Elections Act,...) then it can void these acts and render them void.[/p]
 
-[ref][law]Section 4, Article VIII of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 4, Article VIII of the Charter of the South Pacific[/law][/p]
 
 [h1]Case procedure[/h1]
 
@@ -71,9 +73,10 @@
 
 [p]High Court justices are appointed by the Cabinet and approved by the Assembly via a simple majority vote. In order for one to be appointed as a justice, he/she needs to be a Legislator. There is no limit on how many or when justices can be appointed however the Cabinet is [i]explicitly[/i] required to appoint Associate Justices if there are less than two justices, there is no Chief Justice and fellow justices cannot choose a new one, or a case cannot continue because all justices have recused.[/p]
 
-[ref][*][law]Section 5, 6, Article 1 of the Judicial Act[/law]
+[p][em]References:[/em][/p]
+[list][*][law]Section 5, 6, Article 1 of the Judicial Act[/law]
 [*][law]Article 2 of the Judicial Act[/law]
-[/ref]
+[/list]
 
 [h1]Recall[/h1]
 
@@ -81,6 +84,6 @@
 
 [p]For more information on recall procedure for government officials, please read [url=assembly_details#recall]this dispatch[/url].[/p]
 
-[ref][law]Section 1, Article XI of the Charter of the South Pacific[/law][/ref]
+[p][em]References:[/em] [law]Section 1, Article XI of the Charter of the South Pacific[/law][/p]
 
 {% endblock body %}

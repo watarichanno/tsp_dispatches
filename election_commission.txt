@@ -25,6 +25,6 @@
 
 [p]The Elections Act prohibits the election commissioner from standing for election in an election they are conducting. Furthermore, the election commissioner cannot be the incumbent Delegate, Prime Minister, or another Cabinet member.[/p]
 
-[ref][law]Article 1 of the Elections Act[/law][/ref]
+[p][em]References:[/em] [law]Article 1 of the Elections Act[/law][/p]
 
 {% endblock body %}
