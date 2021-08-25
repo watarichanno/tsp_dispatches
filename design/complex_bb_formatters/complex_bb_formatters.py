@@ -21,10 +21,16 @@ DISPATCH_URL = 'https://www.nationstates.net/page=dispatch/id='
 logger = logging.getLogger(__name__)
 
 
+@BBCode.register('pre', render_embedded=False)
+class Pre():
+    def format(self, tag_name, value, options, parent, context):
+        return "[pre]{}[/pre]".format(value)
+
+
 @BBCode.register('raw', render_embedded=False)
 class Raw():
     def format(self, tag_name, value, options, parent, context):
-        return value
+        return "[raw]{}[/raw]".format(value)
 
 
 @BBCode.register('url')

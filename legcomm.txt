@@ -1,4 +1,4 @@
-{% extends 'layout/indie.txt' %}
+{% extends 'layout/indie' %}
 
 {% block body %}
 

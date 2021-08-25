@@ -1,0 +1,226 @@
+{% extends 'layout/general' %}
+
+{% block outer_body %}
+
+[title]The Full Guide about formatting dispatches[/title]
+
+[box]
+[p]The Dispatch Service's editing system provides custom BBCode tags to allow you to easily format your dispatches in a standard-compliant way. It also has a template engine to allow you to place placeholder values (for things that change frequently and are in many places), control how to print these values, and more.[/p]
+
+[hr]
+
+[h1]The structure of a dispatch[/h1]
+
+[p]Any dispatch needs to look like this[/p]
+[pre]{% raw %}
+{% extends 'layout/<dispatch_group_name>' %}
+
+{% block body %}
+
+Write the actual content of the dispatch here
+
+{% endblock body %}
+{% endraw %}
+[/pre]
+
+[p]Since all dispatches have roughly the same structure of header->body box->footer, the header, body box, and footer of dispatches are defined separately in "layouts" contained on the master design configuration spreadsheet. The syntax constructs you see above are to tell the system to use the layout with the name <dispatch_group_name> to get the appropriate header and footer for your dispatch. Each government body/topic use a different header so there are many layouts. The name of all layouts are on [url=]this sheet[/url]. For example, if you want to write a dispatch about the Assembly and want to use its header, replace [em]<dispatch_group_name>[/em] with [em]assembly[/em].[/p]
+
+[p]If you want to disable the body box (to define your own box tags for example), replace [em]body[/em] with [em]outer_body[/em] in the block and endblock element.[/p]
+
+[hr]
+
+[h1]Using placeholders[/h1]
+
+[p]Sometimes, you may have a piece of information that is in many places and change frequently. Updating them manually would be a choir so the system supports placeholders for those information known as "template variables". The template variables are replaced with actual values from the variable sheets. You can use them as follow.[/p]
+[pre]{% raw %}
+{{ variable_name }}
+{% endraw %}
+[/pre]
+[p]If the value for template variable "variable_name" is defined anywhere in the variable sheets, the variable will automatically be substituted with the value. You can find variable values in the spreadsheet provided to you (e.g. for the TSP main dispatches, Government Officials sheet contains the values for government official variables).[/p]
+[/box]
+
+[box]
+[h1]Custom BBCode tags[/h1]
+
+[p]The current design guideline requires you to write long sequences of BBCode tags. Custom BBCode tags are short, easy-to-remember tags that automatically expand to NationStates tags behind-the-scenes according to the design guideline. All NationStates-provided tags (e.g. b, i, u, strike, color, font, size,...) not listed below still function as normal! You can use a tag inside another tag unless specified otherwise.[/p]
+[/box]
+
+
+[box][h2]p - Paragraph[/h2]
+
+[p]This tag formats a paragraph. Enclose any regular paragraph with this. Please note that each paragraph needs its own p tag. This is actually due to NationStates's way of handling BBCode tags in dispatches.[/p]
+
+[p][b]Example:[/b][/p]
+[pre][p]Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life.[/p]
+
+[p]He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.[/p]
+[/pre]
+[p][b]Result:[/b][/p]
+[p]Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life.[/p]
+
+[p]He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.[/p]
+[/box]
+
+
+[box]
+[h2]em - Emphasis with bold and blue color[/h2]
+
+[p]This tag emphasises its text by bolding and making it blue. This tag is usually used inside the paragraph tag.[/p]
+
+[p][b]Example:[/b][/p] [pre][p]The South Pacific is [em]the best[/em] region in the world.[/p][/pre]
+[p][b]Result:[/b][/p]
+[p]The South Pacific is [em]the best[/em] region in the world.[/p]
+[/box]
+
+[box]
+[h2]danger - Emphasis with bold and red color[/h2]
+
+[p]This tag emphasises its text by bolding and making it red. This tag is usually used inside the paragraph tag. You may use this to highlight extremely important words.[/p]
+
+[p][b]Example:[/b][/p] [pre][p][em]Never[/em] having more than one nation in the WA.[/p][/pre]
+[p][b]Result:[/b][/p]
+[p][danger]Never[/danger] having more than one nation in the WA.[/p]
+[/box]
+
+[box]
+[h2]Headings[/h2]
+
+[p]These tags format the headings. Enclose any section heading with these.[/p]
+
+[pre][h1]Heading 1[/h1][/pre]
+[h1]Heading 1[/h1]
+
+[pre][h2]Heading 2[/h2][/pre]
+[h2]Heading 2[/h2]
+
+[pre][h3]Heading 3[/h3][/pre]
+[h3]Heading 3[/h3]
+
+[pre][h4]Heading 4[/h4][/pre]
+[h4]Heading 4[/h4]
+[/box]
+
+[box]
+[h2]title/subtitle - Dispatch title/subtitle[/h2]
+
+[p]This tag centers the top title/subtitle of your dispatch and applies it the same formatting as a level 1 heading (smaller font size for subtitle).[/p]
+
+[p][b]Example:[/b][/p]
+[pre][title]Dispatch title[/title]
+[subtitle]A dispatch about title[/subtitle]
+[/pre]
+
+[p][b]Result:[/b][/p]
+[title]Dispatch title[/title]
+[subtitle]A dispatch about title[/subtitle]
+[/box]
+
+[box]
+[h2]url - URL[/h2]
+
+[p]This tag formats a link. Aside from putting in actual URLs, you can put in the unique name of a dispatch run by the Dispatch Service (The name column of the dispatch editing sheet) to link to it. Frequently used links (to non-TSP dispatches or forum places) also have shortcut name that you can use. A list of all shortcut names for frequently used links is [url=]HERE[/url]. If you are linking to a permament dispatch or common forum location then you should use the shortcut names instead of full URLs to make it easier to update these links if they ever change.[/p]
+
+[p][b]Using regular URL:[/b][/p] [pre][p]The WA link is [url=https://www.nationstates.net/page=un]here[/url][/p][/pre]
+[p][b]Result:[/b][/p]
+[p]The WA link is [url=https://www.nationstates.net/page=un]here[/url][/p]
+
+[p][b]Using unique name of a dispatch:[/b][/p] [pre][p][url=welcome]The Welcome Dispatch[/url][/p][/pre]
+[p][b]Result:[/b][/p]
+[p][url=welcome]The Welcome Dispatch[/url][/p]
+
+[p][b]Using shortcut name for a commonly-used URL:[/b][/p] [pre][p][url=ns_wa]The World Assembly[/url][/p][/pre]
+[p][b]Result:[/b][/p]
+[p][url=ns_wa]The World Assembly[/url][/p]
+[/box]
+
+[box]
+[h2]law - Law citation[/h2]
+
+[p]This tag is used to link a law citation to the appropriate section on the dispatch that contains the law. Your law citation should be in the format:[/p]
+[pre]Section x, Article y of the z[/pre]
+[p]x is the section number, y is the article number (either Arabic or Roman numbers depending on the law), z is the full name of the law.[/p]
+
+[p][b]Example 1:[/b][/p] [pre][p][law]Section 1, Article I of the Charter of the South Pacific[/law][/p][/pre]
+[p][b]Result:[/b][/p]
+[p][law]Section 1, Article I of the Charter of the South Pacific[/law][/p]
+
+[p]You can skip the section part to link to the top of the article.[/p]
+
+[p][b]Example 2:[/b][/p] [pre][p][law]Article 1 of the Elections Act[/law][/p][/pre]
+[p][b]Result:[/b][/p]
+[p][law]Article 1 of the Elections Act[/law][/p]
+
+[p]You can just link to the law dispatch only and not jumping to any part.[/p]
+
+[p][b]Example 3:[/b][/p] [pre][p][law]The Cultural Act[/law][/p][/pre]
+[p][b]Result:[/b][/p]
+[p][law]The Cultural Act[/law][/p]
+[/box]
+
+[box]
+[h2]Table tags[/h2]
+
+[list][*]The table cell [em]td[/em] tag functions as you would expect but it automatically wraps the text in a paragraph tag so you don't need to use the p tag inside a table cell.
+[*][em]th[/em] tag is used to format header cells.
+[*][em]tt[/em] tag is used to create the table title bar. (Remember to use the 'noheader' option in the table tag to make it pretty)
+[/list]
+
+[p][b]Example:[/b][/p]
+[pre][table=noheader][tt=3]Table title[/tt]
+[tr][th]Header 1[/th][th]Header 2[/th][/tr]
+[tr][td]Foo[/td][td]Bar[/td][/tr]
+[tr][td]Goo[/td][td]Boo[/td][/tr]
+[/table][/pre]
+
+[p][b]Result:[/b][/p]
+[table=noheader][tt=3]Table title[/tt]
+[tr][th]Header 1[/th][th]Header 2[/th][/tr]
+[tr][td]Foo[/td][td]Bar[/td][/tr]
+[tr][td]Goo[/td][td]Boo[/td][/tr]
+[/table]
+[/box]
+
+[box]
+[h2]List tags[/h2]
+
+[p]List tags work as expected except the item tag [em]*[/em] automatically wraps the text in a paragraph tag so you don't need to use the p tag in an item.[/p]
+
+[p][b]Example:[/b][/p]
+[pre][list]
+[*]Cake
+[*]Pie
+[/list][/pre]
+
+[p][b]Result:[/b][/p]
+[list]
+[*]Cake
+[*]Pie
+[/list]
+[/box]
+
+[box]
+[h2]Disable formatting[/h2]
+
+[p]You can disable the custom BBCode tags by using the [em]raw[/em] tag.[/p]
+
+[p][b]Example:[/b][/p]
+[pre][raw][p]Custom tags won't render[/p] but [b]NS tags still work as normal[/b][/raw][/pre]
+
+[p][b]Result:[/b][/p]
+[raw][p]Custom tags won't render[/p] but [b]NS tags still work as normal[/b][/raw]
+
+[p]The [em]pre[/em] tag disables both custom and NationStates-provided tags as you may have expected.[/p]
+
+[p][b]Example:[/b][/p]
+[pre]This text is [b]not formatted[/b] by [em]anything[/em][/pre]
+
+[p]Sometimes you may want disable formatting of the url tag without losing its special features. Use the [em]raw_url[/em] tag for that.[/p]
+
+[p][b]Example:[/b][/p]
+[pre][p][raw_url=welcome]This URL[/raw_url] is unformatted[/p][/pre]
+
+[p][b]Result:[/b][/p]
+[p][raw_url=welcome]This URL[/raw_url] is unformatted[/p]
+[/box]
+
+{% endblock outer_body %}

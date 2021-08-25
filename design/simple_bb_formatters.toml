@@ -42,3 +42,11 @@ format_string = '[font=Avenir, Segoe UI, sans-serif][size=120]%(value)s[/size][/
 render_embedded = true
 newline_closes = true
 same_tag_closes = true
+
+[raw]
+format_string = '%(value)s'
+render_embedded = false
+
+[pre]
+format_string = '[pre]%(value)s[/pre]'
+render_embedded = false
