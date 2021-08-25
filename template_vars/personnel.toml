@@ -11,7 +11,7 @@ hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Purple Hyacinth'
 local_council = ['Penguin', 'Seraph', 'Murelia']
-crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Seraph', 'Tsunamy', 'Somyrion', 'Amerion', 'Qvait', 'Penguin']
+crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Seraph', 'Tsunamy', 'Somyrion', 'Amerion', 'Penguin']
 legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin']
 general_corps = ['Roavin', 'Nakari']
 cabinet_advisors = ['Nakari']
@@ -23,15 +23,15 @@ discord_handle = 'Amerion#9702'
 [personnel_info.'W&S']
 nation = 'Witchcraft and Sorcery'
 discord_handle = 'WynkenBlynken#1150'
-[personnel_info.'Qvait']
-nation = 'Qvait'
-discord_handle = 'JayCoop#5045'
 [personnel_info.'HumanSanity']
 nation = 'HumanSanity'
 discord_handle = 'HumanSanity#9270'
 [personnel_info.'Quebecshire']
 nation = 'New Quebecshire'
 discord_handle = 'Cubic#1608'
+[personnel_info.'Qvait']
+nation = 'Qvait'
+discord_handle = 'JayCoop#5045'
 [personnel_info.'Moonfungus']
 nation = 'Emodea'
 discord_handle = 'Moon_#5541'
