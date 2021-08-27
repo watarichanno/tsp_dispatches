@@ -5,11 +5,11 @@ mofa = 'Qvait'
 mod = 'HumanSanity'
 moc = 'Quebecshire'
 mom = 'Moonfungus'
-moe = 'Luca'
+moe = 'USoVietnam'
 owl_sec = 'Anjo'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
-coa = 'Purple Hyacinth'
+coa = 'Anjo'
 local_council = ['Penguin', 'Seraph', 'Murelia']
 crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Seraph', 'Tsunamy', 'Somyrion', 'Amerion', 'Penguin']
 legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin']
@@ -35,9 +35,9 @@ discord_handle = 'JayCoop#5045'
 [personnel_info.'Moonfungus']
 nation = 'Emodea'
 discord_handle = 'Moon_#5541'
-[personnel_info.'Luca']
-nation = 'Lucabaduka'
-discord_handle = 'Luca#0004'
+[personnel_info.'USoVietnam']
+nation = 'United States of Vietnam'
+discord_handle = 'watari#5292'
 [personnel_info.'Anjo']
 nation = 'Tepertopia'
 discord_handle = 'anjo#3888'
