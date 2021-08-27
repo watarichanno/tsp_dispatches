@@ -9,16 +9,16 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Regional Officer Power Definitions[/p]
+[list=1][raw][*][/raw][p]Regional Officer Power Definitions[/p]
 
 
-[*_r][p]Regional Officers[/p]
+[raw][*][/raw][p]Regional Officers[/p]
 
 
-[*_r][p]Executive Discretion[/p]
+[raw][*][/raw][p]Executive Discretion[/p]
 
 
-[*_r][p]Limitations[/p]
+[raw][*][/raw][p]Limitations[/p]
 
 
 [/list]

@@ -9,16 +9,16 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Defining Political Parties[/p]
+[list=1][raw][*][/raw][p]Defining Political Parties[/p]
 
 
-[*_r][p]Rights of Political Parties[/p]
+[raw][*][/raw][p]Rights of Political Parties[/p]
 
 
-[*_r][p]Benefits to Active Political Parties[/p]
+[raw][*][/raw][p]Benefits to Active Political Parties[/p]
 
 
-[*_r][p]Archival of Inactive Subforums[/p]
+[raw][*][/raw][p]Archival of Inactive Subforums[/p]
 
 
 [/list]

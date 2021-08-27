@@ -9,19 +9,19 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Acts of Hostility[/p]
+[list=1][raw][*][/raw][p]Acts of Hostility[/p]
 
 
-[*_r][p]Proscriptions[/p]
+[raw][*][/raw][p]Proscriptions[/p]
 
 
-[*_r][p]Grant of Authority[/p]
+[raw][*][/raw][p]Grant of Authority[/p]
 
 
-[*_r][p]Judicial Review[/p]
+[raw][*][/raw][p]Judicial Review[/p]
 
 
-[*_r][p]Constitutional Law[/p]
+[raw][*][/raw][p]Constitutional Law[/p]
 
 
 [/list]

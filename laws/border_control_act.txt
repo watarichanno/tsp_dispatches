@@ -9,16 +9,16 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Definitions[/p]
+[list=1][raw][*][/raw][p]Definitions[/p]
 
 
-[*_r][p]Powers of the Council on Regional Security[/p]
+[raw][*][/raw][p]Powers of the Council on Regional Security[/p]
 
 
-[*_r][p]Powers of the Local Council and Delegate[/p]
+[raw][*][/raw][p]Powers of the Local Council and Delegate[/p]
 
 
-[*_r][p]Rights of Border Control Officers[/p]
+[raw][*][/raw][p]Rights of Border Control Officers[/p]
 
 
 [/list]
@@ -40,7 +40,7 @@
 [b][anchor=a2][/anchor][p]2. Powers of the Council on Regional Security[/p][/b]
 
 
-[anchor=a2_s1][/anchor][p](1) The Council on Regional Security may order a border control action when they determine that a nation is contributing to a probable imminent threat of the World Assembly Delegate position being seized by nation other than the legal holder of that position, for up to a week or the time necessary for that nation's influence in the South Pacific to decay to the level of a low influence nation, whichever is longer.[/p]
+[anchor=a2_s1][/anchor][p](1) The Council on Regional Security may order a border control action when they determine that a nation is contributing to a probable imminent threat of the World Assembly Delegate position being seized by a nation other than the legal holder of that position, for up to a week or the time necessary for that nation's influence in the South Pacific to decay to the level of a low influence nation, whichever is longer.[/p]
 
 
 [anchor=a2_s2][/anchor][p](2) The Council on Regional Security may order a border control action lasting up to 24 hours against a nation that continuously and defiantly violates the endorsement cap.[/p]

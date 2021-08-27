@@ -9,19 +9,19 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Scope[/p]
+[list=1][raw][*][/raw][p]Scope[/p]
 
 
-[*_r][p]Formatting of Bills and Amendments[/p]
+[raw][*][/raw][p]Formatting of Bills and Amendments[/p]
 
 
-[*_r][p]Amendments and Repeals[/p]
+[raw][*][/raw][p]Amendments and Repeals[/p]
 
 
-[*_r][p]General Rules[/p]
+[raw][*][/raw][p]General Rules[/p]
 
 
-[*_r][p]Reformatting of Laws and Legislation[/p]
+[raw][*][/raw][p]Reformatting of Laws and Legislation[/p]
 
 
 [/list]
@@ -133,16 +133,16 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Regional Officer Power Definitions[/p]
+[list=1][raw][*][/raw][p]Regional Officer Power Definitions[/p]
 
 
-[*_r][p]Regional Officers[/p]
+[raw][*][/raw][p]Regional Officers[/p]
 
 
-[*_r][p]Executive Discretion[/p]
+[raw][*][/raw][p]Executive Discretion[/p]
 
 
-[*_r][p]Limitations[/p]
+[raw][*][/raw][p]Limitations[/p]
 
 
 [/list]

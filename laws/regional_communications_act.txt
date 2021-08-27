@@ -39,10 +39,17 @@
 [anchor=a2_s2_e][/anchor][p]e. deliberately influence a regional election in favour of or against specific candidates.[/p]
 
 
-[anchor=a2_s3][/anchor][p](3) The Delegate may, at their discretion, enact further restrictions, guidelines, or approval processes on the use of mass communications.[/p]
+[anchor=a2_s3][/anchor][p](3) The World Factbook Entry must visibly contain:[/p]
+[anchor=a2_s3_a][/anchor][p]a. a link to the off-site forums and Discord server of the Coalition,[/p]
+[anchor=a2_s3_b][/anchor][p]b. a request for nations to endorse the lawful Delegate,[/p]
+[anchor=a2_s3_c][/anchor][p]c. a request for nations to endorse the Council on Regional Security and a link to a Dispatch containing the current membership of the Council on Regional Security,[/p]
+[anchor=a2_s3_d][/anchor][p]d. a link to information about the endorsement cap.[/p]
 
 
-[anchor=a2_s4][/anchor][p](4) The Council on Regional Security may temporarily suspend the provisions contained herein for themselves or any duly chosen surrogates for purposes of regional security.[/p]
+[anchor=a2_s4][/anchor][p](4) The Delegate may, at their discretion, enact further restrictions, guidelines, or approval processes on the use of mass communications.[/p]
+
+
+[anchor=a2_s5][/anchor][p](5) The Council on Regional Security may temporarily suspend the provisions contained herein for themselves or any duly chosen surrogates for purposes of regional security.[/p]
 
 
 

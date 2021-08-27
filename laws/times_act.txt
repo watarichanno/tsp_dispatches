@@ -9,10 +9,10 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Scope[/p]
+[list=1][raw][*][/raw][p]Scope[/p]
 
 
-[*_r][p]Official Timezone[/p]
+[raw][*][/raw][p]Official Timezone[/p]
 
 
 [/list]

@@ -9,28 +9,28 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Election Commission[/p]
+[list=1][raw][*][/raw][p]Election Commission[/p]
 
 
-[*_r][p]Electoral System[/p]
+[raw][*][/raw][p]Electoral System[/p]
 
 
-[*_r][p]Office of the Delegate[/p]
+[raw][*][/raw][p]Office of the Delegate[/p]
 
 
-[*_r][p]Offices of the Cabinet[/p]
+[raw][*][/raw][p]Offices of the Cabinet[/p]
 
 
-[*_r][p]Office of the Chair[/p]
+[raw][*][/raw][p]Office of the Chair[/p]
 
 
-[*_r][p]Vacancies of Office[/p]
+[raw][*][/raw][p]Vacancies of Office[/p]
 
 
-[*_r][p]Separation of Powers[/p]
+[raw][*][/raw][p]Separation of Powers[/p]
 
 
-[*_r][p]Constitutional Law[/p]
+[raw][*][/raw][p]Constitutional Law[/p]
 
 
 [/list]
@@ -93,7 +93,7 @@
 
 [anchor=a3_s3][/anchor][p](3) After receiving the top candidates in the forum election, an Election Commissioner will create a week-long regional poll accessible to Native World Assembly members, instructing them to vote for their preferred candidate.[/p]
 [anchor=a3_s3_a][/anchor][p]a. A Dispatch containing the campaigns of all candidates will be created to aid voters in their choice.[/p]
-[anchor=a3_s3_b][/anchor][p]b. Members of the South Pacific Special Forces who are on deployment for the whole duration of the regional poll are eligible to cast a vote. The Minister of Defense shall provide a list of deployed personnel to the Election Commissioner. Members on the list who send the Commissioner their vote through a telegram and a public post on the Regional Message Board which tags the Election Commissioner and notes who their vote goes towards shall have it added to the final tally.  [/p]
+[anchor=a3_s3_b][/anchor][p]b. Members of the South Pacific Special Forces who are on deployment at the conclusion of the regional poll are eligible to cast a vote. The Minister of Defense shall provide a list of deployed personnel to the Election Commissioner. Members on the list who send the Commissioner their vote through a public post on the Regional Message Board which tags the Election Commissioner and notes who their vote goes towards shall have it added to the final tally.  [/p]
 [anchor=a3_s3_c][/anchor][p]c. The candidate who wins a majority of the votes will be declared the Delegate-elect.[/p]
 [anchor=a3_s3_d][/anchor][p]d. If no candidate wins a majority of votes, the top two candidates will be placed in a runoff election, mimicking the previous round of voting.[/p]
 

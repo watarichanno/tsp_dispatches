@@ -7,51 +7,51 @@
 
 
 
-[b][p]Table of Contents[/p][/b][list][*_r][p]Preamble[/p]
+[b][p]Table of Contents[/p][/b][list][raw][*][p]Preamble[/p]
 
+[/raw]
+[raw][*][anchor=aI][/anchor][p]I. CONSTITUTIONAL LAWS[/p]
 
-[*_r][anchor=aI][/anchor][p]I. CONSTITUTIONAL LAWS[/p]
+[/raw]
+[raw][*][anchor=aII][/anchor][p]II. SOVEREIGNTY[/p]
 
+[/raw]
+[raw][*][anchor=aIII][/anchor][p]III. RIGHTS AND FREEDOMS[/p]
 
-[*_r][anchor=aII][/anchor][p]II. SOVEREIGNTY[/p]
+[/raw]
+[raw][*][anchor=aIV][/anchor][p]IV. THE ASSEMBLY[/p]
 
+[/raw]
+[raw][*][anchor=aV][/anchor][p]V. THE LOCAL COUNCIL[/p]
 
-[*_r][anchor=aIII][/anchor][p]III. RIGHTS AND FREEDOMS[/p]
+[/raw]
+[raw][*][anchor=aVI][/anchor][p]VI. THE EXECUTIVE[/p]
 
+[/raw]
+[raw][*][anchor=aVII][/anchor][p]VII. THE DELEGATE[/p]
 
-[*_r][anchor=aIV][/anchor][p]IV. THE ASSEMBLY[/p]
+[/raw]
+[raw][*][anchor=aVIII][/anchor][p]VIII. THE HIGH COURT[/p]
 
+[/raw]
+[raw][*][anchor=aIX][/anchor][p]IX. THE COUNCIL ON REGIONAL SECURITY[/p]
 
-[*_r][anchor=aV][/anchor][p]V. THE LOCAL COUNCIL[/p]
+[/raw]
+[raw][*][anchor=aX][/anchor][p]X. THE MILITARY[/p]
 
+[/raw]
+[raw][*][anchor=aXI][/anchor][p]XI. RECALLS AND MOTIONS OF NO CONFIDENCE[/p]
 
-[*_r][anchor=aVI][/anchor][p]VI. THE EXECUTIVE[/p]
+[/raw]
+[raw][*][anchor=aXII][/anchor][p]XII. THE ADMINISTRATION TEAM[/p]
 
+[/raw]
+[raw][*][anchor=aXIII][/anchor][p]XIII. AMENDMENT PROCESS[/p]
 
-[*_r][anchor=aVII][/anchor][p]VII. THE DELEGATE[/p]
+[/raw]
+[raw][*][anchor=aXIV][/anchor][p]XIV. GREAT COUNCILS[/p]
 
-
-[*_r][anchor=aVIII][/anchor][p]VIII. THE HIGH COURT[/p]
-
-
-[*_r][anchor=aIX][/anchor][p]IX. THE COUNCIL ON REGIONAL SECURITY[/p]
-
-
-[*_r][anchor=aX][/anchor][p]X. THE MILITARY[/p]
-
-
-[*_r][anchor=aXI][/anchor][p]XI. RECALLS AND MOTIONS OF NO CONFIDENCE[/p]
-
-
-[*_r][anchor=aXII][/anchor][p]XII. THE ADMINISTRATION TEAM[/p]
-
-
-[*_r][anchor=aXIII][/anchor][p]XIII. AMENDMENT PROCESS[/p]
-
-
-[*_r][anchor=aXIV][/anchor][p]XIV. GREAT COUNCILS[/p]
-
-
+[/raw]
 [/list]
 [i][p]Preamble[/p][/i]
 

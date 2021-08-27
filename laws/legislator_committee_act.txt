@@ -9,16 +9,16 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]Scope[/p]
+[list=1][raw][*][/raw][p]Scope[/p]
 
 
-[*_r][p]Legislator Applications[/p]
+[raw][*][/raw][p]Legislator Applications[/p]
 
 
-[*_r][p]Legislator Checks[/p]
+[raw][*][/raw][p]Legislator Checks[/p]
 
 
-[*_r][p]Constitutional Law[/p]
+[raw][*][/raw][p]Constitutional Law[/p]
 
 
 [/list]

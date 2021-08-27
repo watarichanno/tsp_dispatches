@@ -9,16 +9,16 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]General Corps[/p]
+[list=1][raw][*][/raw][p]General Corps[/p]
 
 
-[*_r][p]Ranks[/p]
+[raw][*][/raw][p]Ranks[/p]
 
 
-[*_r][p]Rules[/p]
+[raw][*][/raw][p]Rules[/p]
 
 
-[*_r][p]Disciplinary Actions[/p]
+[raw][*][/raw][p]Disciplinary Actions[/p]
 
 
 [/list]

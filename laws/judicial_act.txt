@@ -9,31 +9,31 @@
 
 [b][p]Table of contents[/p][/b]
 
-[list=1][*_r][p]The High Court[/p]
+[list=1][raw][*][/raw][p]The High Court[/p]
 
 
-[*_r][p]Judicial Conduct and Requirements[/p]
+[raw][*][/raw][p]Judicial Conduct and Requirements[/p]
 
 
-[*_r][p]Case Procedure[/p]
+[raw][*][/raw][p]Case Procedure[/p]
 
 
-[*_r][p]Legal Questions[/p]
+[raw][*][/raw][p]Legal Questions[/p]
 
 
-[*_r][p]Criminal Cases[/p]
+[raw][*][/raw][p]Criminal Cases[/p]
 
 
-[*_r][p]Sentencing[/p]
+[raw][*][/raw][p]Sentencing[/p]
 
 
-[*_r][p]Appeals[/p]
+[raw][*][/raw][p]Appeals[/p]
 
 
-[*_r][p]Confidentiality[/p]
+[raw][*][/raw][p]Confidentiality[/p]
 
 
-[*_r][p]Temporary Injunctions[/p]
+[raw][*][/raw][p]Temporary Injunctions[/p]
 
 
 [/list]
