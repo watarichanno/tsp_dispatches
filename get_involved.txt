@@ -26,7 +26,7 @@
 
 [h1]Help the region vote on WA resolutions[/h1]
 
-[p]Aside from voting on WA resolutions yourself, our region has a program run by the [url=f_owl_join]Office of WA Legislation[/url] that allows you to influence how others will vote too! There is a place known as [region]the South Pacific WA Voting Center[/region] where you can help the Delegate and regional nations decide on the next WA resolutions to hit the floor. Before a WA resolution hits the floor, that region will conduct a vote and debate on its RMB about the resolution. You can cast your vote and show your reasons to others on how the Delegate should vote and what regional nations are recommended to do on the resolution.[/p]
+[p]Aside from voting on WA resolutions yourself, our region has a program run by the [url=f_unified_app]Office of WA Legislation[/url] that allows you to influence how others will vote too! There is a place known as [region]the South Pacific WA Voting Center[/region] where you can help the Delegate and regional nations decide on the next WA resolutions to hit the floor. Before a WA resolution hits the floor, that region will conduct a vote and debate on its RMB about the resolution. You can cast your vote and show your reasons to others on how the Delegate should vote and what regional nations are recommended to do on the resolution.[/p]
 
 [p][url=owl_guide][b]Click here to learn more about WA resolutions and the voting program[/b][/url][/p]
 
