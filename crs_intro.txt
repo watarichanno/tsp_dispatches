@@ -38,7 +38,7 @@
 [list][*]Have World Assembly membership in the South Pacific.
 [*]Have the Soft Power Disbursement Score of at least 50000 or an Influence Ranking of at least Vassal.
 [*]Have at least 200 endorsements or half the endorsements of the Delegate.
-[*]Have six consecutive months of [url=f_become_legislator]Legislator status[/url], or at least two terms in the Local Council.
+[*]Have six consecutive months of [url=f_unified_app]Legislator status[/url], or at least two terms in the Local Council.
 [/list]
 
 [p]The specific influence score, ranking, and endorsement numbers may be updated by the CRS, with majority approval by [url=assembly_intro]the Assembly[/url] (Our legislature), to reflect changes to the disbursement of influence in the region or updates to the game.[/p]

@@ -7,7 +7,7 @@
 
 [hr][h1]Summary[/h1]
 
-[h3]Membership:[/h3] [p]Comprised of [url=f_become_legislator]legislators[/url], who join voluntarily[/p]
+[h3]Membership:[/h3] [p]Comprised of [url=f_unified_app]legislators[/url], who join voluntarily[/p]
 
 [h3]Powers:[/h3]
 [list]
@@ -39,7 +39,7 @@
 
 [p]Legislators can have a Leave of Absence (LoA) or can resign at any time by posting in [url=f_assembly_office]the appropriate areas[/url].[/p]
 
-[p]For more information on signing up for Legislatorship, visit [url=f_become_legislator]this dispatch[/url].[/p]
+[p]For more information on signing up for Legislatorship, visit [url=f_unified_app]this dispatch[/url].[/p]
 
 [p]For more information on LoAs and resignations, visit [url=f_assembly_office]this forum thread[/url].[/p]
 

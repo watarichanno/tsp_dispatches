@@ -54,7 +54,7 @@
 
 [h2]Eligibility[/h2]
 
-[p]You need to be a [url=f_become_legislator]legislator[/url] in order to nominate and vote in any forumside election and you need to become one [u]before[/u] the election you are voting in.[/p]
+[p]You need to be a [url=f_unified_app]legislator[/url] in order to nominate and vote in any forumside election and you need to become one [u]before[/u] the election you are voting in.[/p]
 
 [h2]How do I nominate and vote for a candidate?[/h2]
 

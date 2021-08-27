@@ -25,6 +25,7 @@
 [*][em]Minister of Culture:[/em] {{ gov_officials.moc|info }}
 [*][em]Minister of Media:[/em] {{ gov_officials.mom|info }}
 [*][em]Minister of Engagement:[/em] {{ gov_officials.moe|info }}
+[*][em]OWL Secretary:[/em] {{ gov_officials.owl_sec|info }}
 [/list]
 
 [hr]
@@ -55,7 +56,7 @@
 [*][em]Ministry of Culture (MoC)[/em] – The Minister of Culture organizes and oversees events and festivals within the South Pacific and with other regions and works with the roleplay community toward expanding it and collaborating with other regional communities from time to time.
 [*][em]Ministry of Media (MoM)[/em] – The Minister of Media manages the regional public media and supervises the periodic publication of the regional happenings of the South Pacific.
 [*][em]Ministry of Engagement (MoE)[/em] – The Minister of Engagement maintains the public infrastructure of the South Pacific, oversees the region's projects and services, and manages the official repository of regional graphics.[/list]
-[p]Details on how to participate in a ministry(s) can be found [url=f_government_jobs]here[/url].[/p]
+[p]Details on how to participate in a ministry(s) can be found [url=f_unified_app]here[/url].[/p]
 
 [h1]The Delegate[/h1]
 
@@ -83,7 +84,7 @@
 
 [h1]Get Involved[/h1]
 
-[p]The executive branch offers a wide variety of positions and activties that you can apply without any special requirement aside from being a citizen of our region. Visit [url=f_government_jobs]this forum post[/url] or the dispatches of each ministry to find more information. Getting a job in the executive branch then working your way up the ladder is the most common way to gain popularity and win elections in our region so you should give it a try if you have the time and passion for public administration or just want to make things better and have fun![/p]
+[p]The executive branch offers a wide variety of positions and activties that you can apply without any special requirement aside from being a citizen of our region. Visit [url=f_unified_app]this forum post[/url] or the dispatches of each ministry to find more information. Getting a job in the executive branch then working your way up the ladder is the most common way to gain popularity and win elections in our region so you should give it a try if you have the time and passion for public administration or just want to make things better and have fun![/p]
 
 [h1]Cabinet elections[/h1]
 

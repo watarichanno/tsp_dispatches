@@ -33,7 +33,7 @@
 [*]It also does other stuff you don't need to know now. (Read [url=assembly_details]this[/url] if you want to know anyway.)
 [/list]
 
-[p]Members of the Assembly are called [i]legislators[/i] and they join the Assembly by [url=f_become_legislator]voluntarily signing up[/url] for it.[/p]
+[p]Members of the Assembly are called [i]legislators[/i] and they join the Assembly by [url=f_unified_app]voluntarily signing up[/url] for it.[/p]
 
 [h2]Where is the Assembly?[/h2]
 

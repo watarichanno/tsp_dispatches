@@ -4,7 +4,7 @@
 
 {% block header %}
 {{ macros.gen_header(urls={'Home': 'assembly_intro',
-                           'Get Involved': 'f_become_legislator',
+                           'Get Involved': 'f_unified_app',
                            'Guide': 'assembly_guide',
                            'Details': 'assembly_details',
                            'Procedures': 'assembly_procedures',
