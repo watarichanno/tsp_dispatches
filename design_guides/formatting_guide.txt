@@ -1,4 +1,4 @@
-{% extends 'layout/general' %}
+{% extends 'layout/design_guides' %}
 
 {% block outer_body %}
 
@@ -72,12 +72,12 @@ Write the actual content of the dispatch here
 [/pre]
 
 [p][b]Result:[/b][/p]
-{{ design_guide.a_list_of_something|gen_list }}
-{{ design_guide.a_list_of_something|gen_list(delimiter='; ') }}
-{{ design_guide.a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}
-[table]{{ design_guide.a_list_of_something|gen_table_tags }}[/table]
-[table]{{ design_guide.a_list_of_something|gen_table_tags(column_num=3) }}[/table]
-[table]{{ design_guide.a_list_of_something|gen_table_tags(start_tag='[region]', end_tag='[/region]') }}[/table]
+{{ design_guides.a_list_of_something|gen_list }}
+{{ design_guides.a_list_of_something|gen_list(delimiter='; ') }}
+{{ design_guides.a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}
+[table]{{ design_guides.a_list_of_something|gen_table_tags }}[/table]
+[table]{{ design_guides.a_list_of_something|gen_table_tags(column_num=3) }}[/table]
+[table]{{ design_guides.a_list_of_something|gen_table_tags(start_tag='[region]', end_tag='[/region]') }}[/table]
 
 [h2]Print government official name[/h2]
 
@@ -143,7 +143,7 @@ The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
 
 [p][b]Result:[/b][/p]
 [list]
-{% for item in design_guide.a_list_of_something %}
+{% for item in design_guides.a_list_of_something %}
 [*]{{ item }}
 {% endfor %}
 [/list]
