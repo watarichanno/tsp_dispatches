@@ -5,7 +5,7 @@
 [title]The Full Guide about formatting dispatches[/title]
 
 [box]
-[p]The Dispatch Service's editing system provides custom BBCode tags to allow you to easily format your dispatches in a standard-compliant way. It also has a template engine to allow you to use placeholders (for things that change frequently and are in many places), control how to print these placeholders, and more.[/p]
+[p]The Dispatch Service's editing system provides custom BBCode tags to allow you to easily format your dispatches in a standard-compliant way. It also has a template engine to allow you to use placeholders (for things that change frequently and are in many places), control how to print these placeholders, and more. With these tools, what you write isn't the final content but a [em]template[/em] that the behind-the-scenes dispatch software will process (parse the BBCode tags, fill in placeholders, run code blocks,...) to produce the final text content that will be uploaded to NationStates.[/p]
 
 [hr]
 
@@ -23,7 +23,7 @@ Write the actual content of the dispatch here
 {% endraw %}
 [/pre]
 
-[p]Since all dispatches have roughly the same structure of header->body box->footer, the header, body box, and footer of dispatches are defined separately in "layouts" contained on the master design configuration spreadsheet. The syntax constructs you see above are to tell the system to use the layout with the name layout_name to get the appropriate header and footer for your dispatch. Each government body/topic use a different header so there are many layouts. The name of all layouts are on [url=]this sheet[/url]. For example, if you want to write a dispatch about the Assembly and want to use its header, replace [em]layout_name[/em] with [em]assembly[/em].[/p]
+[p]Since all dispatches have roughly the same structure of header->body box->footer, the header, body box, and footer of dispatches are defined separately in "layouts" contained on the [url=https://docs.google.com/spreadsheets/d/1tdG_2Vp0VabvL9TGAaM5fX3vUrF-YLX8b851M1JgeJM/edit?usp=sharing]design configuration spreadsheet[/url]. The syntax constructs you see above are to tell the system to use the layout with the name [em]layout_name[/em] to get the appropriate header and footer for your dispatch. Each government body/topic use a different header so there are many layouts. The name of all layouts is in the "Layouts" sheet of the design configuration spreadsheet. For example, if you want to write a dispatch about the Assembly and want to use its header, replace [em]layout_name[/em] with [em]assembly[/em].[/p]
 
 [p]If you want to disable the body box (to define your own box tags for example), replace [em]body[/em] with [em]outer_body[/em] in the block and endblock element.[/p]
 
@@ -36,7 +36,7 @@ Write the actual content of the dispatch here
 {{ variable_name }}
 {% endraw %}
 [/pre]
-[p]If the value for template variable "variable_name" is defined anywhere in the variable sheets, the variable will automatically be substituted with the value. You can find variable values in the spreadsheet provided to you (e.g. for the TSP main dispatches, Government Officials sheet contains the values for government official variables).[/p]
+[p]If the value for template variable "variable_name" is defined anywhere in the variable sheets, the variable will automatically be substituted with the value. You can find variables to use in the dispatch editing spreadsheet provided to you (e.g. for  [url=https://docs.google.com/spreadsheets/d/1c7rApk0yQp5b1S-kIPTj7n-ulbz2Yy5PKJjj6VzJnIE/edit?usp=sharing]the TSP main dispatches[/url], "Government Officials" sheet contains the values for government official name variables).[/p]
 
 [p]Variables tend to be put into groups. For example government official names are grouped into a group called "gov_officials". You can access the pm variable (prime minister name) in this group as follow:[/p]
 [pre]{% raw %}
@@ -46,15 +46,16 @@ Write the actual content of the dispatch here
 [/pre]
 
 
-[h2]Print template variables that have many values[/h2]
+[h2]Print template variables that have many values with filters[/h2]
 
-[p]Some placeholders contain many values such as government official list. Assume you have a template variable called "a_list_of_something" with these values: 'Cake', 'Pie', 'Egg', 'Tomato', 'Orange', 'Meat'. You can print them in two ways:[/p]
+[p]Some placeholders contain many values such as government official list. These variables are called "lists" for short. To print them, you use something called a "filter". Filters are postfixes that you put after the variable name, separated by a vertical bar. Assuming you have a list variable called "a_list_of_something" with these values: 'Cake', 'Pie', 'Egg', 'Tomato', 'Orange', 'Meat'. Here are a few examples:[/p]
 [pre]{% raw %}
-# This will print the values as a comma-separated list
+# This will print the values as a comma-separated text list
 {{ a_list_of_something|gen_list }}
 
 # You can use another delimiter rather than a comma as follow:
 {{ a_list_of_something|gen_list(delimiter='; ') }}
+# The setting "delimiter" that the filter takes is called a "parameter" or "argument"
 
 # You can wrap each item around a tag (a list of regions for example)
 {{ a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}
@@ -89,7 +90,7 @@ The current Prime Minister is {{ gov_officials.pm.name }}, their nation is [nati
 [p][b]Result:[/b][/p]
 The current Prime Minister is {{ gov_officials.pm.name }}, their nation is [nation]{{ gov_officials.pm.nation }}[/nation], their discord handle is {{ gov_officials.pm.discord_handle }}
 
-[p]This is tedious to do however. You should use this way instead:[/p]
+[p]This is tedious to do however. You should use these ways instead:[/p]
 [pre]{% raw %}
 # This will automatically print the TSP nation name and discord handle (in a parenthesis, don't print if there is no Discord) of the official. You should use this 99% of the time.
 The current Minister of Foreign Affairs is {{ gov_officials.mofa|info }}
@@ -102,6 +103,16 @@ The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_form
 # This will print the common name, nation name, and discord handle according to that template.
 # You can control the print format in the case of non-existent discord handle too.
 {{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})', print_format_no_discord='{name} ({nation})') }}
+
+# To print a comma-separated text list of officials (e.g a list of CRS members), do as follow:
+The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
+# gen_personnel_list accepts all parameters that the regular gen_list and info filter provides.
+
+# To print table cell tags from a list of officials, do as follow:
+[table=noheader][tt=3]The current Local Council members are[/tt]
+{{ gov_officials.local_council|gen_table_tags_personnel }}[/table]
+# gen_table_tags_personnel accepts all parameters that the regular gen_table_tags and info filter provides.
+# Look below for more information on the tt tag.
 {% endraw %}
 [/pre]
 
@@ -110,13 +121,17 @@ The current Minister of Foreign Affairs is {{ gov_officials.mofa|info }}
 The nation of the current Minister of Foreign Affairs is {{ gov_officials.mofa|nation }}
 The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})') }}
 
+The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
+
+[table=noheader][tt=3]The current Local Council members are[/tt]
+{{ gov_officials.local_council|gen_table_tags_personnel }}[/table]
 
 [h2]Print multiple value variables with loop[/h2]
 
-[p]Sometimes, you may want to customize how a multi-values variables are printed. You can do that by using something called a "loop":[/p]
+[p]Sometimes, you may want to customize how a list variable is printed. You can do that by using something called a "loop":[/p]
 [pre]
 {% raw %}
-# This example prints a_list_of_something variable as a list with the [*] tag.
+# This example prints a_list_of_something variable as a list with the [*] tag. This syntax construct is called a loop. The text between the for/endfor block will repeatedly run for each value in variable a_list_of_something
 
 [list]
 {% for item in a_list_of_something %}
@@ -135,13 +150,17 @@ The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_form
 
 [h2]And more![/h2]
 
-[p]The part that provides the above features is known as a "template engine". The template engine that we use here is called [url=https://jinja.palletsprojects.com/en/3.0.x/intro/]Jinja[/url]. It is designed for webpages but it will work for anything related to text processing. The big guide to using the engine is [url=https://jinja.palletsprojects.com/en/3.0.x/templates/]here[/url]. Any feature of it can be used for dispatches (you just need to imagine the HTML tags as BBCode tags). If you want to abuse the hell out of the system, check out that guide.[/p]
+[p]The part that provides the above features is known as a "template engine". The template engine that we use is [url=https://jinja.palletsprojects.com/en/3.0.x/intro/]Jinja[/url]. It is designed for webpages but it will work for anything related to text processing. The big guide to using the engine is [url=https://jinja.palletsprojects.com/en/3.0.x/templates/]here[/url]. Any feature of it can be used for dispatches (you just need to imagine the HTML tags as BBCode tags). If you want to abuse the hell out of the system, check out that guide. A few useful reference resources:[/p]
+[list]
+[*][url=https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters]List of filters[/url]: Some useful filters are getting the length of a list variable, converting text to lower case, sorting list variables,...
+[*][url=https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-control-structures]Control structures[/url]: The for loop and filters above are known generally as "control structures". Some other control structures are the if block (only print its text when some conditions are true), macros (a block of reusable template codes that you use just by writing its name out, our headers are actually generated by a macro in the design sheet),...
+[/list]
 [/box]
 
 [box]
 [h1]Custom BBCode tags[/h1]
 
-[p]The current design guideline requires you to write long sequences of BBCode tags. Custom BBCode tags are short, easy-to-remember tags that automatically expand to NationStates tags behind-the-scenes according to the design guideline. All NationStates-provided tags (e.g. b, i, u, strike, color, font, size,...) not listed below still function as normal! You can use a tag inside another tag unless specified otherwise.[/p]
+[p]The current design guideline requires you to write long sequences of BBCode tags. Custom BBCode tags are short, easy-to-remember tags that automatically expand to NationStates tags behind-the-scenes according to the design guideline. All NationStates-provided tags (e.g. b, i, u, strike, color, font, size, sidebar, float, align,...) not listed below still function as normal! You can use a tag inside another tag unless specified otherwise.[/p]
 [/box]
 
 
@@ -217,7 +236,7 @@ The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_form
 [box]
 [h2]url - URL[/h2]
 
-[p]This tag formats a link. Aside from putting in actual URLs, you can put in the unique name of a dispatch run by the Dispatch Service (The name column of the dispatch editing sheet) to link to it. Frequently used links (to non-TSP dispatches or forum places) also have shortcut name that you can use. A list of all shortcut names for frequently used links is [url=]HERE[/url]. If you are linking to a permament dispatch or common forum location then you should use the shortcut names instead of full URLs to make it easier to update these links if they ever change.[/p]
+[p]This tag formats a link. Aside from putting in actual URLs, you can put in the unique name of a dispatch in the editing spreadsheet (The name column of the sheet) to link to it. Frequently used links (to non-TSP dispatches or forum places) also have shortcut names that you can use. A list of all shortcut names for frequently used links is [url=https://docs.google.com/spreadsheets/d/1tdG_2Vp0VabvL9TGAaM5fX3vUrF-YLX8b851M1JgeJM/edit?usp=sharing]HERE[/url] (in the "External URLs" sheet). If you are linking to a permanent dispatch or common forum location then you should use the shortcut/unique names instead of full URLs to make it easier to update these links if they ever change.[/p]
 
 [p][b]Using regular URL:[/b][/p] [pre][p]The WA link is [url=https://www.nationstates.net/page=un]here[/url][/p][/pre]
 [p][b]Result:[/b][/p]
@@ -261,8 +280,10 @@ The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_form
 
 [list][*]The table cell [em]td[/em] tag functions as you would expect but it automatically wraps the text in a paragraph tag so you don't need to use the p tag inside a table cell.
 [*][em]th[/em] tag is used to format header cells.
-[*][em]tt[/em] tag is used to create the table title bar. (Remember to use the 'noheader' option in the table tag to make it pretty)
+[*][em]tt[/em] tag is used to create the table title bar. (Remember to use the 'noheader' option in the table tag to turn off the default header background to make it pretty)
 [/list]
+
+[p][em]tt[/em], [em]th[/em], and [em]td[/em] tags support the cell width option. Default width for [em]tt[/em] tag is 5.[/p]
 
 [p][b]Example:[/b][/p]
 [pre][table=noheader][tt=3]Table title[/tt]
@@ -307,6 +328,16 @@ The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_form
 
 [p][b]Result:[/b][/p]
 [raw][p]Custom tags won't render[/p] but [b]NS tags still work as normal[/b][/raw]
+
+[p][b]Example with list item tag:[/b][/p]
+[pre][list]
+[raw][*][/raw] This is a raw list item tag with no paragraph wrapping
+[/list][/pre]
+
+[p][b]Result:[/b][/p]
+[list]
+[raw][*][/raw] This is a raw list item tag with no paragraph wrapping
+[/list]
 
 [p]The [em]pre[/em] tag disables both custom and NationStates-provided tags as you may have expected.[/p]
 
