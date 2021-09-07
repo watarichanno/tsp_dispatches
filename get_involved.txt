@@ -36,8 +36,8 @@
 
 [list]
 [*][region]Knowhere[/region]: This is a region where you can post informal roleplays (e.g. news about your nation) on the Message Board. You don't need to move your nation to this region in order to post on its RMB.
-[*][url=f_main_canon][b]Main Canon[/b][/url]: This is an area on our forum where canon roleplays which take place on [url=f_main_canon_map]our map[/url] happen. You can have serious roleplays about wars, trades, meetings, news,... here. Most roleplays on here are very long with complex world-building so if you like to write long stories, this may be the place for you.
-[*][url=f_extra_canon][b]Extra Canon (Forum)[/b][/url]: For non-canon roleplay where we don't stick to the map.
+[*][url=https://tspforums.xyz/forum-109.html][b]Main Canon[/b][/url]: This is an area on our forum where canon roleplays which take place on [url=https://tspforums.xyz/thread-241.html]our map[/url] happen. You can have serious roleplays about wars, trades, meetings, news,... here. Most roleplays on here are very long with complex world-building so if you like to write long stories, this may be the place for you.
+[*][url=https://tspforums.xyz/forum-292.html][b]Extra Canon (Forum)[/b][/url]: For non-canon roleplay where we don't stick to the map.
 [/list]
 
 [p][url=roleplay_intro][b]Click here to learn more about roleplay[/b][/url][/p]
@@ -62,6 +62,6 @@
 
 [h1]More ways![/h1]
 
-[p]There is nearly no limit on what you can do in our region. You can create [url=f_spam]games[/url], [url=f_media]newspapers, discussions[/url], [url=f_org]organizations, political parties[/url],... in our region on the gameside or the forum. It is up to you to choose what ways to have the most fun in our community![/p]
+[p]There is nearly no limit on what you can do in our region. You can create [url=https://tspforums.xyz/forum-14.html]games[/url], [url=https://tspforums.xyz/forum-22.html]newspapers, discussions[/url], [url=https://tspforums.xyz/forum-23.html]organizations, political parties[/url],... in our region on the gameside or the forum. It is up to you to choose what ways to have the most fun in our community![/p]
 
 {% endblock body %}
