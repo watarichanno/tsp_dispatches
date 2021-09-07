@@ -18,7 +18,7 @@
 
 [p](How to do the above: Open the World Assembly page on the left then click [i]Apply to join[/i] and follow the instructions to join the World Assembly. Next, open the page of the nation you want to endorse, scroll down then click [i]Endorse[/i])[/p]
 
-[p]The next step is to get in touch with our community, you should join these places:[/p]
+[p]The next step is to get in touch with the community by joining these places:[/p]
 
 [list]
 [*][url=rmb][b]Chat on the Regional Message Board (RMB):[/b][/url] Chat with other nations on our message board and get to know our community. Make sure you read the [url=rmb_rules]Rules and Etiquette[/url] first though to make sure moderators don't annoy you.
@@ -35,8 +35,8 @@
 [*][url=owl_region][b]Help the region vote on WA resolutions:[/b][/url] Help Delegate {{ gov_officials.delegate|nation }} and regional nations to decide how to vote on WA resolutions that govern the world before they are brought to the floor with the [url=owl_intro]Office of WA Legislation (OWL)[/url].
 [*][url=f_unified_app][b]Participate in the government:[/b][/url] Our government offers a wide variety of activities for anyone to participate such as:
 [list][*]Drafting and voting on laws and leaders that govern the region by becoming [em]a legislator[/em] in our legislature, [url=assembly_intro]the Assembly[/url].
-[*]Directly involve in the day-to-day activities of the region such as foreign affairs, public media, event and festival organization, engagement with new players,... by joining a [em]governemnt ministry or department[/em].
-[*]Want something fast-paced? You can join our military the [em]the South Pacific Special Forces (SPSF)[/em]. They defend our region, allies, and other innocent regions from the acts of destruction of raiders as well as engaging in offensive operations against regions that espouse hateful ideologies.
+[*]Directly involve in the day-to-day activities of the region such as foreign affairs, public media, event and festival organization, engagement with new players,... by joining a [em]government ministry or department[/em].
+[*]Want something fast-paced? You can join our military the [em]the South Pacific Special Forces (SPSF)[/em]. They defend our region, allies, and other innocent regions from raiders as well as engaging in offensive operations against regions that espouse hateful ideologies.
 [/list]
 [*][url=roleplay_intro][b]Roleplay (RP):[/b][/url] You can roleplay about wars, trading, or anything else about your nation with other nations on gameside using [region]Knowhere[/region] or on [url=f_roleplay]our forum[/url] if you want more formality. Roleplaying is awesome if you like writing, creating stories, and dislike the limits on creativity that issue answering imposes.
 [*][em]More!:[/em] There is nearly no limit on what you can do in our region. You can create organizations, newspapers, discussion groups, political parties,... in our region on gameside or on the forum to have more fun!

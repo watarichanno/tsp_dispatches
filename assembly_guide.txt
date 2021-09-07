@@ -49,7 +49,7 @@
 
 [h2]Understanding the matters being discussed in the Assembly[/h2]
 
-[p]If you are a beginner, you may not understand the issues and problems being discussed. The quickest way to understand them is asking other legislators, who will enthusiastically explain them for you! You can also read the [url=media_services]latest news[/url], or if you prefer the raw approach, read some of the laws in [url=law_index]the Law Archive[/url] or [url=index]browse the dispatches[/url].[/p]
+[p]If you are a beginner, you may not understand the issues and problems being discussed. The quickest way to understand them is asking other legislators, who will enthusiastically explain them for you! You can also read the [url=media_services]latest news[/url], or if you prefer the raw approach, read some of the laws in [url=law_index]the MATT-DUCK Law Archive[/url] or [url=index]browse the dispatches[/url].[/p]
 
 [p]This part of the guide already gives you most of the knowledge needed to participate in the Assembly. Below, you'll read about how legislation is made along with how to write, propose, debate, and vote on one.[/p]
 
@@ -364,7 +364,7 @@
 
 [p]Each type of bill has different number of votes required for it to pass and become official law:[/p]
 [list]
-[*][em]General bills[/em] (general laws, resolutions, appointment approvals) and [em]treaties[/em] require a simple majority of aye votes to pass (more than 50% of Legislators vote Aye, not counting the Abstain voters)
+[*][em]General bills[/em] (general laws, resolutions, appointment approvals) and [em]treaties[/em] require a simple majority of aye votes to pass (more than 50% of legislators vote Aye, not counting the Abstain voters)
 [*][em]Constitutional bills[/em] (constitutional laws, resolutions), [em]recall resolutions[/em] (used to recall government officials), and [em]Motions of No Confidence[/em] (used to recall the entire Cabinet) require a three-fifths supermajority of Aye votes to pass (more than three-fifths or 60% of legislators voting Aye, not counting the Abstain voters)
 [/list]
 
