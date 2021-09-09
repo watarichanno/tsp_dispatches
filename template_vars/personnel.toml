@@ -10,8 +10,8 @@ owl_sec = 'Anjo'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Anjo'
-local_council = ['Penguin', 'Seraph', 'Murelia']
-crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Seraph', 'Tsunamy', 'Somyrion', 'Amerion', 'Penguin']
+local_council = ['Penguin', 'Murelia']
+crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Tsunamy', 'Somyrion', 'Amerion', 'Penguin']
 legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin']
 general_corps = ['Roavin', 'Nakari']
 cabinet_advisors = ['Nakari']
@@ -56,9 +56,6 @@ discord_handle = 'Belschaft#0942'
 [personnel_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = 'Griffindor#9422'
-[personnel_info.'Seraph']
-nation = 'Erinor'
-discord_handle = 'Seraph#4235'
 [personnel_info.'Penguin']
 nation = 'PenguinPies'
 discord_handle = 'Penguin#0738'
