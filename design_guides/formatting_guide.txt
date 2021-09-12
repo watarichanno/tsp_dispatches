@@ -5,164 +5,30 @@
 [title]The Full Guide about formatting dispatches[/title]
 
 [box]
-[p]The Dispatch Service's editing system provides custom BBCode tags to allow you to easily format your dispatches in a standard-compliant way. It also has a template engine to allow you to use placeholders (for things that change frequently and are in many places), control how to print these placeholders, and more. With these tools, what you write isn't the final content but a [em]template[/em] that the behind-the-scenes dispatch software will process (parse the BBCode tags, fill in placeholders, run code blocks,...) to produce the final text content that will be uploaded to NationStates.[/p]
+[p]If you edit dispatches via the Dispatch Service's spreadsheets, you will have to access to custom BBCode tags that help you easily format your dispatches in a standard-compliant way. It also has a template engine to allow you to use placeholders (for information that change frequently and are in many places), control how to display these placeholders, and more. With these tools, what you write isn't the final content but a [em]template[/em] that the behind-the-scenes dispatch software will process (parse the BBCode tags, fill in placeholders, run code blocks,...) to produce the final text content that will be uploaded to NationStates.[/p]
 
 [hr]
 
 [h1]The structure of a dispatch[/h1]
 
-[p]Any dispatch needs to look like this[/p]
+[p]Any dispatch template needs to look like this. Those code blocks tell the dispatch software to use the header and footer (collectively known as [em]layout[/em]) of the government body/topic [em]layout_name[/em]. Check [url=https://docs.google.com/spreadsheets/d/1tdG_2Vp0VabvL9TGAaM5fX3vUrF-YLX8b851M1JgeJM/edit#gid=1812292675&range=A1]the layout sheet[/url] to know what layouts are available.[/p]
 [pre]{% raw %}
 {% extends 'layout/layout_name' %}
 
 {% block body %}
 
-Write the actual content of the dispatch here
+--- Write the actual content of the dispatch here ---
 
 {% endblock body %}
 {% endraw %}
 [/pre]
-
-[p]Since all dispatches have roughly the same structure of header->body box->footer, the header, body box, and footer of dispatches are defined separately in "layouts" contained on the [url=https://docs.google.com/spreadsheets/d/1tdG_2Vp0VabvL9TGAaM5fX3vUrF-YLX8b851M1JgeJM/edit?usp=sharing]design configuration spreadsheet[/url]. The syntax constructs you see above are to tell the system to use the layout with the name [em]layout_name[/em] to get the appropriate header and footer for your dispatch. Each government body/topic use a different header so there are many layouts. The name of all layouts is in the "Layouts" sheet of the design configuration spreadsheet. For example, if you want to write a dispatch about the Assembly and want to use its header, replace [em]layout_name[/em] with [em]assembly[/em].[/p]
-
-[p]If you want to disable the body box (to define your own box tags for example), replace [em]body[/em] with [em]outer_body[/em] in the block and endblock element.[/p]
-
-[hr]
-
-[h1]Using placeholders[/h1]
-
-[p]Sometimes, you may have a piece of information that is in many places and change frequently. Updating them manually would be a choir so the system supports placeholders for those information known as "template variables". The template variables are replaced with actual values from the variable sheets. You can use them as follow.[/p]
-[pre]{% raw %}
-{{ variable_name }}
-{% endraw %}
-[/pre]
-[p]If the value for template variable "variable_name" is defined anywhere in the variable sheets, the variable will automatically be substituted with the value. You can find variables to use in the dispatch editing spreadsheet provided to you (e.g. for  [url=https://docs.google.com/spreadsheets/d/1c7rApk0yQp5b1S-kIPTj7n-ulbz2Yy5PKJjj6VzJnIE/edit?usp=sharing]the TSP main dispatches[/url], "Government Officials" sheet contains the values for government official name variables).[/p]
-
-[p]Variables tend to be put into groups. For example government official names are grouped into a group called "gov_officials". You can access the pm variable (prime minister name) in this group as follow:[/p]
-[pre]{% raw %}
-# This will output the prime minister's name
-{{ gov_officials.pm }}
-{% endraw %}
-[/pre]
-
-
-[h2]Print template variables that have many values with filters[/h2]
-
-[p]Some placeholders contain many values such as government official list. These variables are called "lists" for short. To print them, you use something called a "filter". Filters are postfixes that you put after the variable name, separated by a vertical bar. Assuming you have a list variable called "a_list_of_something" with these values: 'Cake', 'Pie', 'Egg', 'Tomato', 'Orange', 'Meat'. Here are a few examples:[/p]
-[pre]{% raw %}
-# This will print the values as a comma-separated text list
-{{ a_list_of_something|gen_list }}
-
-# You can use another delimiter rather than a comma as follow:
-{{ a_list_of_something|gen_list(delimiter='; ') }}
-# The setting "delimiter" that the filter takes is called a "parameter" or "argument"
-
-# You can wrap each item around a tag (a list of regions for example)
-{{ a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}
-
-# This will print the values as table tags (td and tr). If you want to output the values as a table (like the SWAN CRS member table), use this. You need to use this construct in a [table] tag. By default it will output 5 cells per row.
-[table]{{ a_list_of_something|gen_table_tags }}[/table]
-
-# To output 3 cells per row for example. Do as follow:
-[table]{{ a_list_of_something|gen_table_tags(column_num=3) }}[/table]
-
-# You can wrap the text of each table cell in a tag:
-[table]{{ a_list_of_something|gen_table_tags(start_tag='[region]', end_tag='[/region]') }}[/table]
-{% endraw %}
-[/pre]
-
-[p][b]Result:[/b][/p]
-{{ design_guides.a_list_of_something|gen_list }}
-{{ design_guides.a_list_of_something|gen_list(delimiter='; ') }}
-{{ design_guides.a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}
-[table]{{ design_guides.a_list_of_something|gen_table_tags }}[/table]
-[table]{{ design_guides.a_list_of_something|gen_table_tags(column_num=3) }}[/table]
-[table]{{ design_guides.a_list_of_something|gen_table_tags(start_tag='[region]', end_tag='[/region]') }}[/table]
-
-[h2]Print government official name[/h2]
-
-[p]A government official variable contains the common name, TSP nation name, and Discord ID as defined in the "Personnel Info" sheet [url=https://docs.google.com/spreadsheets/d/1c7rApk0yQp5b1S-kIPTj7n-ulbz2Yy5PKJjj6VzJnIE/edit?usp=sharing]here[/url]. You can print the values manually like this:[/p]
-[pre]{% raw %}
-The current Prime Minister is {{ gov_officials.pm.name }}, their nation is [nation]{{ gov_officials.pm.nation }}[/nation], their discord handle is {{ gov_officials.pm.discord_handle }}
-{% endraw %}
-[/pre]
-
-[p][b]Result:[/b][/p]
-The current Prime Minister is {{ gov_officials.pm.name }}, their nation is [nation]{{ gov_officials.pm.nation }}[/nation], their discord handle is {{ gov_officials.pm.discord_handle }}
-
-[p]This is tedious to do however. You should use these ways instead:[/p]
-[pre]{% raw %}
-# This will automatically print the TSP nation name and discord handle (in a parenthesis, don't print if there is no Discord) of the official. You should use this 99% of the time.
-The current Minister of Foreign Affairs is {{ gov_officials.mofa|info }}
-
-# You can just output the nation name only as follow. The name is automatically wrapped in a nation tag for you:
-The nation of the current Minister of Foreign Affairs is {{ gov_officials.mofa|nation }}
-
-# If necessary, you can change the print format as follow:
-The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})') }}
-# This will print the common name, nation name, and discord handle according to that template.
-# You can control the print format in the case of non-existent discord handle too.
-{{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})', print_format_no_discord='{name} ({nation})') }}
-
-# To print a comma-separated text list of officials (e.g a list of CRS members), do as follow:
-The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
-# gen_personnel_list accepts all parameters that the regular gen_list and info filter provides.
-
-# To print table cell tags from a list of officials, do as follow:
-[table=noheader][tt=3]The current Local Council members are[/tt]
-{{ gov_officials.local_council|gen_table_tags_personnel }}[/table]
-# gen_table_tags_personnel accepts all parameters that the regular gen_table_tags and info filter provides.
-# Look below for more information on the tt tag.
-{% endraw %}
-[/pre]
-
-[p][b]Result:[/b][/p]
-The current Minister of Foreign Affairs is {{ gov_officials.mofa|info }}
-The nation of the current Minister of Foreign Affairs is {{ gov_officials.mofa|nation }}
-The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})') }}
-
-The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
-
-[table=noheader][tt=3]The current Local Council members are[/tt]
-{{ gov_officials.local_council|gen_table_tags_personnel }}[/table]
-
-[h2]Print multiple value variables with loop[/h2]
-
-[p]Sometimes, you may want to customize how a list variable is printed. You can do that by using something called a "loop":[/p]
-[pre]
-{% raw %}
-# This example prints a_list_of_something variable as a list with the [*] tag. This syntax construct is called a loop. The text between the for/endfor block will repeatedly run for each value in variable a_list_of_something
-
-[list]
-{% for item in a_list_of_something %}
-[*]{{ item }}
-{% endfor %}
-[/list]
-{% endraw %}
-[/pre]
-
-[p][b]Result:[/b][/p]
-[list]
-{% for item in design_guides.a_list_of_something %}
-[*]{{ item }}
-{% endfor %}
-[/list]
-
-[h2]And more![/h2]
-
-[p]The part that provides the above features is known as a "template engine". The template engine that we use is [url=https://jinja.palletsprojects.com/en/3.0.x/intro/]Jinja[/url]. It is designed for webpages but it will work for anything related to text processing. The big guide to using the engine is [url=https://jinja.palletsprojects.com/en/3.0.x/templates/]here[/url]. Any feature of it can be used for dispatches (you just need to imagine the HTML tags as BBCode tags). If you want to abuse the hell out of the system, check out that guide. A few useful reference resources:[/p]
-[list]
-[*][url=https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters]List of filters[/url]: Some useful filters are getting the length of a list variable, converting text to lower case, sorting list variables,...
-[*][url=https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-control-structures]Control structures[/url]: The for loop and filters above are known generally as "control structures". Some other control structures are the if block (only print its text when some conditions are true), macros (a block of reusable template codes that you use just by writing its name out, our headers are actually generated by a macro in the design sheet),...
-[/list]
 [/box]
 
 [box]
 [h1]Custom BBCode tags[/h1]
 
-[p]The current design guideline requires you to write long sequences of BBCode tags. Custom BBCode tags are short, easy-to-remember tags that automatically expand to NationStates tags behind-the-scenes according to the design guideline. All NationStates-provided tags (e.g. b, i, u, strike, color, font, size, sidebar, float, align,...) not listed below still function as normal! You can use a tag inside another tag unless specified otherwise.[/p]
+[p]The current design guideline requires you to write long sequences of BBCode tags. Custom BBCode tags are short, easy-to-remember tags that automatically expand to NationStates tags behind-the-scenes according to the design guideline. All NationStates-provided tags (e.g. b, i, u, strike, color, font, size, sidebar, float, align,...) not listed below still function as normal! You can use a tag inside another tag unless specified otherwise. Check [url=design_guides/formatting_example]the example[/url] for a quick look.[/p]
 [/box]
-
 
 [box][h2]p - Paragraph[/h2]
 
@@ -351,6 +217,141 @@ The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
 
 [p][b]Result:[/b][/p]
 [p][raw_url=welcome]This URL[/raw_url] is unformatted[/p]
+[/box]
+
+[box]
+[h1]The template engine[/h1]
+
+[p]The behind-the-scene dispatch software uses what known as a "template engine". You can write placeholders and code blocks in your dispatch template and the templage engine will fill those placeholders with real values defined elsewhere and run the code blocks that control how they are displayed once uploaded to NationStates.[/p]
+
+[hr]
+
+[h2]More info on headers and footers[/h2]
+
+[p]Since all dispatches have roughly the same structure of header->body box->footer, the header, body box, and footer of dispatches are defined separately in "layout templates" contained on the [url=https://docs.google.com/spreadsheets/d/1tdG_2Vp0VabvL9TGAaM5fX3vUrF-YLX8b851M1JgeJM/edit#gid=1812292675&range=A1]design configuration spreadsheet[/url]. The [em]{% raw %}{% extends 'layout/layout_name' %}{% endraw %}[/em] code block you see above tells the system to use the layout with the name [em]layout_name[/em] to get the appropriate header and footer for your dispatch. [em]{% raw %}{% block body %}...{% endblock body %}{% endraw %}[/em] tells the system you are defining the actual content (body) of the dispatch. Each government body/topic use a different header so there are many layout templates. The name of all layouts is in the "Layouts" sheet of the design configuration spreadsheet. For example, if you want to write a dispatch about the Assembly and want to use its header, replace [em]layout_name[/em] with [em]assembly[/em].[/p]
+
+[p]If you want to disable the body box (to define your own box tags for example), replace [em]body[/em] with [em]outer_body[/em] in the block and endblock element.[/p]
+
+[hr]
+
+[h2]Using placeholders[/h2]
+
+[p]Sometimes, you may have a piece of information that is in many places and change frequently. Updating them manually would be a choir so the system supports placeholders for those information known as "template variables". The template variables are replaced with actual values from the variable sheets. You can use them as follow.[/p]
+[pre]{% raw %}
+{{ variable_name }}
+{% endraw %}
+[/pre]
+[p]If the value for template variable "variable_name" is defined anywhere in the variable sheets, the variable will automatically be substituted with the value. You can find variables to use in the dispatch editing spreadsheet provided to you (e.g. for the TSP main dispatches, [url=https://docs.google.com/spreadsheets/d/1c7rApk0yQp5b1S-kIPTj7n-ulbz2Yy5PKJjj6VzJnIE/edit#gid=2143374086&range=A1]"Government Officials" sheet[/url] contains the values for government official name variables).[/p]
+
+[p]Variables tend to be put into groups. For example government official names are grouped into a group called "gov_officials". You can access the pm variable (prime minister name) in this group as follow:[/p]
+{% raw %}
+[p]This will output the prime minister's name:[/p]
+[pre]{{ gov_officials.pm }}[/pre]
+{% endraw %}
+
+[h2]Print template variables that have many values with filters[/h2]
+
+[p]Some placeholders contain many values such as government official list. These variables are called "lists" for short. To print them, you use something called a "filter". Filters are postfixes that you put after the variable name, separated by a vertical bar. Assuming you have a list variable called "a_list_of_something" with these values: 'Cake', 'Pie', 'Egg', 'Tomato', 'Orange', 'Meat'. Here are a few examples:[/p]
+{% raw %}
+[p]This will print the values as a comma-separated text list:[/p]
+[pre]{{ a_list_of_something|gen_list }}[/pre]
+
+[p]You can use another delimiter rather than a comma as follow:[/p]
+[pre]{{ a_list_of_something|gen_list(delimiter='; ') }}[/pre]
+[p]The option "delimiter" that the filter takes is called a "parameter" or "argument"[/p]
+
+[p]You can wrap each item around a tag (a list of regions for example):[/p]
+[pre]{{ a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}[/pre]
+
+[p]This will print the values as table tags (td and tr). If you want to output the values as a table (like the SWAN CRS member table), use this. You need to use this construct in a [em]table[/em] tag. By default it will output 5 cells per row.[/p]
+[pre][table]{{ a_list_of_something|gen_table_tags }}[/table][/pre]
+
+[p]To output 3 cells per row for example. Do as follow:[/p]
+[pre][table]{{ a_list_of_something|gen_table_tags(column_num=3) }}[/table][/pre]
+
+[p]You can wrap the text of each table cell in a tag:[/p]
+[pre][table]{{ a_list_of_something|gen_table_tags(start_tag='[region]', end_tag='[/region]') }}[/table][/pre]
+{% endraw %}
+
+[p][b]Result for each example:[/b][/p]
+{{ design_guides.a_list_of_something|gen_list }}
+{{ design_guides.a_list_of_something|gen_list(delimiter='; ') }}
+{{ design_guides.a_list_of_something|gen_list(start_tag='[region]', end_tag='[/region]') }}
+[table]{{ design_guides.a_list_of_something|gen_table_tags }}[/table]
+[table]{{ design_guides.a_list_of_something|gen_table_tags(column_num=3) }}[/table]
+[table]{{ design_guides.a_list_of_something|gen_table_tags(start_tag='[region]', end_tag='[/region]') }}[/table]
+
+[h2]Print government official name[/h2]
+
+[p]A government official variable contains the common name, TSP nation name, and Discord ID as defined in the "Personnel Info" sheet [url=https://docs.google.com/spreadsheets/d/1c7rApk0yQp5b1S-kIPTj7n-ulbz2Yy5PKJjj6VzJnIE/edit#gid=729895861&range=A1]here[/url]. You can print the values manually like this:[/p]
+[pre]{% raw %}
+The current Prime Minister is {{ gov_officials.pm.name }}, their nation is [nation]{{ gov_officials.pm.nation }}[/nation], their discord handle is {{ gov_officials.pm.discord_handle }}
+{% endraw %}
+[/pre]
+
+[p][b]Result:[/b][/p]
+The current Prime Minister is {{ gov_officials.pm.name }}, their nation is [nation]{{ gov_officials.pm.nation }}[/nation], their discord handle is {{ gov_officials.pm.discord_handle }}
+
+[p]This is tedious to do however. You should use these ways instead:[/p]
+{% raw %}
+[p]This will automatically print the TSP nation name and discord handle (in a parenthesis, don't print if there is no Discord) of the official. You should use this 99% of the time.[/p]
+[pre]The current Minister of Foreign Affairs is {{ gov_officials.mofa|info }}[/pre]
+
+[p]You can just output the nation name only as follow. The name is automatically wrapped in a nation tag for you:[/p]
+[pre]The nation of the current Minister of Foreign Affairs is {{ gov_officials.mofa|nation }}[/pre]
+
+[p]If necessary, you can change the print format as follow:[/p]
+[pre]The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})') }}[/pre]
+[p]This will print the common name, nation name, and discord handle according to that template. You can control the print format in the case of non-existent discord handle too:[/p]
+[pre]{{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})', print_format_no_discord='{name} ({nation})') }}[/pre]
+
+[p]To print a comma-separated text list of officials (e.g a list of CRS members), do as follow:[/p]
+[pre]The current CRS members are {{ gov_officials.crs|gen_personnel_list }}[/pre]
+[p]gen_personnel_list accepts all parameters that the regular gen_list and info filter provides.[/p]
+
+[p]To print table cell tags from a list of officials, do as follow:[/p]
+[pre][table=noheader][tt=3]The current Local Council members are[/tt]
+{{ gov_officials.local_council|gen_table_tags_personnel }}[/table][/pre]
+[p]gen_table_tags_personnel accepts all parameters that the regular gen_table_tags and info filter provides. Look below for more information on the tt tag.[/p]
+{% endraw %}
+
+[p][b]Result for each example:[/b][/p]
+The current Minister of Foreign Affairs is {{ gov_officials.mofa|info }}
+The nation of the current Minister of Foreign Affairs is {{ gov_officials.mofa|nation }}
+The current Minister of Foreign Affairs is {{ gov_officials.mofa|info(print_format='{name} ({nation}; {discord_handle})') }}
+
+The current CRS members are {{ gov_officials.crs|gen_personnel_list }}
+
+[table=noheader][tt=3]The current Local Council members are[/tt]
+{{ gov_officials.local_council|gen_table_tags_personnel }}[/table]
+
+[h2]Print multiple value variables with loop[/h2]
+
+[p]Sometimes, you may want to customize how a list variable is printed. You can do that by using something called a "loop":[/p]
+{% raw %}
+[p]This example prints a_list_of_something variable as a list with the [em]*[/em] tag. This syntax construct is called a loop. The text between the for/endfor block will repeatedly run for each value in variable a_list_of_something:[/p]
+
+[pre][list]
+{% for item in a_list_of_something %}
+[*]{{ item }}
+{% endfor %}
+[/list][/pre]
+{% endraw %}
+
+[p][b]Result:[/b][/p]
+[list]
+{% for item in design_guides.a_list_of_something %}
+[*]{{ item }}
+{% endfor %}
+[/list]
+
+[h2]And more![/h2]
+
+[p]The part that provides the above features is known as a "template engine". The template engine that we use is [url=https://jinja.palletsprojects.com/en/3.0.x/intro/]Jinja[/url]. It is designed for webpages but it will work for anything related to text processing. The big guide to using the engine is [url=https://jinja.palletsprojects.com/en/3.0.x/templates/]here[/url]. Any feature of it can be used for dispatches (you just need to imagine the HTML tags as BBCode tags). If you want to abuse the hell out of the system, check out that guide. A few useful reference resources:[/p]
+[list]
+[*][url=https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters]List of filters[/url]: Some useful filters are getting the length of a list variable, converting text to lower case, sorting list variables,...
+[*][url=https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-control-structures]Control structures[/url]: The for loop and filters above are known generally as "control structures". Some other control structures are the if block (only print its text when some conditions are true), macros (a block of reusable template codes that you use just by writing its name out, our headers are actually generated by a macro in the design sheet),...
+[/list]
 [/box]
 
 {% endblock outer_body %}
