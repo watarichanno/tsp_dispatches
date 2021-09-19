@@ -10,7 +10,7 @@ owl_sec = 'Anjo'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Anjo'
-local_council = ['Penguin', 'Murelia']
+local_council = ['Penguin', 'Murelia', 'Concrete Slab']
 crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Tsunamy', 'Somyrion', 'Amerion', 'Penguin']
 legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin']
 general_corps = ['Roavin', 'Nakari']
@@ -20,6 +20,9 @@ cabinet_advisors = ['Nakari']
 [personnel_info.Amerion]
 nation = 'Amerion'
 discord_handle = 'Amerion#9702'
+[personnel_info.'Concrete Slab']
+nation = 'Concrete Slab'
+discord_handle = 'Concrete Slab#8764'
 [personnel_info.'W&S']
 nation = 'Witchcraft and Sorcery'
 discord_handle = 'WynkenBlynken#1150'
