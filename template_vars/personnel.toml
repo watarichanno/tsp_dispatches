@@ -13,7 +13,7 @@ coa = 'Anjo'
 local_council = ['Penguin', 'Murelia', 'Concrete Slab']
 crs = ['Glen-Rhodes', 'Farengeto', 'Kringle', 'Tsunamy', 'Somyrion', 'Amerion', 'Penguin']
 legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin']
-general_corps = ['Roavin', 'Nakari']
+general_corps = ['Roavin', 'Nakari', 'W&S']
 cabinet_advisors = ['Nakari']
 
 [personnel_info]

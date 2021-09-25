@@ -38,8 +38,12 @@ def get_url(url, custom_vars_urls, dispatches):
     if url in custom_vars_urls:
         r = custom_vars_urls[url]
     elif url in dispatches:
-        dispatch_id = dispatches[url]['ns_id']
-        r = '{}{}'.format(DISPATCH_URL, dispatch_id)
+        try:
+            dispatch_id = dispatches[url]['ns_id']
+            r = '{}{}'.format(DISPATCH_URL, dispatch_id)
+        except KeyError:
+            logger.error('Id of dispatch "%s" not found.', url)
+            r = url
     elif url.split('#')[0] in dispatches:
         url = url.split('#')
         dispatch_id = dispatches[url[0]]['ns_id']
