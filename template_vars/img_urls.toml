@@ -1,7 +1,7 @@
 [img_urls]
 tsp_header = 'https://img.tspforums.xyz/tsp-graphics/regional/tsp-dispatch.png'
 tsp_flag = 'https://img.tspforums.xyz/tsp-graphics/regional/flag.png'
-
+government_header = 'https://img.tspforums.xyz/tsp-graphics/regional/government-dispatch.png'
 assembly_header = 'https://img.tspforums.xyz/tsp-graphics/assembly/assembly-dispatch.png'
 cabinet_header = 'https://img.tspforums.xyz/tsp-graphics/cabinet/cabinet-dispatch.png'
 court_header = 'https://img.tspforums.xyz/tsp-graphics/court/court-dispatch.png'
