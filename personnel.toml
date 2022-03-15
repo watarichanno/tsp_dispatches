@@ -12,7 +12,7 @@ hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Anjo'
 local_council = ['Drystar', 'Canadian Dominion', 'Apatosaurus']
 crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Jay']
-spcg = ['Amerion', 'Aidenfieeld','Anjo','Auphelia','Concrete Slab', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tin', 'Tsunamy', 'Penguin']
+spcg = ['Amerion', 'Aidenfieeld','Anjo','Concrete Slab', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tin', 'Tsunamy', 'Penguin']
 legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin', 'Anjo']
 general_corps = ['Roavin', 'Nakari', 'W&S']
 cabinet_advisors = []
@@ -30,9 +30,6 @@ discord_handle = 'anjo#3888'
 [personnel_info.'Apatosaurus']
 nation = 'Apatosaurus'
 discord_handle = 'Apatosaurus#8045'
-[personnel_info.'Auphelia']
-nation = 'Auphelia'
-discord_handle = 'Quarrelsome Queen#0882'
 [personnel_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'Belschaft#0942'
