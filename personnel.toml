@@ -1,20 +1,20 @@
 [gov_officials]
 delegate = 'Penguin'
-pm = 'HumanSanity'
-mofa = 'Roavin'
-mod = 'Moon'
+pm = 'Moon'
+mofa = 'Glen-Rhodes'
+mod = 'Pronoun'
 moc = 'Eshia'
 mom = 'Wizard Ferret'
-moe = 'Purple Hyacinth'
+moe = 'USoVietnam'
 owl_sec = 'BlockBuster'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
-coa = 'Anjo'
-local_council = ['Drystar', 'Canadian Dominion', 'Apatosaurus']
+coa = 'Cryo'
+local_council = ['Drystar', 'Canadian Dominion', 'Evinea']
 crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Jay']
 spcg = ['Amerion', 'Aidenfieeld','Anjo','Concrete Slab', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tin', 'Tsunamy', 'Penguin']
-legcomm = ['Roavin', 'W&S', 'Nakari', 'Penguin', 'Anjo']
-general_corps = ['Roavin', 'Nakari', 'W&S']
+legcomm = ['Roavin', 'Nakari', 'Penguin', 'Anjo']
+general_corps = ['Roavin', 'Nakari']
 cabinet_advisors = []
 
 [personnel_info]
@@ -27,9 +27,6 @@ discord_handle = 'Amerion#9702'
 [personnel_info.'Anjo']
 nation = 'Tepertopia'
 discord_handle = 'anjo#3888'
-[personnel_info.'Apatosaurus']
-nation = 'Apatosaurus'
-discord_handle = 'Apatosaurus#8045'
 [personnel_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'Belschaft#0942'
@@ -42,12 +39,18 @@ discord_handle = 'NK-Pop#3817'
 [personnel_info.'Concrete Slab']
 nation = 'Concrete Slab'
 discord_handle = 'Concrete Slab#8764'
+[personnel_info.'Cryo']
+nation = 'The Haughtherlands'
+discord_handle = 'Cryophoric#6034'
 [personnel_info.'Drystar']
 nation = 'Drystar'
 discord_handle = 'Drystar#5371'
 [personnel_info.'Eshia']
 nation = 'Klysevia'
 discord_handle = 'William!#1136'
+[personnel_info.'Evinea']
+nation = 'Evinea'
+discord_handle = 'mn04#0192'
 [personnel_info.'Farengeto']
 nation = 'Farengeto'
 discord_handle = 'The Other Farengeto#7220'
@@ -87,6 +90,9 @@ discord_handle = 'Poppy#5885'
 [personnel_info.'Purple Hyacinth']
 nation = 'Purple Hyacinth'
 discord_handle = 'flowerpetal#4093'
+[personnel_info.'Pronoun']
+nation = 'Esfalsa'
+discord_handle = 'Pronoun#2968'
 [personnel_info.'Roavin']
 nation = 'Roavin'
 discord_handle = 'Roavin#5410'
@@ -96,9 +102,9 @@ discord_handle = 'Tin#6571'
 [personnel_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu#6405'
-[personnel_info.'W&S']
-nation = 'Witchcraft and Sorcery'
-discord_handle = 'WynkenBlynken#1150'
+[personnel_info.'USoVietnam']
+nation = 'United States of Vietnam'
+discord_handle = 'watari#5292'
 [personnel_info.'Wizard Ferret']
 nation = 'Wizard Ferret'
 discord_handle = 'wizardferret#3359'
