@@ -3,7 +3,7 @@ delegate = 'Penguin'
 pm = 'Moon'
 mofa = 'Glen-Rhodes'
 mod = 'Pronoun'
-moc = 'Eshia'
+moc = 'Murelia'
 mom = 'Wizard Ferret'
 moe = 'USoVietnam'
 owl_sec = 'BlockBuster'
@@ -78,6 +78,9 @@ discord_handle = 'James LWS Encaitar#6762'
 [personnel_info.'Moon']
 nation = 'Emodea'
 discord_handle = 'Moon_#5541'
+[personnel_info.'Murelia']
+nation = 'Murelia'
+discord_handle = 'Murelia#9532'
 [personnel_info.'Nakari']
 nation = 'Nakarisaune'
 discord_handle = 'Nakari#3538'
