@@ -1,16 +1,15 @@
 [gov_officials]
-delegate = 'Penguin'
+delegate = 'Anjo'
 pm = 'Jay'
 mofa = 'HumanSanity'
 mod = 'Pronoun'
 moc = 'Rose'
-mom = 'Belschaft'
 moe = 'Griffindor'
 owl_sec = 'Anjo'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Cryo'
-local_council = ['Drystar', 'Canadian Dominion', 'Evinea']
+local_council = ['Curlyhoward', 'Trivalve', 'The free romanians']
 crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Jay']
 spcg = ['Amerion', 'Aidenfieeld','Anjo','Concrete Slab', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tin', 'Tsunamy', 'Penguin']
 legcomm = ['Penguin', 'Anjo', 'HumanSanity']
@@ -42,6 +41,9 @@ discord_handle = 'Concrete Slab#8764'
 [personnel_info.'Cryo']
 nation = 'The Haughtherlands'
 discord_handle = 'Cryophoric#6034'
+[personnel_info.'Curlyhoward']
+nation = 'Curlyhoward'
+discord_handle = 'mightyjoeyoung1#6247'
 [personnel_info.'Drystar']
 nation = 'Drystar'
 discord_handle = 'Drystar#5371'
@@ -102,12 +104,16 @@ discord_handle = 'Roavin#5410'
 [personnel_info.'Rose']
 nation = 'Eggraria'
 discord_handle = 'prismatica#0013'
+[personnel_info.'The free romanians']
+nation = 'The free romanians'
 [personnel_info.'Tin']
 nation = 'Holy Free'
 discord_handle = 'Tin#6571'
 [personnel_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu#6405'
+[personnel_info.'Trivalve']
+nation = 'Trivalve'
 [personnel_info.'USoVietnam']
 nation = 'United States of Vietnam'
 discord_handle = 'watari#5292'
