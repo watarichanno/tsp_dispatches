@@ -3,7 +3,7 @@ delegate = 'Anjo'
 pm = 'Jay'
 mofa = 'HumanSanity'
 mod = 'Pronoun'
-moc = 'Rose'
+moc = 'LUI'
 moe = 'Griffindor'
 owl_sec = 'Anjo'
 hc_chief_justice = 'Kringle'
@@ -101,9 +101,9 @@ discord_handle = 'Pronoun#2968'
 [personnel_info.'Roavin']
 nation = 'Roavin'
 discord_handle = 'Roavin#5410'
-[personnel_info.'Rose']
-nation = 'Eggraria'
-discord_handle = 'prismatica#0013'
+[personnel_info.'LUI']
+nation = 'Lile Ulie Islands'
+discord_handle = 'the lile ulie islands#2206'
 [personnel_info.'The free romanians']
 nation = 'The free romanians'
 [personnel_info.'Tin']
