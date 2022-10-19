@@ -1,11 +1,11 @@
 [gov_officials]
 delegate = 'Anjo'
-pm = 'Jay'
-mofa = 'HumanSanity'
-mod = 'Pronoun'
-moc = 'LUI'
-moe = 'Griffindor'
-owl_sec = 'Anjo'
+pm = 'Purple Hyacinth'
+mofa = 'Glen-Rhodes'
+mod = 'Webs'
+moc = 'ProfessorHenn'
+moe = 'Waffle'
+owl_sec = 'Jag'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Cryo'
@@ -14,7 +14,7 @@ crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 
 spcg = ['Amerion', 'Aidenfieeld','Anjo','Concrete Slab', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tin', 'Tsunamy', 'Penguin']
 legcomm = ['Penguin', 'Anjo', 'HumanSanity']
 general_corps = ['HumanSanity']
-cabinet_advisors = []
+cabinet_advisors = ['HumanSanity', 'Pronoun']
 
 [personnel_info]
 [personnel_info.Aidenfieeld]
@@ -56,9 +56,9 @@ discord_handle = 'mn04#0192'
 [personnel_info.'Farengeto']
 nation = 'Farengeto'
 discord_handle = 'The Other Farengeto#7220'
-[personnel_info.'Floptop']
-nation = 'Lebatrip'
-discord_handle = 'Floptop F. Kennedy#3443'
+[personnel_info.'ProfessorHenn']
+nation = 'Sporaltryus'
+discord_handle = 'ProfessorHenn#7751'
 [personnel_info.'Glen-Rhodes']
 nation = 'Sandaoguo'
 discord_handle = 'hierocles#3041'
@@ -71,6 +71,9 @@ discord_handle = 'HumanSanity#9270'
 [personnel_info.'Jay']
 nation = 'Qvait'
 discord_handle = 'JayCoop#5045'
+[personnel_info.'Jag']
+nation = 'Nouvel Empire'
+discord_handle = 'Jagged Fel#0174'
 [personnel_info.'Kringle']
 nation = 'Kringalia'
 discord_handle = 'Kringle#7460'
@@ -83,9 +86,6 @@ discord_handle = 'Moon_#5541'
 [personnel_info.'Murelia']
 nation = 'Murelia'
 discord_handle = 'Murelia#9532'
-[personnel_info.'Nakari']
-nation = 'Nakarisaune'
-discord_handle = 'Nakari#3538'
 [personnel_info.'Penguin']
 nation = 'PenguinPies'
 discord_handle = 'Penguin#0738'
@@ -117,6 +117,9 @@ nation = 'Trivalve'
 [personnel_info.'USoVietnam']
 nation = 'United States of Vietnam'
 discord_handle = 'watari#5292'
-[personnel_info.'Wizard Ferret']
-nation = 'Wizard Ferret'
-discord_handle = 'wizardferret#3359'
+[personnel_info.'Waffle']
+nation = 'Doge Land'
+discord_handle = 'im_a_waffle1#9951'
+[personnel_info.'Webs']
+nation = 'The Web of Life and Destiny'
+discord_handle = 'Webs#4290'
