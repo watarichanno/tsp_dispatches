@@ -5,7 +5,7 @@ mofa = 'Glen-Rhodes'
 mod = 'Webs'
 moc = 'ProfessorHenn'
 moe = 'Waffle'
-owl_sec = 'Jag'
+owl_sec = 'Sulenia'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
 coa = 'Cryo'
@@ -71,9 +71,6 @@ discord_handle = 'HumanSanity#9270'
 [personnel_info.'Jay']
 nation = 'Qvait'
 discord_handle = 'JayCoop#5045'
-[personnel_info.'Jag']
-nation = 'Nouvel Empire'
-discord_handle = 'Jagged Fel#0174'
 [personnel_info.'Kringle']
 nation = 'Kringalia'
 discord_handle = 'Kringle#7460'
@@ -101,6 +98,9 @@ discord_handle = 'Pronoun#2968'
 [personnel_info.'Roavin']
 nation = 'Roavin'
 discord_handle = 'Roavin#5410'
+[personnel_info.'Sulenia']
+nation = 'Vox'
+discord_handle = 'Sulen#6202'
 [personnel_info.'LUI']
 nation = 'Lile Ulie Islands'
 discord_handle = 'the lile ulie islands#2206'
