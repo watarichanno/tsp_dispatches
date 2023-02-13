@@ -1,6 +1,7 @@
 [urls]
 forum = 'https://thesouthpacific.org'
-f_unified_app = 'https://thesouthpacific.org/w/get-involved/'
+f_unified_app = 'https://thesouthpacific.org/w/get-involved'
+f_signup = 'https://thesouthpacific.org/signup'
 
 roleplay_intro = 'https://wiki.tspforums.xyz/wiki/Guide:_Getting_started_in_roleplay'
 f_roleplay = 'https://thesouthpacific.org/c/pacifica/13'
@@ -37,6 +38,7 @@ owl_guide = 'https://www.nationstates.net/page=dispatch/id=1385515'
 swan_intro = 'https://www.nationstates.net/page=dispatch/id=1042647'
 swan_guide = 'https://www.nationstates.net/page=dispatch/id=1048440'
 swan_endo_cap = 'https://www.nationstates.net/page=dispatch/id=1048805'
+swan_knights = 'https://www.nationstates.net/page=dispatch/id=1045928'
 spcg_intro = 'https://www.nationstates.net/page=dispatch/id=1398091'
 
 ns_faq = 'https://www.nationstates.net/page=faq'
