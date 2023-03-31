@@ -1,20 +1,20 @@
 [gov_officials]
 delegate = 'Anjo'
-pm = 'Purple Hyacinth'
-mofa = 'Glen-Rhodes'
-mod = 'Webs'
-moc = 'ProfessorHenn'
-moe = 'Waffle'
-owl_sec = 'Sulenia'
+pm = 'ProfessorHenn'
+mofa = 'HumanSanity'
+mod = 'Concrete Slab'
+moc = 'Maluhia'
+moe = 'Griffindor'
+owl_sec = 'Concrete Slab'
 hc_chief_justice = 'Kringle'
-hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Roavin']
+hc_justices = ['Kringle', 'Belschaft', 'Griffindor']
 coa = 'Cryo'
-local_council = ['Canadian Dominion', 'Concrete Slab', 'Evinea']
+local_council = ['Evinea', 'Petea', 'TescoPepsi']
 crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Jay']
-spcg = ['Amerion', 'Aidenfieeld','Anjo','Concrete Slab', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tsunamy', 'Penguin']
-legcomm = ['Penguin', 'Anjo', 'HumanSanity']
+spcg = ['Amerion', 'Aidenfieeld', 'Anjo', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tsunamy', 'Penguin']
+legcomm = ['Anjo', 'HumanSanity']
 general_corps = ['HumanSanity']
-cabinet_advisors = ['HumanSanity', 'Pronoun']
+cabinet_advisors = []
 
 [personnel_info]
 [personnel_info.Aidenfieeld]
@@ -29,9 +29,6 @@ discord_handle = 'anjo#3888'
 [personnel_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'Belschaft#0942'
-[personnel_info.'BlockBuster']
-nation = 'Great Lothian'
-discord_handle = 'BlockBuster2K43#6162'
 [personnel_info.'Canadian Dominion']
 nation = 'Canadian Dominion'
 discord_handle = 'NK-Pop#3817'
@@ -41,15 +38,6 @@ discord_handle = 'Concrete Slab#8764'
 [personnel_info.'Cryo']
 nation = 'The Haughtherlands'
 discord_handle = 'Cryophoric#6034'
-[personnel_info.'Curlyhoward']
-nation = 'Curlyhoward'
-discord_handle = 'mightyjoeyoung1#6247'
-[personnel_info.'Drystar']
-nation = 'Drystar'
-discord_handle = 'Drystar#5371'
-[personnel_info.'Eshia']
-nation = 'Klysevia'
-discord_handle = 'William!#1136'
 [personnel_info.'Evinea']
 nation = 'Evinea'
 discord_handle = 'mn04#0192'
@@ -77,49 +65,21 @@ discord_handle = 'Kringle#7460'
 [personnel_info.'Land Without Shrimp']
 nation = 'Land Without Shrimp'
 discord_handle = 'James LWS Encaitar#6762'
-[personnel_info.'Moon']
-nation = 'Emodea'
-discord_handle = 'Moon_#5541'
-[personnel_info.'Murelia']
-nation = 'Murelia'
-discord_handle = 'Murelia#9532'
+[personnel_info.'Maluhia']
+nation = 'Lile Ulie Islands'
+discord_handle = 'maluhia#2206'
 [personnel_info.'Penguin']
 nation = 'PenguinPies'
 discord_handle = 'Penguin#0738'
 [personnel_info.'Poppy']
 nation = '073 039 109 032 080 111 112 112 121'
 discord_handle = 'Poppy#5885'
-[personnel_info.'Purple Hyacinth']
-nation = 'Purple Hyacinth'
-discord_handle = 'flowerpetal#4093'
-[personnel_info.'Pronoun']
-nation = 'Esfalsa'
-discord_handle = 'Pronoun#2968'
-[personnel_info.'Roavin']
-nation = 'Roavin'
-discord_handle = 'Roavin#5410'
-[personnel_info.'Sulenia']
-nation = 'Vox'
-discord_handle = 'Sulen#6202'
-[personnel_info.'LUI']
-nation = 'Lile Ulie Islands'
-discord_handle = 'the lile ulie islands#2206'
-[personnel_info.'The free romanians']
-nation = 'The free romanians'
-[personnel_info.'Tin']
-nation = 'Holy Free'
-discord_handle = 'Tin#6571'
+[personnel_info.'Petea']
+nation = 'Petea'
+discord_handle = 'king.fenik#6963'
 [personnel_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu#6405'
-[personnel_info.'Trivalve']
-nation = 'Trivalve'
-[personnel_info.'USoVietnam']
-nation = 'United States of Vietnam'
-discord_handle = 'watari#5292'
-[personnel_info.'Waffle']
-nation = 'Doge Land'
-discord_handle = 'im_a_waffle1#9951'
-[personnel_info.'Webs']
-nation = 'The Web of Life and Destiny'
-discord_handle = 'Webs#4290'
+[personnel_info.'TescoPepsi']
+nation = 'TescoPepsi'
+discord_handle = 'parisdcmol#9055'
