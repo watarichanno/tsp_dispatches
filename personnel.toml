@@ -9,10 +9,9 @@ owl_sec = 'Concrete Slab'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor']
 coa = 'Cryo'
-local_council = ['Evinea', 'Petea', 'TescoPepsi']
 crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Jay']
 spcg = ['Amerion', 'Aidenfieeld', 'Anjo', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tsunamy', 'Penguin']
-legcomm = ['Anjo', 'HumanSanity']
+legcomm = ['Anjo', 'HumanSanity', 'Purple Hyacinth']
 general_corps = ['HumanSanity']
 cabinet_advisors = []
 
@@ -77,6 +76,9 @@ discord_handle = 'Poppy#5885'
 [personnel_info.'Petea']
 nation = 'Petea'
 discord_handle = 'king.fenik#6963'
+[personnel_info.'Purple Hyacinth']
+nation = 'Purple Hyacinth'
+discord_handle = 'flowerpetal#4093'
 [personnel_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu#6405'
