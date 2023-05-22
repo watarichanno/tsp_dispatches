@@ -1,18 +1,17 @@
 [gov_officials]
 delegate = 'Anjo'
 pm = 'ProfessorHenn'
-mofa = 'HumanSanity'
+mofa = 'Amerion'
 mod = 'Concrete Slab'
-moc = 'Maluhia'
-moe = 'Griffindor'
+mora = 'HumanSanity'
 owl_sec = 'Concrete Slab'
 hc_chief_justice = 'Kringle'
-hc_justices = ['Kringle', 'Belschaft', 'Griffindor']
+hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'Cryo'
 crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Jay']
 spcg = ['Amerion', 'Aidenfieeld', 'Anjo', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tsunamy', 'Penguin']
 legcomm = ['Anjo', 'HumanSanity', 'Purple Hyacinth']
-general_corps = ['HumanSanity']
+general_corps = ['HumanSanity', 'Pronoun']
 cabinet_advisors = []
 
 [personnel_info]
@@ -73,15 +72,12 @@ discord_handle = 'Penguin#0738'
 [personnel_info.'Poppy']
 nation = '073 039 109 032 080 111 112 112 121'
 discord_handle = 'Poppy#5885'
-[personnel_info.'Petea']
-nation = 'Petea'
-discord_handle = 'king.fenik#6963'
+[personnel_info.'Pronoun']
+nation = 'Esfalsa'
+discord_handle = 'Pronoun#2968'
 [personnel_info.'Purple Hyacinth']
 nation = 'Purple Hyacinth'
 discord_handle = 'flowerpetal#4093'
 [personnel_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu#6405'
-[personnel_info.'TescoPepsi']
-nation = 'TescoPepsi'
-discord_handle = 'parisdcmol#9055'
