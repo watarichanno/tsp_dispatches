@@ -1,17 +1,14 @@
 """Utility functions for some BBCode tags.
 """
 
-import pathlib
 import re
 import logging
-
-import toml
 
 
 logger = logging.getLogger(__name__)
 
 
-DISPATCH_URL = 'https://www.nationstates.net/page=dispatch/id='
+DISPATCH_URL = "https://www.nationstates.net/page=dispatch/id="
 
 
 def get_img_url(url, custom_vars_urls):
@@ -39,15 +36,15 @@ def get_url(url, custom_vars_urls, dispatches):
         r = custom_vars_urls[url]
     elif url in dispatches:
         try:
-            dispatch_id = dispatches[url]['ns_id']
-            r = '{}{}'.format(DISPATCH_URL, dispatch_id)
+            dispatch_id = dispatches[url].ns_id
+            r = "{}{}".format(DISPATCH_URL, dispatch_id)
         except KeyError:
             logger.error('Id of dispatch "%s" not found.', url)
             r = url
-    elif url.split('#')[0] in dispatches:
-        url = url.split('#')
-        dispatch_id = dispatches[url[0]]['ns_id']
-        r = '{}{}#{}'.format(DISPATCH_URL, dispatch_id, url[1])
+    elif url.split("#")[0] in dispatches:
+        url = url.split("#")
+        dispatch_id = dispatches[url[0]].ns_id
+        r = "{}{}#{}".format(DISPATCH_URL, dispatch_id, url[1])
     else:
         r = url
 
@@ -67,34 +64,40 @@ def get_base_url(text, dispatch_info, dispatch_name_prefix):
     """
 
     name = text.lower()
-    name = name.replace('the ', '', 1)
+    name = name.replace("the ", "", 1)
 
-    name = name.replace(' ', '_')
-    name = '{}{}'.format(dispatch_name_prefix, name)
+    name = name.replace(" ", "_")
+    name = "{}{}".format(dispatch_name_prefix, name)
     if name in dispatch_info:
-        dispatch_id = dispatch_info[name]['ns_id']
-        return '{}{}'.format(DISPATCH_URL, dispatch_id)
+        dispatch_id = dispatch_info[name].ns_id
+        return "{}{}".format(DISPATCH_URL, dispatch_id)
 
     logger.error('Law "%s" not found in dispatch config', name)
     return None
 
 
-def get_law_url(text, dispatch_info, dispatch_name_prefix,
-                citation_pattern, article_format, section_format):
+def get_law_url(
+    text,
+    dispatch_info,
+    dispatch_name_prefix,
+    citation_pattern,
+    article_format,
+    section_format,
+):
     url = ""
     pattern = re.compile(citation_pattern)
     r = pattern.search(text)
 
-    law = r.group('law')
+    law = r.group("law")
     if law:
         base_url = get_base_url(law, dispatch_info, dispatch_name_prefix)
         if base_url:
             url += base_url
 
-    article = r.group('art')
-    section = r.group('sec')
+    article = r.group("art")
+    section = r.group("sec")
     if article:
-        url += '#'
+        url += "#"
         url += article_format.format(article)
     if section:
         url += section_format.format(section)
