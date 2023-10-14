@@ -1,33 +1,34 @@
 [urls]
 forum = 'https://thesouthpacific.org'
+rmb = 'https://www.nationstates.net/page=display_region_rmb/region=the_south_pacific'
+discord = 'https://discordapp.com/invite/tEyyDyh'
+
+community_std = 'https://www.nationstates.net/page=dispatch/id=1880983'
+
 f_unified_app = 'https://thesouthpacific.org/w/get-involved'
+f_legislator_app = 'https://thesouthpacific.org/t/draft-office-of-legislator-applications/4111/1'
 f_signup = 'https://thesouthpacific.org/signup'
 
 roleplay_intro = 'https://wiki.tspforums.xyz/wiki/Guide:_Getting_started_in_roleplay'
 f_roleplay = 'https://thesouthpacific.org/c/pacifica/13'
 roleplay_discord = 'https://discord.gg/58aX2yhmqF'
+wiki = 'https://wiki.thesouthpacific.org/w/Main_Page'
 
-f_cabinet_twitter = ''
+f_election_central = 'https://thesouthpacific.org/c/election-central/31'
+f_assembly_guide = 'https://thesouthpacific.org/t/legislators-guide-getting-started-within-the-assembly/2745'
 f_assembly_office = 'https://thesouthpacific.org/t/office-of-assembly-affairs/267'
 f_assembly_hall = 'https://thesouthpacific.org/c/assembly/8/none'
+f_election_archive = 'https://thesouthpacific.org/c/elections-archive/35'
 f_private_assembly_hall = 'https://thesouthpacific.org/c/assembly/private-hall/9'
-f_voting_chamber = ''
+f_voting_floor = 'https://thesouthpacific.org/c/assembly/voting-floor/34'
 f_cabinet_office = 'https://thesouthpacific.org/c/cabinet/10'
 f_matt_duck = 'https://thesouthpacific.org/c/assembly/law-archive/18'
+f_court = 'https://thesouthpacific.org/c/high-court/11'
 f_court_orcs = 'https://tspforums.xyz/forum-393.html'
-f_mofa = ''
 f_spsf = 'https://thesouthpacific.org/c/spsf/21'
+f_spsf_intro = 'https://thesouthpacific.org/t/about-the-south-pacific-special-forces/57'
+f_citcom = 'https://thesouthpacific.org/t/citizenship-act/4080'
 
-rmb = 'https://www.nationstates.net/page=display_region_rmb/region=the_south_pacific'
-discord = 'https://discordapp.com/invite/tEyyDyh'
-lc_intro = 'https://www.nationstates.net/page=dispatch/id=1381890'
-lc_policies = 'https://www.nationstates.net/page=dispatch/id=1381888'
-lc_elections = 'https://www.nationstates.net/page=dispatch/id=1381893'
-rmb_rules = 'https://www.nationstates.net/page=dispatch/id=1381878'
-tsj_news = 'https://tspforums.xyz/forum-39.html'
-spsf_signup = 'https://www.nationstates.net/page=dispatch/id=1188941'
-
-wiki = ''
 
 owl_region = 'https://www.nationstates.net/region=the_south_pacific_wa_voting_center'
 owl_intro = 'https://www.nationstates.net/page=dispatch/id=1396505'
@@ -35,9 +36,12 @@ owl_guide = 'https://www.nationstates.net/page=dispatch/id=1385515'
 
 swan_intro = 'https://www.nationstates.net/page=dispatch/id=1042647'
 swan_guide = 'https://www.nationstates.net/page=dispatch/id=1048440'
-swan_endo_cap = 'https://www.nationstates.net/page=dispatch/id=1048805'
 swan_knights = 'https://www.nationstates.net/page=dispatch/id=1045928'
+
+endo_cap = 'https://www.nationstates.net/page=dispatch/id=1048805'
 spcg_intro = 'https://www.nationstates.net/page=dispatch/id=1398091'
+
+card_guide = 'https://www.nationstates.net/page=dispatch/id=1301085'
 
 ns_faq = 'https://www.nationstates.net/page=faq'
 ns_wa = 'https://www.nationstates.net/page=un'

@@ -10,8 +10,8 @@ owl_sec = 'Em'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'Cryo'
-crs = ['Amerion', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Em']
-spcg = ['Amerion', 'Aidenfieeld', 'Anjo', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Poppy', 'Tsunamy', 'Penguin']
+crs = ['Amerion', 'Anjo', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Em']
+spcg = ['Amerion', 'Aidenfieeld', 'Anjo', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Tsunamy', 'Penguin']
 legcomm = ['Anjo', 'HumanSanity', 'Purple Hyacinth']
 general_corps = ['HumanSanity', 'Pronoun']
 cabinet_advisors = []
@@ -62,9 +62,6 @@ discord_handle = 'based.maverick'
 [personnel_info.'Penguin']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
-[personnel_info.'Poppy']
-nation = '073 039 109 032 080 111 112 112 121'
-discord_handle = 'nowandthen_gwen'
 [personnel_info.'ProfessorHenn']
 nation = 'Sporaltryus'
 discord_handle = 'professorhenn'
