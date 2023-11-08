@@ -1,79 +1,107 @@
 [gov_officials]
 delegate = 'Griffindor'
 pm = 'ProfessorHenn'
-mofa = 'HumanSanity'
-mod = 'Shibuya-Kanon'
-morp = 'Maverick'
-mooe = 'Legend'
-moi = 'Pronoun'
+mofa = 'Concrete Slab'
+mod = 'Banexet'
+morp = 'Of_the_Ages'
+moc = 'Legend'
+moi = 'USoVietnam'
 owl_sec = 'Em'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
-coa = 'Cryo'
-crs = ['Amerion', 'Anjo', 'Farengeto', 'Glen-Rhodes', 'Kringle', 'Tsunamy',  'Penguin', 'Em']
-spcg = ['Amerion', 'Aidenfieeld', 'Anjo', 'Farengeto', 'Griffindor', 'Land Without Shrimp', 'Tsunamy', 'Penguin']
-legcomm = ['Anjo', 'HumanSanity', 'Purple Hyacinth']
+coa = 'BlockBuster2K43'
+crs = [
+    'Amerion',
+    'Anjo',
+    'Farengeto',
+    'Glen-Rhodes',
+    'Kringle',
+    'Tsunamy',
+    'Penguin',
+    'Em',
+]
+spcg = [
+    'Amerion',
+    'Aidenfieeld',
+    'Anjo',
+    'Farengeto',
+    'Griffindor',
+    'Land Without Shrimp',
+    'Tsunamy',
+    'Penguin',
+    'ProfessorHenn',
+]
+legcomm = ['Anjo', 'Pronoun', 'Purple Hyacinth']
 general_corps = ['HumanSanity', 'Pronoun']
 cabinet_advisors = []
 
-[personnel_info]
-[personnel_info.Aidenfieeld]
+[people_info]
+[people_info.Aidenfieeld]
 nation = 'Aidenfieeld'
 discord_handle = 'Aidenfieeld#7386'
-[personnel_info.'Amerion']
+[people_info.'Amerion']
 nation = 'Amerion'
 discord_handle = 'amerion'
-[personnel_info.'Anjo']
+[people_info.'Anjo']
 nation = 'Tepertopia'
 discord_handle = 'anjo0803'
-[personnel_info.'Belschaft']
+[people_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'belschaft'
-[personnel_info.'Cryo']
-nation = 'The Haughtherlands'
-discord_handle = 'cryophoric'
-[personnel_info.'Em']
+[people_info.'Banexet']
+nation = 'Drew Durrnil'
+discord_handle = 'banexet'
+[people_info.'BlockBuster2K43']
+nation = 'Great Lothian'
+discord_handle = 'blockbuster2k43'
+[people_info.'Concrete Slab']
+nation = 'Concrete Slab'
+discord_handle = 'concrete.slab'
+[people_info.'Em']
 nation = 'Qvait'
 discord_handle = 'gamingberserkr'
-[personnel_info.'Farengeto']
+[people_info.'Farengeto']
 nation = 'Farengeto'
 discord_handle = 'The Other Farengeto#7220'
-[personnel_info.'Glen-Rhodes']
+[people_info.'Glen-Rhodes']
 nation = 'Sandaoguo'
 discord_handle = 'hierocles'
-[personnel_info.'Griffindor']
+[people_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = '.griffindor'
-[personnel_info.'HumanSanity']
+[people_info.'HumanSanity']
 nation = 'HumanSanity'
 discord_handle = 'humansanity'
-[personnel_info.'Kringle']
+[people_info.'Kringle']
 nation = 'Kringalia'
 discord_handle = 'kris_kringle'
-[personnel_info.'Land Without Shrimp']
+[people_info.'Land Without Shrimp']
 nation = 'Land Without Shrimp'
 discord_handle = 'sonofthunder7'
-[personnel_info.'Legend']
+[people_info.'Legend']
 nation = 'New American Dictatorship'
 discord_handle = 'aquariusblue899'
-[personnel_info.'Maverick']
-nation = 'Maverick'
-discord_handle = 'based.maverick'
-[personnel_info.'Penguin']
+[people_info.'Of_the_Ages']
+nation = 'The Age of Utopia'
+discord_handle = 'the_age_of_utopia'
+[people_info.'Penguin']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
-[personnel_info.'ProfessorHenn']
+[people_info.'ProfessorHenn']
 nation = 'Sporaltryus'
 discord_handle = 'professorhenn'
-[personnel_info.'Pronoun']
+[people_info.'Pronoun']
 nation = 'Esfalsa'
 discord_handle = 'pronoun'
-[personnel_info.'Purple Hyacinth']
+[people_info.'Purple Hyacinth']
 nation = 'Purple Hyacinth'
 discord_handle = 'flowerpetal'
-[personnel_info.'Shibuya-Kanon']
+[people_info.'Shibuya-Kanon']
 nation = 'Kinako Sakurakoji'
 discord_handle = 'megumi_fujishima'
-[personnel_info.'Tsunamy']
+[people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
+[people_info.'USoVietnam']
+nation = 'United States of Vietnam'
+discord_handle = 'watari5292'
