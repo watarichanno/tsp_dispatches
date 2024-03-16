@@ -1,35 +1,34 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'ProfessorHenn'
-mofa = 'Concrete Slab'
-mod = 'Banexet'
-morp = 'Of_the_Ages'
-moc = 'Legend'
-moi = 'USoVietnam'
-owl_sec = 'Em'
+pm = 'Banexet'
+mofa = 'ProfessorHenn'
+morp = 'Flaming'
+moc = 'Penguin'
+mod = ''
+moose = 'Trivalve'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
 crs = [
-    'Amerion',
-    'Anjo',
-    'Farengeto',
-    'Glen-Rhodes',
-    'Kringle',
-    'Tsunamy',
-    'Penguin',
-    'Em',
+  'Amerion',
+  'Anjo',
+  'Farengeto',
+  'Glen-Rhodes',
+  'Kringle',
+  'Tsunamy',
+  'Penguin',
+  'Em',
 ]
 spcg = [
-    'Amerion',
-    'Aidenfieeld',
-    'Anjo',
-    'Farengeto',
-    'Griffindor',
-    'Land Without Shrimp',
-    'Tsunamy',
-    'Penguin',
-    'ProfessorHenn',
+  'Amerion',
+  'Aidenfieeld',
+  'Anjo',
+  'Farengeto',
+  'Griffindor',
+  'Land Without Shrimp',
+  'Tsunamy',
+  'Penguin',
+  'ProfessorHenn',
 ]
 legcomm = ['Anjo', 'Pronoun', 'Purple Hyacinth']
 general_corps = ['HumanSanity', 'Pronoun']
@@ -63,6 +62,9 @@ discord_handle = 'gamingberserkr'
 [people_info.'Farengeto']
 nation = 'Farengeto'
 discord_handle = 'The Other Farengeto#7220'
+[people_info.'Flaming']
+nation = 'Ikaranara'
+discord_handle = 'idrasheroz_5401'
 [people_info.'Glen-Rhodes']
 nation = 'Sandaoguo'
 discord_handle = 'hierocles'
@@ -96,6 +98,9 @@ discord_handle = 'pronoun'
 [people_info.'Purple Hyacinth']
 nation = 'Purple Hyacinth'
 discord_handle = 'flowerpetal'
+[people_info.'Trivalve']
+nation = 'Sir Zanny'
+discord_handle = 'eskie0'
 [people_info.'Shibuya-Kanon']
 nation = 'Kinako Sakurakoji'
 discord_handle = 'megumi_fujishima'
