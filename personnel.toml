@@ -27,6 +27,7 @@ spcg = [
     'Tsunamy',
 ]
 citcomm = ['Anjo', 'Pronoun']
+cabinet_advisors = []
 admiralty = ['HumanSanity', 'Pronoun', 'Vrigny']
 
 [people_info]
