@@ -1,38 +1,33 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'Banexet'
+pm = 'Penguin'
 mofa = 'ProfessorHenn'
-morp = 'Flaming'
-moc = 'Penguin'
-mod = ''
-moose = 'Trivalve'
+mod = 'Vrigny'
+moc = 'Silva'
+owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
 crs = [
-  'Amerion',
-  'Anjo',
-  'Farengeto',
-  'Glen-Rhodes',
-  'Kringle',
-  'Tsunamy',
-  'Penguin',
-  'Em',
+    'Amerion',
+    'Anjo',
+    'HumanSanity',
+    'Glen-Rhodes',
+    'Kringle',
+    'Tsunamy',
+    'Em',
 ]
 spcg = [
-  'Amerion',
-  'Aidenfieeld',
-  'Anjo',
-  'Farengeto',
-  'Griffindor',
-  'Land Without Shrimp',
-  'Tsunamy',
-  'Penguin',
-  'ProfessorHenn',
+    'Aidenfieeld',
+    'Amerion',
+    'Anjo',
+    'Griffindor',
+    'Land Without Shrimp',
+    'ProfessorHenn',
+    'Tsunamy',
 ]
-legcomm = ['Anjo', 'Pronoun', 'Purple Hyacinth']
-general_corps = ['HumanSanity', 'Pronoun']
-cabinet_advisors = []
+citcomm = ['Anjo', 'Pronoun']
+admiralty = ['HumanSanity', 'Pronoun', 'Vrigny']
 
 [people_info]
 [people_info.Aidenfieeld]
@@ -47,24 +42,12 @@ discord_handle = 'anjo0803'
 [people_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'belschaft'
-[people_info.'Banexet']
-nation = 'Drew Durrnil'
-discord_handle = 'banexet'
 [people_info.'BlockBuster2K43']
 nation = 'Great Lothian'
 discord_handle = 'blockbuster2k43'
-[people_info.'Concrete Slab']
-nation = 'Concrete Slab'
-discord_handle = 'concrete.slab'
 [people_info.'Em']
 nation = 'Qvait'
 discord_handle = 'gamingberserkr'
-[people_info.'Farengeto']
-nation = 'Farengeto'
-discord_handle = 'The Other Farengeto#7220'
-[people_info.'Flaming']
-nation = 'Ikaranara'
-discord_handle = 'idrasheroz_5401'
 [people_info.'Glen-Rhodes']
 nation = 'Sandaoguo'
 discord_handle = 'hierocles'
@@ -80,12 +63,9 @@ discord_handle = 'kris_kringle'
 [people_info.'Land Without Shrimp']
 nation = 'Land Without Shrimp'
 discord_handle = 'sonofthunder7'
-[people_info.'Legend']
-nation = 'New American Dictatorship'
-discord_handle = 'aquariusblue899'
-[people_info.'Of_the_Ages']
-nation = 'The Age of Utopia'
-discord_handle = 'the_age_of_utopia'
+[people_info.'lordnwahs']
+nation = 'Differences-In-Differences'
+discord_handle = 'lordnwahs'
 [people_info.'Penguin']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
@@ -95,18 +75,12 @@ discord_handle = 'professorhenn'
 [people_info.'Pronoun']
 nation = 'Esfalsa'
 discord_handle = 'pronoun'
-[people_info.'Purple Hyacinth']
-nation = 'Purple Hyacinth'
-discord_handle = 'flowerpetal'
-[people_info.'Trivalve']
-nation = 'Sir Zanny'
-discord_handle = 'eskie0'
-[people_info.'Shibuya-Kanon']
-nation = 'Kinako Sakurakoji'
-discord_handle = 'megumi_fujishima'
+[people_info.'Silva']
+nation = 'Virifortis'
+discord_handle = 'silvae_'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
-[people_info.'USoVietnam']
-nation = 'United States of Vietnam'
-discord_handle = 'watari5292'
+[people_info.'Vrigny']
+nation = 'Vrigny'
+discord_handle = 'vrigny'
