@@ -1,25 +1,16 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'ProfessorHenn'
+pm = 'lordnwahs'
 mofa = 'Concrete Slab'
-mod = 'Banexet'
-morp = 'Of_the_Ages'
-moc = 'Legend'
-moi = 'USoVietnam'
-owl_sec = 'Em'
+mod = 'Coltranius'
+# morp = 'Of_the_Ages'
+moc = 'xshotss'
+# moi = 'USoVietnam'
+owl_sec = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
-crs = [
-    'Amerion',
-    'Anjo',
-    'Farengeto',
-    'Glen-Rhodes',
-    'Kringle',
-    'Tsunamy',
-    'Penguin',
-    'Em',
-]
+crs = ['Amerion', 'Anjo', 'Farengeto', 'Kringle', 'Tsunamy', 'Penguin', 'Em']
 spcg = [
     'Amerion',
     'Aidenfieeld',
@@ -32,7 +23,7 @@ spcg = [
     'ProfessorHenn',
 ]
 legcomm = ['Anjo', 'Pronoun', 'Purple Hyacinth']
-general_corps = ['HumanSanity', 'Pronoun']
+general_corps = ['HumanSanity']
 cabinet_advisors = []
 
 [people_info]
@@ -57,6 +48,9 @@ discord_handle = 'blockbuster2k43'
 [people_info.'Concrete Slab']
 nation = 'Concrete Slab'
 discord_handle = 'concrete.slab'
+[people_info.'Coltranius']
+nation = 'The Lombard League'
+discord = 'ordofdiscs'
 [people_info.'Em']
 nation = 'Qvait'
 discord_handle = 'gamingberserkr'
@@ -78,6 +72,9 @@ discord_handle = 'kris_kringle'
 [people_info.'Land Without Shrimp']
 nation = 'Land Without Shrimp'
 discord_handle = 'sonofthunder7'
+[people_info.'lordnwahs']
+nation = 'Differences-In-Differences'
+discord_handle = 'lordnwahs'
 [people_info.'Legend']
 nation = 'New American Dictatorship'
 discord_handle = 'aquariusblue899'
@@ -105,3 +102,6 @@ discord_handle = 'tsu_namy'
 [people_info.'USoVietnam']
 nation = 'United States of Vietnam'
 discord_handle = 'watari5292'
+[people_info.'xshotss']
+nation = 'Peoples Guerilla Armed Coalition'
+discord_handle = '.jaywalkerr.'
