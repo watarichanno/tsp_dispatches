@@ -1,22 +1,16 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'Penguin'
-mofa = 'ProfessorHenn'
-mod = 'Vrigny'
-moc = 'Silva'
-owl_director = 'lordnwahs'
+pm = 'lordnwahs'
+mofa = 'Concrete Slab'
+mod = 'Coltranius'
+# morp = 'Of_the_Ages'
+moc = 'xshotss'
+# moi = 'USoVietnam'
+owl_sec = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
-crs = [
-    'Amerion',
-    'Anjo',
-    'HumanSanity',
-    'Glen-Rhodes',
-    'Kringle',
-    'Tsunamy',
-    'Em',
-]
+crs = ['Amerion', 'Anjo', 'Farengeto', 'Kringle', 'Tsunamy', 'Penguin', 'Em']
 spcg = [
     'Aidenfieeld',
     'Amerion',
@@ -46,6 +40,12 @@ discord_handle = 'belschaft'
 [people_info.'BlockBuster2K43']
 nation = 'Great Lothian'
 discord_handle = 'blockbuster2k43'
+[people_info.'Concrete Slab']
+nation = 'Concrete Slab'
+discord_handle = 'concrete.slab'
+[people_info.'Coltranius']
+nation = 'The Lombard League'
+discord = 'ordofdiscs'
 [people_info.'Em']
 nation = 'Qvait'
 discord_handle = 'gamingberserkr'
@@ -82,6 +82,9 @@ discord_handle = 'silvae_'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
+[people_info.'xshotss']
+nation = 'Peoples Guerilla Armed Coalition'
+discord_handle = '.jaywalkerr.'
 [people_info.'Vrigny']
 nation = 'Vrigny'
 discord_handle = 'vrigny'
