@@ -1,16 +1,17 @@
 [gov_officials]
 delegate = 'Griffindor'
 pm = 'lordnwahs'
+dep_pm = 'ProfessorHenn'
 mofa = 'Concrete Slab'
 mod = 'Coltranius'
-# morp = 'Of_the_Ages'
 moc = 'xshotss'
-# moi = 'USoVietnam'
-owl_sec = 'lordnwahs'
+moi = 'maluhia'
+moe = 'NoOne'
+owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
-crs = ['Amerion', 'Anjo', 'Farengeto', 'Kringle', 'Tsunamy', 'Penguin', 'Em']
+crs = ['Amerion', 'Anjo', 'Em', 'HumanSanity', 'Kringle', 'Tsunamy']
 spcg = [
     'Aidenfieeld',
     'Amerion',
@@ -20,9 +21,9 @@ spcg = [
     'ProfessorHenn',
     'Tsunamy',
 ]
-citcomm = ['Anjo', 'Pronoun']
+citcomm = ['Anjo', 'Pronoun', 'Griffindor']
 cabinet_advisors = []
-admiralty = ['HumanSanity', 'Pronoun', 'Vrigny']
+admiralty = ['HumanSanity']
 
 [people_info]
 [people_info.Aidenfieeld]
@@ -45,13 +46,10 @@ nation = 'Concrete Slab'
 discord_handle = 'concrete.slab'
 [people_info.'Coltranius']
 nation = 'The Lombard League'
-discord = 'ordofdiscs'
+discord_handle = 'ordofdiscs'
 [people_info.'Em']
 nation = 'Qvait'
 discord_handle = 'gamingberserkr'
-[people_info.'Glen-Rhodes']
-nation = 'Sandaoguo'
-discord_handle = 'hierocles'
 [people_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = '.griffindor'
@@ -67,7 +65,13 @@ discord_handle = 'sonofthunder7'
 [people_info.'lordnwahs']
 nation = 'Differences-In-Differences'
 discord_handle = 'lordnwahs'
-[people_info.'Penguin']
+[people_info.'maluhia']
+nation = 'Lile Ulie Islands'
+discord_handle = 'apresvous.'
+[people_info.'NoOne']
+nation = '7 Trees'
+discord_handle = 'no_one_7777'
+[people_info.'PenguinPies']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
 [people_info.'ProfessorHenn']
@@ -76,15 +80,9 @@ discord_handle = 'professorhenn'
 [people_info.'Pronoun']
 nation = 'Esfalsa'
 discord_handle = 'pronoun'
-[people_info.'Silva']
-nation = 'Virifortis'
-discord_handle = 'silvae_'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
 [people_info.'xshotss']
 nation = 'Peoples Guerilla Armed Coalition'
 discord_handle = '.jaywalkerr.'
-[people_info.'Vrigny']
-nation = 'Vrigny'
-discord_handle = 'vrigny'
