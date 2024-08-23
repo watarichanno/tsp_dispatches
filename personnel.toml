@@ -19,10 +19,10 @@ spcg = [
     'Griffindor',
     'Land Without Shrimp',
     'ProfessorHenn',
+    'PenguinPies',
     'Tsunamy',
 ]
 citcomm = ['Anjo', 'Pronoun', 'Griffindor']
-cabinet_advisors = []
 admiralty = ['HumanSanity']
 
 [people_info]
