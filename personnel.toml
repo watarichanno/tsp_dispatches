@@ -11,10 +11,9 @@ owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
-crs = ['Amerion', 'Anjo', 'Em', 'HumanSanity', 'Kringle', 'Tsunamy']
+crs = ['Anjo', 'HumanSanity', 'Kringle', 'Tsunamy', 'ProfessorHenn', 'Pronoun']
 spcg = [
     'Aidenfieeld',
-    'Amerion',
     'Anjo',
     'Griffindor',
     'Land Without Shrimp',
