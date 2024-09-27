@@ -1,12 +1,11 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'lordnwahs'
+pm = 'Pronoun'
 dep_pm = 'ProfessorHenn'
 mofa = 'Concrete Slab'
 mod = 'Coltranius'
 moc = 'xshotss'
 moi = 'maluhia'
-moe = 'NoOne'
 owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
@@ -17,7 +16,6 @@ spcg = [
     'Anjo',
     'Griffindor',
     'Land Without Shrimp',
-    'ProfessorHenn',
     'PenguinPies',
     'Tsunamy',
 ]
@@ -67,9 +65,6 @@ discord_handle = 'lordnwahs'
 [people_info.'maluhia']
 nation = 'Lile Ulie Islands'
 discord_handle = 'apresvous.'
-[people_info.'NoOne']
-nation = '7 Trees'
-discord_handle = 'no_one_7777'
 [people_info.'PenguinPies']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
