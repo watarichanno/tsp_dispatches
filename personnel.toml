@@ -1,16 +1,14 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'Pronoun'
-dep_pm = 'ProfessorHenn'
-mofa = 'Concrete Slab'
-mod = 'Coltranius'
-moc = 'xshotss'
-moi = 'maluhia'
+pm = 'ProfessorHenn'
+mod = 'Vrigny'
+moc = 'Silva'
+mor = 'HumanSanity'
 owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'BlockBuster2K43'
-crs = ['Anjo', 'HumanSanity', 'Kringle', 'Tsunamy', 'ProfessorHenn', 'Pronoun']
+crs = ['Anjo', 'HumanSanity', 'Kringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
     'Aidenfieeld',
     'Anjo',
@@ -26,9 +24,6 @@ admiralty = ['HumanSanity']
 [people_info.Aidenfieeld]
 nation = 'Aidenfieeld'
 discord_handle = 'Aidenfieeld#7386'
-[people_info.'Amerion']
-nation = 'Amerion'
-discord_handle = 'amerion'
 [people_info.'Anjo']
 nation = 'Tepertopia'
 discord_handle = 'anjo0803'
@@ -38,15 +33,12 @@ discord_handle = 'belschaft'
 [people_info.'BlockBuster2K43']
 nation = 'Great Lothian'
 discord_handle = 'blockbuster2k43'
-[people_info.'Concrete Slab']
-nation = 'Concrete Slab'
-discord_handle = 'concrete.slab'
 [people_info.'Coltranius']
 nation = 'The Lombard League'
 discord_handle = 'ordofdiscs'
-[people_info.'Em']
-nation = 'Qvait'
-discord_handle = 'gamingberserkr'
+[people_info.'Silva']
+nation = 'Virifortis'
+discord_handle = 'silvae_'
 [people_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = '.griffindor'
@@ -62,9 +54,6 @@ discord_handle = 'sonofthunder7'
 [people_info.'lordnwahs']
 nation = 'Differences-In-Differences'
 discord_handle = 'lordnwahs'
-[people_info.'maluhia']
-nation = 'Lile Ulie Islands'
-discord_handle = 'apresvous.'
 [people_info.'PenguinPies']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
@@ -77,6 +66,6 @@ discord_handle = 'pronoun'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
-[people_info.'xshotss']
-nation = 'Peoples Guerilla Armed Coalition'
-discord_handle = '.jaywalkerr.'
+[people_info.'Vrigny']
+nation = 'Vrigny'
+discord_handle = '.vrigny.'
