@@ -1,14 +1,15 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'ProfessorHenn'
-mod = 'Vrigny'
-moc = 'Silva'
-mor = 'HumanSanity'
+pm = 'Pronoun'
+mofa = 'ConcreteSlab'
+moca = 'Banexet'
+mocu = 'ProfessorHenn'
+moi = 'UnitedDisneyStates'
 owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
-coa = 'BlockBuster2K43'
-crs = ['Anjo', 'HumanSanity', 'Kringle', 'ProfessorHenn', 'Pronoun']
+coa = 'lordnwahs'
+crs = ['Anjo', 'Kringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
     'Aidenfieeld',
     'Anjo',
@@ -17,7 +18,7 @@ spcg = [
     'PenguinPies',
 ]
 citcomm = ['Anjo', 'Pronoun', 'Griffindor']
-admiralty = ['HumanSanity']
+admiralty = ['ConcreteSlab', "Pronoun"]
 
 [people_info]
 [people_info.Aidenfieeld]
@@ -26,24 +27,21 @@ discord_handle = 'Aidenfieeld#7386'
 [people_info.'Anjo']
 nation = 'Tepertopia'
 discord_handle = 'anjo0803'
+[people_info.'Banexet']
+nation = 'Drew Durrnil'
+discord_handle = 'Banexet'
 [people_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'belschaft'
-[people_info.'BlockBuster2K43']
-nation = 'Great Lothian'
-discord_handle = 'blockbuster2k43'
-[people_info.'Coltranius']
-nation = 'The Lombard League'
-discord_handle = 'ordofdiscs'
+[people_info.'ConcreteSlab']
+nation = 'Concrete Slab'
+discord_handle = 'concrete.slab'
 [people_info.'Silva']
 nation = 'Virifortis'
 discord_handle = 'silvae_'
 [people_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = '.griffindor'
-[people_info.'HumanSanity']
-nation = 'HumanSanity'
-discord_handle = 'humansanity'
 [people_info.'Kringle']
 nation = 'Kringalia'
 discord_handle = 'kris_kringle'
@@ -65,6 +63,6 @@ discord_handle = 'pronoun'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
-[people_info.'Vrigny']
-nation = 'Vrigny'
-discord_handle = '.vrigny.'
+[people_info.'UnitedDisneyStates']
+nation = 'United Disney States'
+discord_handle = 'uniteddisneystates'
