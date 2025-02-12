@@ -1,5 +1,4 @@
-"""Custom BBcode tags.
-"""
+"""Custom BBcode tags."""
 
 import logging
 import os
@@ -82,4 +81,3 @@ class Th(ComplexFormatter):
 class ListElem(ComplexFormatter):
     def format(self, tag_name, value, options, parent, context):
         return "[*][*_content]{}[/*_content]".format(value)
-
