@@ -11,6 +11,7 @@ hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
 coa = 'lordnwahs'
 crs = ['Anjo', 'Kringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
+    "Amerion",
     'Aidenfieeld',
     'Anjo',
     'lordnwahs',
@@ -22,6 +23,9 @@ citcomm = ['Anjo', 'Pronoun', 'Griffindor']
 admiralty = ['ConcreteSlab', "Pronoun"]
 
 [people_info]
+[people_info.Amerion]
+nation = 'Amerion'
+discord_handle = 'amerion'
 [people_info.Aidenfieeld]
 nation = 'Aidenfieeld'
 discord_handle = 'Aidenfieeld#7386'
