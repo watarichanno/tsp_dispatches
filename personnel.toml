@@ -1,14 +1,14 @@
 [gov_officials]
 delegate = 'Griffindor'
-pm = 'Pronoun'
-mofa = 'ConcreteSlab'
+pm = 'ProfessorHenn'
+mofa = 'lordnwahs'
 moca = 'Banexet'
-mocu = 'ProfessorHenn'
+mocu = 'Of_the_Ages'
 moi = 'UnitedDisneyStates'
 owl_director = 'lordnwahs'
 hc_chief_justice = 'Kringle'
 hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
-coa = 'lordnwahs'
+coa = 'Welly'
 crs = ['Anjo', 'Kringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
     "Amerion",
@@ -56,18 +56,24 @@ discord_handle = 'sonofthunder7'
 [people_info.'lordnwahs']
 nation = 'Differences-In-Differences'
 discord_handle = 'lordnwahs'
+[people_info.'Pronoun']
+nation = 'Esfalsa'
+discord_handle = 'pronoun'
 [people_info.'PenguinPies']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
 [people_info.'ProfessorHenn']
 nation = 'Sporaltryus'
 discord_handle = 'professorhenn'
-[people_info.'Pronoun']
-nation = 'Esfalsa'
-discord_handle = 'pronoun'
+[people_info.'Of_the_Ages']
+nation = 'The Age of Utopia'
+discord_handle = 'the_age_of_utopia'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
 [people_info.'UnitedDisneyStates']
 nation = 'United Disney States'
 discord_handle = 'uniteddisneystates'
+[people_info.'Welly']
+nation = 'Grace Wellesley Thayer'
+discord_handle = 'wellythayer'
