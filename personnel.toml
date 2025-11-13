@@ -1,15 +1,15 @@
 [gov_officials]
 delegate = 'ProfessorHenn'
-pm = 'Kringle'
-mofa = 'lordnwahs'
-moca = 'Banexet'
-mocu = 'Of_the_Ages'
-moi = 'UnitedDisneyStates'
-owl_director = 'lordnwahs'
-hc_chief_justice = 'Kringle'
-hc_justices = ['Kringle', 'Belschaft', 'Griffindor', 'Pronoun']
-coa = 'Welly'
-crs = ['Anjo', 'Kringle', 'ProfessorHenn', 'Pronoun']
+pm = 'Heliseum'
+mofa = 'Welly'
+mod = 'flowerpetal'
+moc = 'Of_the_Ages'
+moi = 'Trivalve'
+owl_director = 'Erstavik'
+coa = 'lordnwahs'
+hc_chief_justice = 'KrisKringle'
+hc_justices = ['KrisKringle', 'Belschaft', 'Griffindor', 'Pronoun', 'Welly']
+crs = ['Anjo', 'KrisKringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
     "Amerion",
     'Aidenfieeld',
@@ -20,7 +20,7 @@ spcg = [
     'PenguinPies',
 ]
 citcomm = ['Anjo', 'Pronoun', 'Griffindor']
-admiralty = ['ConcreteSlab', "Pronoun"]
+admiralty = ['ConcreteSlab', "Heliseum"]
 
 [people_info]
 [people_info.Amerion]
@@ -32,24 +32,24 @@ discord_handle = 'Aidenfieeld#7386'
 [people_info.'Anjo']
 nation = 'Tepertopia'
 discord_handle = 'anjo0803'
-[people_info.'Banexet']
-nation = 'Drew Durrnil'
-discord_handle = 'Banexet'
 [people_info.'Belschaft']
 nation = 'Belschaft'
 discord_handle = 'belschaft'
 [people_info.'ConcreteSlab']
 nation = 'Concrete Slab'
 discord_handle = 'concrete.slab'
-[people_info.'Silva']
-nation = 'Virifortis'
-discord_handle = 'silvae_'
+[people_info.'Erstavik']
+nation = 'Erstavik'
+discord_handle = 'urcwiki'
+[people_info.'Heliseum']
+nation = 'Heliseum'
+discord_handle = 'heliseum'
 [people_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = '.griffindor'
-[people_info.'Kringle']
+[people_info.'KrisKringle']
 nation = 'Kringalia'
-discord_handle = 'kris_kringle'
+discord_handle = 'kris_KrisKringle'
 [people_info.'Land Without Shrimp']
 nation = 'Land Without Shrimp'
 discord_handle = 'sonofthunder7'
@@ -59,6 +59,9 @@ discord_handle = 'lordnwahs'
 [people_info.'Pronoun']
 nation = 'Esfalsa'
 discord_handle = 'pronoun'
+[people_info.'flowerpetal']
+nation = 'Purple Hyacinth'
+discord_handle = 'flowerpetal'
 [people_info.'PenguinPies']
 nation = 'PenguinPies'
 discord_handle = 'ladypenguin55'
@@ -71,9 +74,9 @@ discord_handle = 'the_age_of_utopia'
 [people_info.'Tsunamy']
 nation = 'Tsunamy'
 discord_handle = 'tsu_namy'
-[people_info.'UnitedDisneyStates']
-nation = 'United Disney States'
-discord_handle = 'uniteddisneystates'
+[people_info.'Trivalve']
+nation = 'Trivalve'
+discord_handle = 'eskie0'
 [people_info.'Welly']
 nation = 'Grace Wellesley Thayer'
 discord_handle = 'wellythayer'
