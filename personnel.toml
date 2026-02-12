@@ -1,14 +1,14 @@
 [gov_officials]
-delegate = 'ProfessorHenn'
-pm = 'Heliseum'
-mofa = 'Welly'
-mod = 'flowerpetal'
-moc = 'Of_the_Ages'
-moi = 'Trivalve'
-owl_director = 'Erstavik'
+delegate = 'Erstavik'
+pm = 'Of_the_Ages'
+mofa = 'TBD'
+mod = 'TBD'
+moc = 'TBD'
+moi = 'TBD'
+owl_director = 'TBD'
 coa = 'KrisKringle'
 hc_chief_justice = 'Griffindor'
-hc_justices = ['KrisKringle', 'Belschaft', 'Griffindor', 'Pronoun', 'Welly']
+hc_justices = ['Belschaft', 'KrisKringle', 'Griffindor', 'Pronoun', 'Welly']
 crs = ['Anjo', 'KrisKringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
     "Amerion",
@@ -19,10 +19,13 @@ spcg = [
     'Land Without Shrimp',
     'PenguinPies',
 ]
-citcomm = ['Anjo', 'Pronoun', 'Griffindor']
+citcomm = ['Anjo', 'Griffindor', 'Pronoun']
 admiralty = ['ConcreteSlab', "Heliseum"]
 
 [people_info]
+[people_info.TBD]
+nation = 'TBD'
+discord_handle = ''
 [people_info.Amerion]
 nation = 'Amerion'
 discord_handle = 'amerion'
