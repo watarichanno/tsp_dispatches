@@ -1,11 +1,11 @@
 [gov_officials]
 delegate = 'Erstavik'
-pm = 'Of_the_Ages'
-mofa = 'TBD'
-mod = 'TBD'
-moc = 'TBD'
-moi = 'TBD'
-owl_director = 'TBD'
+pm = 'The Age of Utopia'
+mofa = 'Welly'
+mod = 'Heliseum'
+moc = 'CayonNS'
+moi = 'Trivalve'
+owl_director = 'lordnwahs'
 coa = 'KrisKringle'
 hc_chief_justice = 'Griffindor'
 hc_justices = ['Belschaft', 'KrisKringle', 'Griffindor', 'Pronoun', 'Welly']
@@ -41,6 +41,9 @@ discord_handle = 'belschaft'
 [people_info.'ConcreteSlab']
 nation = 'Concrete Slab'
 discord_handle = 'concrete.slab'
+[people_info.'CayonNS']
+nation = 'Altnavia'
+discord_handle = 'cayonunion6024'
 [people_info.'Erstavik']
 nation = 'Erstavik'
 discord_handle = 'urcwiki'
@@ -71,7 +74,7 @@ discord_handle = 'ladypenguin55'
 [people_info.'ProfessorHenn']
 nation = 'Sporaltryus'
 discord_handle = 'professorhenn'
-[people_info.'Of_the_Ages']
+[people_info.'The Age of Utopia']
 nation = 'The Age of Utopia'
 discord_handle = 'the_age_of_utopia'
 [people_info.'Tsunamy']
