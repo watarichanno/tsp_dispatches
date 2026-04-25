@@ -1,5 +1,5 @@
 [gov_officials]
-delegate = 'Erstavik'
+delegate = 'lordnwahs'
 pm = 'The Age of Utopia'
 mofa = 'Welly'
 mod = 'Heliseum'
@@ -8,7 +8,7 @@ moi = 'Trivalve'
 owl_director = 'lordnwahs'
 coa = 'KrisKringle'
 hc_chief_justice = 'Griffindor'
-hc_justices = ['Belschaft', 'KrisKringle', 'Griffindor', 'Pronoun', 'Welly']
+hc_justices = ['KrisKringle', 'Griffindor', 'Pronoun', 'Welly']
 crs = ['Anjo', 'KrisKringle', 'ProfessorHenn', 'Pronoun']
 spcg = [
     "Amerion",
@@ -20,7 +20,7 @@ spcg = [
     'Land Without Shrimp',
     'PenguinPies',
 ]
-citcomm = ['Anjo', 'Griffindor', 'Pronoun']
+citcomm = ['lordnwahs', 'Pronoun', "Vrigny"]
 admiralty = ['ConcreteSlab', "Heliseum"]
 
 [people_info]
@@ -45,9 +45,6 @@ discord_handle = 'concrete.slab'
 [people_info.'CayonNS']
 nation = 'Altnavia'
 discord_handle = 'cayonunion6024'
-[people_info.'Erstavik']
-nation = 'Erstavik'
-discord_handle = 'urcwiki'
 [people_info.'Heliseum']
 nation = 'Heliseum'
 discord_handle = 'heliseum'
@@ -84,6 +81,9 @@ discord_handle = 'tsu_namy'
 [people_info.'Trivalve']
 nation = 'Trivalve'
 discord_handle = 'eskie0'
+[people_info.'Vrigny']
+nation = 'Vrigny'
+discord_handle = 'flluus'
 [people_info.'Welly']
 nation = 'Grace Wellesley Thayer'
 discord_handle = 'wellythayer'
