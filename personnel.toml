@@ -1,11 +1,13 @@
 [gov_officials]
 delegate = 'lordnwahs'
-pm = 'Heliseum'
+pm = 'Utopia'
 mofa = 'Welly'
 mod = 'TBD'
-moc = 'TBD'
-moi = 'TBD'
-owl_director = 'lordnwahs'
+moc_1 = 'CayonNS'
+moc_2 = 'Flaming'
+moi = 'xshotss'
+tech_director = 'Pronoun'
+owl_director = 'Eternal Raven'
 coa = 'KrisKringle'
 hc_chief_justice = 'Griffindor'
 hc_justices = ['KrisKringle', 'Griffindor', 'Pronoun', 'Welly']
@@ -48,6 +50,12 @@ discord_handle = 'cayonunion6024'
 [people_info.'Heliseum']
 nation = 'Heliseum'
 discord_handle = 'heliseum'
+[people_info.'Flaming']
+nation = 'Ikaranara'
+discord_handle = 'idrasheroz_5401'
+[people_info.'Eternal Raven']
+nation = 'Eternal Raven'
+discord_handle = 'eternalraven213'
 [people_info.'Griffindor']
 nation = 'Ebonhand'
 discord_handle = '.griffindor'
@@ -72,7 +80,7 @@ discord_handle = 'ladypenguin55'
 [people_info.'ProfessorHenn']
 nation = 'Sporaltryus'
 discord_handle = 'professorhenn'
-[people_info.'The Age of Utopia']
+[people_info.'Utopia']
 nation = 'The Age of Utopia'
 discord_handle = 'the_age_of_utopia'
 [people_info.'Tsunamy']
@@ -81,6 +89,9 @@ discord_handle = 'tsu_namy'
 [people_info.'Trivalve']
 nation = 'Trivalve'
 discord_handle = 'eskie0'
+[people_info.'xshotss']
+nation = 'Peoples Guerilla Armed Coalition'
+discord_handle = 'xshotss'
 [people_info.'Vrigny']
 nation = 'Vrigny'
 discord_handle = 'flluus'
