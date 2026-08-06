@@ -1,5 +1,5 @@
 [img_urls]
-tsp_header = 'https://i.imgur.com/y6LZEVr.png'
-tsp_flag = 'https://i.imgur.com/Z5Jco7z.png'
-gov_header = 'https://i.imgur.com/PFcKS2K.png'
-tsp_footer = 'https://i.imgur.com/3NOkgsk.png'
+tsp_header = 'https://raw.githubusercontent.com/TheSouthPacific/tsp-graphics/7fc3611e20045bb8a03bf9cb6f5207820864f74f/regional/tsp-dispatch.png'
+tsp_flag = 'https://raw.githubusercontent.com/TheSouthPacific/tsp-graphics/7fc3611e20045bb8a03bf9cb6f5207820864f74f/regional/flag.png'
+gov_header = 'https://raw.githubusercontent.com/TheSouthPacific/tsp-graphics/7fc3611e20045bb8a03bf9cb6f5207820864f74f/regional/government-dispatch.png'
+tsp_footer = 'https://raw.githubusercontent.com/TheSouthPacific/tsp-graphics/7fc3611e20045bb8a03bf9cb6f5207820864f74f/regional/footer-dispatch.png'
