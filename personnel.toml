@@ -1,12 +1,10 @@
 [gov_officials]
 delegate = 'lordnwahs'
-pm = 'Utopia'
+pm = 'HumanSanity'
 mofa = 'Welly'
-mod = 'Banexet'
-moc_1 = 'CayonNS'
-moc_2 = 'Flaming'
-moi = 'xshotss'
-tech_director = 'Pronoun'
+mod = 'Utopia'
+moc = 'ProfessorHenn'
+moi = 'Heliseum'
 owl_director = 'Eternal Raven'
 coa = 'KrisKringle'
 hc_chief_justice = 'Griffindor'
@@ -23,7 +21,7 @@ spcg = [
     'PenguinPies',
 ]
 citcomm = ['lordnwahs', 'Pronoun', "Vrigny"]
-admiralty = ['ConcreteSlab', "Heliseum"]
+admiralty = ["Heliseum", 'Utopia']
 
 [people_info]
 [people_info.TBD]
@@ -53,6 +51,9 @@ discord_handle = 'banexet'
 [people_info.'Heliseum']
 nation = 'Heliseum'
 discord_handle = 'heliseum'
+[people_info.'HumanSanity']
+nation = 'HumanSanity'
+discord_handle = 'humansanity'
 [people_info.'Flaming']
 nation = 'Ikaranara'
 discord_handle = 'idrasheroz_5401'
